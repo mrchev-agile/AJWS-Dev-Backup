@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lifetime_Total_Actions__c</fullName>
+    <externalId>false</externalId>
+    <formula>Total_Petitions_Signed__c + Total_Message_Actions__c + Total_Social_Actions__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>For email records only. Total actions the parent contact has taken online using this email. Part of the SpringBoard package and is a formula adding up 3 fields update by a scheduled Apex job.</inlineHelpText>
+    <label>Lifetime Total Actions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of (soft-credit) gifts made by this Account 3 FYs ago. See &quot;Total Combined Credit Three Years Ago&quot; for overall sum of gifts (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Total Soft Credits Three Years Ago --></label>
+        <name>Total_Soft_Credits_Three_Years_Ago__c</name>
+    </CustomFieldTranslation>

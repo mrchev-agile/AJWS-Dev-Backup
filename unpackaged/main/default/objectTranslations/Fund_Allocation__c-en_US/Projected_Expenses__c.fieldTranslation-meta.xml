@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of the Amounts of child &apos;Contributing Fund&apos; records related to grants with Status = Planning, Application Invited, Reopened, Program Review, Director Review, VP Review, Compliance, PC Review. Set via DLRS action: &quot;Sched Proj Exp to Fund Allocation&quot;. --></help>
+        <label><!-- Projected Expenses --></label>
+        <name>Projected_Expenses__c</name>
+    </CustomFieldTranslation>

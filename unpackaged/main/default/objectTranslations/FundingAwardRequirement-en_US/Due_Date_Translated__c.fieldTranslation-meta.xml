@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Report &apos;Due Date&apos; translated to grantee language preference (based on Org record). Used in email templates. --></help>
+        <label><!-- Due Date Translated --></label>
+        <name>Due_Date_Translated__c</name>
+    </CustomFieldTranslation>

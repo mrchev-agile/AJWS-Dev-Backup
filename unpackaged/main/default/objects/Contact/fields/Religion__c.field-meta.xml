@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Religion__c</fullName>
+    <inlineHelpText>The Contact&#39;s religion/denomination.</inlineHelpText>
+    <label>Religion</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Christian - Catholic</fullName>
+                <default>false</default>
+                <label>Christian - Catholic</label>
+            </value>
+            <value>
+                <fullName>Christian - Other</fullName>
+                <default>false</default>
+                <label>Christian - Other</label>
+            </value>
+            <value>
+                <fullName>Christian - Protestant</fullName>
+                <default>false</default>
+                <label>Christian - Protestant</label>
+            </value>
+            <value>
+                <fullName>Jewish - Conservative</fullName>
+                <default>false</default>
+                <label>Jewish - Conservative</label>
+            </value>
+            <value>
+                <fullName>Jewish - Culturally Jewish</fullName>
+                <default>false</default>
+                <label>Jewish - Culturally Jewish</label>
+            </value>
+            <value>
+                <fullName>Jewish - Humanistic/Secular</fullName>
+                <default>false</default>
+                <label>Jewish - Humanistic/Secular</label>
+            </value>
+            <value>
+                <fullName>Jewish - Non-denominational (AJR)</fullName>
+                <default>false</default>
+                <label>Jewish - Non-denominational (AJR)</label>
+            </value>
+            <value>
+                <fullName>Jewish - Non-denominational (HC)</fullName>
+                <default>false</default>
+                <label>Jewish - Non-denominational (HC)</label>
+            </value>
+            <value>
+                <fullName>Jewish - Orthodox</fullName>
+                <default>false</default>
+                <label>Jewish - Orthodox</label>
+            </value>
+            <value>
+                <fullName>Jewish - Other</fullName>
+                <default>false</default>
+                <label>Jewish - Other</label>
+            </value>
+            <value>
+                <fullName>Jewish - Post-denominational</fullName>
+                <default>false</default>
+                <label>Jewish - Post-denominational</label>
+            </value>
+            <value>
+                <fullName>Jewish - Reconstructionist</fullName>
+                <default>false</default>
+                <label>Jewish - Reconstructionist</label>
+            </value>
+            <value>
+                <fullName>Jewish - Reform</fullName>
+                <default>false</default>
+                <label>Jewish - Reform</label>
+            </value>
+            <value>
+                <fullName>Jewish - Renewal</fullName>
+                <default>false</default>
+                <label>Jewish - Renewal</label>
+            </value>
+            <value>
+                <fullName>Jewish - Traditional</fullName>
+                <default>false</default>
+                <label>Jewish - Traditional</label>
+            </value>
+            <value>
+                <fullName>Jewish - Unaffiliated</fullName>
+                <default>false</default>
+                <label>Jewish - Unaffiliated</label>
+            </value>
+            <value>
+                <fullName>Buddhist</fullName>
+                <default>false</default>
+                <label>Buddhist</label>
+            </value>
+            <value>
+                <fullName>Hindu</fullName>
+                <default>false</default>
+                <label>Hindu</label>
+            </value>
+            <value>
+                <fullName>Muslim</fullName>
+                <default>false</default>
+                <label>Muslim</label>
+            </value>
+            <value>
+                <fullName>Atheist</fullName>
+                <default>false</default>
+                <label>Atheist</label>
+            </value>
+            <value>
+                <fullName>N/A - Researched Not Found</fullName>
+                <default>false</default>
+                <label>N/A - Researched Not Found</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

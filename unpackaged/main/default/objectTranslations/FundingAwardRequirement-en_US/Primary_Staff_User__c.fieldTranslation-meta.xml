@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Primary staff member for this Requirement. Set by automation when Primary staff is set on the parent Request. Can be changed manually. --></help>
+        <label><!-- Primary Staff --></label>
+        <name>Primary_Staff_User__c</name>
+        <relationshipLabel><!-- Funding Award Requirements (Primary Staff) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Part of the back-end process to set AJWS grant ID on AJWS issued grants (populated by a flow) --></help>
+        <label><!-- Request Number Legacy --></label>
+        <name>Request_Number_Legacy__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Funding exception. --></help>
+        <label><!-- Funding Exception --></label>
+        <name>Funding_Exception__c</name>
+        <picklistValues>
+            <masterLabel>Class code 51: Nike exchange</masterLabel>
+            <translation><!-- Class code 51: Nike exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class code 52: Nike subgrant</masterLabel>
+            <translation><!-- Class code 52: Nike subgrant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class code 53: Nike targeted CB</masterLabel>
+            <translation><!-- Class code 53: Nike targeted CB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class code 54: Nike brain trust</masterLabel>
+            <translation><!-- Class code 54: Nike brain trust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Class code 55: Nike AWID meeting</masterLabel>
+            <translation><!-- Class code 55: Nike AWID meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clinton Global Initiative - EPCC</masterLabel>
+            <translation><!-- Clinton Global Initiative - EPCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digicel Media Grant</masterLabel>
+            <translation><!-- Digicel Media Grant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grant to a for-profit</masterLabel>
+            <translation><!-- Grant to a for-profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRD Fund</masterLabel>
+            <translation><!-- HRD Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kellogg</masterLabel>
+            <translation><!-- Kellogg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President&#39;s Fund (class code 35)</masterLabel>
+            <translation><!-- President&apos;s Fund (class code 35) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rapid Relief</masterLabel>
+            <translation><!-- Rapid Relief --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

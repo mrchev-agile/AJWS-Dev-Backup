@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please select one code that describes the level of work of the grantee organization. Sub-National means state or province level. --></help>
+        <label><!-- Org Work Level --></label>
+        <name>Org_Work_Level__c</name>
+        <picklistValues>
+            <masterLabel>Both Local and National</masterLabel>
+            <translation><!-- Both Local and National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local</masterLabel>
+            <translation><!-- Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local and National</masterLabel>
+            <translation><!-- Local and National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local and Sub-National</masterLabel>
+            <translation><!-- Local and Sub-National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local only</masterLabel>
+            <translation><!-- Local only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National only</masterLabel>
+            <translation><!-- National only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional or Global</masterLabel>
+            <translation><!-- Regional or Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub-National</masterLabel>
+            <translation><!-- Sub-National --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

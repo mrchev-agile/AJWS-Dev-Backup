@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Email__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Set this field to make this email address the primary email for the contact.  Only one email address can be set as the primary.</inlineHelpText>
+    <label>Primary Email</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

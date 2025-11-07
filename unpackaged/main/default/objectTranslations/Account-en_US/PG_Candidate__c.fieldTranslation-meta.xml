@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Checked if Contact not marked &quot;deceased&quot; and either: 1.Contact is 60+ YO with 5 gifts over last 10 years, 2.Contact is 70+ YO with 3 gifts over last 5 years. --></help>
+        <label><!-- PG Candidate --></label>
+        <name>PG_Candidate__c</name>
+    </CustomFieldTranslation>

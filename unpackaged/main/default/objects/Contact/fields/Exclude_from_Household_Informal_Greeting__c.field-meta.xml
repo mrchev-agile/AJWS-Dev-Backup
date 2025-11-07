@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exclude_from_Household_Informal_Greeting__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Checking this box will exclude this contact from the Household Informal Greeting created automatically by NPSP (see NPSP Settings). This is checked by default for Email Contact records so that they are not included in informal greetings.</inlineHelpText>
+    <label>Exclude from Household Informal Greeting</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Planning</fullName>
+        <default>false</default>
+        <label>Planning</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Program Review</fullName>
+        <default>false</default>
+        <label>Program Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Director Review</fullName>
+        <default>false</default>
+        <label>Director Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <label>Compliance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VP Review</fullName>
+        <default>false</default>
+        <label>VP Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved Pending GA</fullName>
+        <default>false</default>
+        <label>Approved Pending GA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Active Grant</fullName>
+        <default>false</default>
+        <label>Active Grant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Grant Closed</fullName>
+        <default>false</default>
+        <label>Grant Closed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Grant Closed Unsatisfactorily</fullName>
+        <default>false</default>
+        <label>Grant Closed Unsatisfactorily</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Expired</fullName>
+        <default>false</default>
+        <label>Expired</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </standardValue>
+</StandardValueSet>

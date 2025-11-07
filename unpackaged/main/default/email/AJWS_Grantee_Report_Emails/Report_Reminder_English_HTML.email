@@ -1,0 +1,30 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal">&nbsp;Greetings from AJWS!<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p><br></o:p></p><p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">I hope this email finds you well.&nbsp;<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">I am writing to remind you that {!FundingAwardRequirement.Organization_Name__c} has
+the {!FundingAwardRequirement.Type} for your AJWS grant “{!FundingAwardRequirement.project_title__c}”&nbsp;{!FundingAwardRequirement.Grant_Amount__c} is due in on {!FundingAwardRequirement.DueDate}.&nbsp;<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p><br></o:p></p><p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">Please note, organizations with overdue reports are not
+eligible to receive funding from AJWS. Please let us know if you foresee any
+difficulty in submitting your reports by the above date.&nbsp;<o:p></o:p></p>
+
+<p class="MsoNormal"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><o:p></o:p></p>
+
+<p class="MsoNormal">Please feel free to be in touch with any questions or
+concerns.<o:p></o:p></p>
+
+<p class="MsoNormal"><o:p><br></o:p></p><p class="MsoNormal"><o:p><br></o:p></p><p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal">All the best,<o:p></o:p></p>]]></td>
+</tr>
+</table>

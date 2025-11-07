@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- flags Accounts that have special gift/record processing instructions for DevOps and Trylon --></help>
+        <label><!-- Special Handling --></label>
+        <name>Special_Handling__c</name>
+    </CustomFieldTranslation>

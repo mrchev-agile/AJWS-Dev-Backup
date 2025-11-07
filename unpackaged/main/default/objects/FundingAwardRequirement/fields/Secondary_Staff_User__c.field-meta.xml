@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Staff_User__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Secondary staff member for this Requirement. Set by automation when Secondary staff is set on the parent Request. Can be changed manually.</description>
+    <inlineHelpText>Secondary staff member for this Requirement. Set by automation when Secondary staff is set on the parent Request. Can be changed manually.</inlineHelpText>
+    <label>Secondary Staff</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Funding_Award_Requirements2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

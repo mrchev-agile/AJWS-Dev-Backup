@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Unless &quot;Donor Code Override&quot; is populated, will default to the &apos;Donor Code&apos; for the Donor on the Donation related to this FA (see &quot;Donation&quot; field). --></help>
+        <label><!-- Donor Code --></label>
+        <name>Donor_Code__c</name>
+    </CustomFieldTranslation>

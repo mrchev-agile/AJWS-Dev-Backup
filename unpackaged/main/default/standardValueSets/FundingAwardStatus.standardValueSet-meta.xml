@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Drafted</fullName>
+        <default>false</default>
+        <label>Drafted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Client Signature</fullName>
+        <default>false</default>
+        <label>Awaiting Client Signature</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting AJWS Signature</fullName>
+        <default>false</default>
+        <label>Awaiting AJWS Signature</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved—pending grant agreement.</fullName>
+        <default>false</default>
+        <label>Approved—pending grant agreement.</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Compliance</fullName>
+        <default>false</default>
+        <label>Compliance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Program Review</fullName>
+        <default>false</default>
+        <label>Program Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VP Review</fullName>
+        <default>false</default>
+        <label>VP Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved Pending Final Amounts</fullName>
+        <default>false</default>
+        <label>Approved Pending Final Amounts</label>
+    </standardValue>
+</StandardValueSet>

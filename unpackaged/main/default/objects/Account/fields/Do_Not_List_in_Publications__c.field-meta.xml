@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_List_in_Publications__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check if the Household information should not be included in AJWS or other publications.</inlineHelpText>
+    <label>Do Not List in Publications</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

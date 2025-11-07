@@ -1,0 +1,33 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="FR" style="mso-ansi-language:FR">Salutations
+d’AJWS!<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style=""><span lang="FR" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">J'espère que vous
+vous portez bien. Nos dossiers indiquent que nous aurions dû recevoir votre
+rapport final pour le projet&nbsp;&nbsp;</span><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">“{!FundingAwardRequirement.project_title__c}”</span><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;(</span><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">{!FundingAwardRequirement.Grant_Amount__c})</span></font><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;(#&nbsp;</span><font face="arial">{!FundingAwardRequirement.Name}</font><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</font><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">le&nbsp;</span><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">{!FundingAwardRequirement.DueDate}.&nbsp;</span></p><p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;"><br></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="FR" style="mso-ansi-language:FR">Prière noter que
+les organisations dont les rapports sont en retard ne sont pas éligibles pour
+recevoir des fonds d'AJWS. Veuillez nous le faire parvenir afin que nous
+puissions connaître la progression de notre projet.&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="FR" style="mso-ansi-language:FR">Prière nous faire
+savoir si vous avez déjà présenté votre rapport ou si vous avez convenu d'un
+nouvel échéancier avec l'agent responsable de votre subvention.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="FR" style="mso-ansi-language:FR">Je vous prie
+d'accepter l'expression de mes sentiments distingués.<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Cordialement,<o:p></o:p></p><br><p style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"></p>]]></td>
+</tr>
+</table>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Context__c</fullName>
+    <inlineHelpText>Context restriction set by the donor for this money. Used in &quot;Create Contributing Funds&quot; visual force page to match with grants with the same Context.</inlineHelpText>
+    <label>Context</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Civil Society Organizations</fullName>
+                <default>false</default>
+                <label>Civil Society Organizations</label>
+            </value>
+            <value>
+                <fullName>Conflict</fullName>
+                <default>false</default>
+                <label>Conflict</label>
+            </value>
+            <value>
+                <fullName>Land</fullName>
+                <default>false</default>
+                <label>Land</label>
+            </value>
+            <value>
+                <fullName>Mining &amp; Extractives</fullName>
+                <default>false</default>
+                <label>Mining &amp; Extractives</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Natural Disaster</fullName>
+                <default>false</default>
+                <label>Natural Disaster</label>
+            </value>
+            <value>
+                <fullName>Post-conflict</fullName>
+                <default>false</default>
+                <label>Post-conflict</label>
+            </value>
+            <value>
+                <fullName>Public Health Emergency</fullName>
+                <default>false</default>
+                <label>Public Health Emergency</label>
+            </value>
+            <value>
+                <fullName>Rural</fullName>
+                <default>false</default>
+                <label>Rural</label>
+            </value>
+            <value>
+                <fullName>Urban/Peri-Urban</fullName>
+                <default>false</default>
+                <label>Urban/Peri-Urban</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secure_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>This will hide the account record from all other users except for users in those profiles. Account needs to be owned by Margo/Beth/Cathy. (1) Transfer account &amp; open/close opportunity ownership (2) Set field (3) Update Secure record field on related opps.</inlineHelpText>
+    <label>Secure Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Organization&apos;s annual operating budget for 2016. --></help>
+        <label><!-- Annual Budget - 2016 --></label>
+        <name>Annual_Budget_2016__c</name>
+    </CustomFieldTranslation>

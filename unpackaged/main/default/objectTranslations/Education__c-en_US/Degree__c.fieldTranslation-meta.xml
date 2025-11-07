@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Degree --></label>
+        <name>Degree__c</name>
+        <picklistValues>
+            <masterLabel>A.A.S.</masterLabel>
+            <translation><!-- A.A.S. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B.A.</masterLabel>
+            <translation><!-- B.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B.F.A.</masterLabel>
+            <translation><!-- B.F.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B.S.</masterLabel>
+            <translation><!-- B.S. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J.D.</masterLabel>
+            <translation><!-- J.D. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.A.</masterLabel>
+            <translation><!-- M.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.B.A.</masterLabel>
+            <translation><!-- M.B.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.D.</masterLabel>
+            <translation><!-- M.D. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.F.A.</masterLabel>
+            <translation><!-- M.F.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.P.A.</masterLabel>
+            <translation><!-- M.P.A. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.P.H.</masterLabel>
+            <translation><!-- M.P.H. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.S.</masterLabel>
+            <translation><!-- M.S. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.S.W.</masterLabel>
+            <translation><!-- M.S.W. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDiv</masterLabel>
+            <translation><!-- MDiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ph.D.</masterLabel>
+            <translation><!-- Ph.D. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

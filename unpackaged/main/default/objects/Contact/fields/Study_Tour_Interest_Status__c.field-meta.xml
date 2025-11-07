@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Study_Tour_Interest_Status__c</fullName>
+    <inlineHelpText>Level of interest and recruitment for a Study Tour</inlineHelpText>
+    <label>Study Tour Interest Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Highly Interested</fullName>
+                <default>false</default>
+                <label>Highly Interested</label>
+            </value>
+            <value>
+                <fullName>Interested</fullName>
+                <default>false</default>
+                <label>Interested</label>
+            </value>
+            <value>
+                <fullName>Need to Recruit</fullName>
+                <default>false</default>
+                <label>Need to Recruit</label>
+            </value>
+            <value>
+                <fullName>Not Right Fit</fullName>
+                <default>false</default>
+                <label>Not Right Fit</label>
+            </value>
+            <value>
+                <fullName>Possible Future Interest</fullName>
+                <default>false</default>
+                <label>Possible Future Interest</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

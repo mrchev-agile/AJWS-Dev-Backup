@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Budgets_Projected_expenses__c</fullName>
+    <inlineHelpText>For department (i.e. parent) budgets, rollup of the &quot;Projected Expenses Rollup&quot; field from all child budgets. Included in &quot;Projected Expenses&quot; field on the layout. Rolled- up using DLRS called: &quot;Child Budgets Projected Expenses&quot;.</inlineHelpText>
+    <label>Child Budgets Projected expenses</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

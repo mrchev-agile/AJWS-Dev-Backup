@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Nickname__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>User Nickname for grantee Contacts who have a user in our FC portal.</inlineHelpText>
+    <label>User Nickname</label>
+    <length>120</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

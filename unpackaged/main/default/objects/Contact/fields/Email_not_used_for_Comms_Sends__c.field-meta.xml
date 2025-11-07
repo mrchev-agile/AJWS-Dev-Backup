@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_not_used_for_Comms_Sends__c</fullName>
+    <formula>(HasOptedOutOfEmail = TRUE ||TEXT(Email_Status__c ) = &quot;Undeliverable&quot;|| NonOpenerSuppression__c = TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The email address is not active since: 1. Donor opted-out of receiving emails to this address, &amp;/or 2. it was marked &quot;Undeliverable&quot; by Marketing Cloud, &amp;/or 3. It was suppressed by Digital Comms&#39; since emails sent to this address are not being opened.</inlineHelpText>
+    <label>Email not used for Comms&#39; Sends</label>
+    <type>Checkbox</type>
+</CustomField>

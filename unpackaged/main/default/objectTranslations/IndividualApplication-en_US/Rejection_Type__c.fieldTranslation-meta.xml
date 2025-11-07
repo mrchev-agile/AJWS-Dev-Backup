@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select whether grant is rejected or should be sent back for revisions. --></help>
+        <label><!-- Rejection Type --></label>
+        <name>Rejection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send Back for Revisions</masterLabel>
+            <translation><!-- Send Back for Revisions --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

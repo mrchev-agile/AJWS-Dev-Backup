@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Budget_for_Parent_Budgets__c</fullName>
+    <inlineHelpText>Rollup of &#39;Total Amount&#39; field for all of this budget&#39;s child budgets. For QA purposes, can be used to compare to parent budget&#39;s Total Budget (making sure that child budgets add up to parent). Rolled-up by DLRS called: &quot;Child Budgets Total Amounts Sum&quot;.</inlineHelpText>
+    <label>Total Budget for Parent Budgets</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

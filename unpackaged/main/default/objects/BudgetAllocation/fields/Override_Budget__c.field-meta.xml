@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Override_Budget__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Use to manually override which Budget this Budget Contribution is charged to (i.e. prevent automation from setting it based on parent grant&#39;s award date).</inlineHelpText>
+    <label>Override Budget</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

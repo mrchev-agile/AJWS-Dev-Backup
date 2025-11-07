@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connect_or_Build_on_Previous_Work__c</fullName>
+    <description>D2 on Project proposal</description>
+    <inlineHelpText>For existing grantees only. How does this request connect with or build on previous work supported with AJWS funding? (1 to 2 paragraphs)</inlineHelpText>
+    <label>Connect or Build on Previous Work</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

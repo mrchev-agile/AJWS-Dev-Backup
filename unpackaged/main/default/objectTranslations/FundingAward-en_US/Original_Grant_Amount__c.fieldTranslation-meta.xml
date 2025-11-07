@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Capture to original Grant Amount for amended grants. --></help>
+        <label><!-- Original Grant Amount --></label>
+        <name>Original_Grant_Amount__c</name>
+    </CustomFieldTranslation>

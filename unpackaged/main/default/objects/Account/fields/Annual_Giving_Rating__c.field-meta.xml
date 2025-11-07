@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Giving_Rating__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>GGA Annual Giving Rating identifies a household&#39;s current annual giving level based upon largest single gift and whether they have the upgrade potential for the next largest band</inlineHelpText>
+    <label>Annual Giving Rating</label>
+    <length>25</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

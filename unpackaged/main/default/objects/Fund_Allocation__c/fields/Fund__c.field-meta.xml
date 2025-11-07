@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund__c</fullName>
+    <inlineHelpText>Link to the parent Fund record for this Fund Allocation.</inlineHelpText>
+    <label>Fund</label>
+    <referenceTo>Fund__c</referenceTo>
+    <relationshipLabel>Fund Allocations</relationshipLabel>
+    <relationshipName>Fund_Allocations</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

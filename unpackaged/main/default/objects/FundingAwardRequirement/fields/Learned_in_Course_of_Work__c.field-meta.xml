@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Learned_in_Course_of_Work__c</fullName>
+    <inlineHelpText>What have you learned in the course of doing this work? Based on this learning, is your organization making any changes to your organizational goals, strategies, processes and/or future activities? If so, please describe.</inlineHelpText>
+    <label>Learned in Course of Work</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

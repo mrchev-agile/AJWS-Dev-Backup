@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Former_Phones__c</fullName>
+    <inlineHelpText>Enter any former phone numbers for this Contact that are no longer in use (former phones my come useful when looking for a contact on other databases such as Wealth Engine or online).</inlineHelpText>
+    <label>Former Phones</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

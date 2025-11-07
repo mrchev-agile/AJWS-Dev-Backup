@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- AJWS&apos; ID for Grantee Organization. Set by automation (the automation is on the GIFTS ID field and was designed to avoid assigning the &apos;AJWS Organization ID&apos; to donor Accounts). --></help>
+        <label><!-- AJWS Organization ID --></label>
+        <name>AJWS_Organization_ID__c</name>
+    </CustomFieldTranslation>

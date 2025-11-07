@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grant_Context__c</fullName>
+    <inlineHelpText>Select codes as needed to better define the grant work. The Context code is used in conjunction with the Content code to describe what the content of the grant pertains to / is focused on. Select N/A if not applicable.</inlineHelpText>
+    <label>Grant Context</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Context</valueSetName>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

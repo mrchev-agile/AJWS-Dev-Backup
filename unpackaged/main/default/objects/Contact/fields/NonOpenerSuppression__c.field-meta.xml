@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NonOpenerSuppression__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Used by Digital Communication to suppress sends to email addresses identified as non-openers (i.e. the email owner is not opening AJWS emails).</inlineHelpText>
+    <label>Non-Opener-Suppression</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

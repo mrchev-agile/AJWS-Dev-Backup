@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of (hard-credit) gifts made by this Account 3 FYs ago. See &quot;Total Number of Gifts 3 FY ago&quot; for overall # of gifts (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Number of Gifts 3 FY ago --></label>
+        <name>Number_of_Gifts_3_FY_ago__c</name>
+    </CustomFieldTranslation>

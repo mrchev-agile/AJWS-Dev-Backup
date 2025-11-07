@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Invitations__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>One of the options on the Donor Subscription Center. Checked by default, but if the donor unchecks event invitations emails from AJWS will no longer be sent to this email address.</inlineHelpText>
+    <label>Event Invitations</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Type__c</fullName>
+    <label>Engagement Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Event/Seminar</fullName>
+                <default>false</default>
+                <label>Event/Seminar</label>
+            </value>
+            <value>
+                <fullName>GJF Application</fullName>
+                <default>false</default>
+                <label>GJF Application</label>
+            </value>
+            <value>
+                <fullName>GJF Registration</fullName>
+                <default>false</default>
+                <label>GJF Registration</label>
+            </value>
+            <value>
+                <fullName>Meeting Group</fullName>
+                <default>false</default>
+                <label>Meeting Group</label>
+            </value>
+            <value>
+                <fullName>Outreach/Engagement</fullName>
+                <default>false</default>
+                <label>Outreach/Engagement</label>
+            </value>
+            <value>
+                <fullName>Service Program</fullName>
+                <default>false</default>
+                <label>Service Program</label>
+            </value>
+            <value>
+                <fullName>Study Tour</fullName>
+                <default>false</default>
+                <label>Study Tour</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

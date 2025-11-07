@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X990_Description__c</fullName>
+    <description>For reporting purposes, extracts the 990 description from the &quot;990 code + Description&quot; picklist field</description>
+    <externalId>false</externalId>
+    <formula>LEFT(TEXT( X990_Code__c ),FIND(&quot;(&quot;,TEXT( X990_Code__c ),1)-2)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>For reporting purposes, extracts the 990 description from the &quot;990 code + Description&quot; picklist field</inlineHelpText>
+    <label>990 Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

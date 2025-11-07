@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Soft_Credits_Last_Year__c</fullName>
+    <inlineHelpText>Sum of (soft-credit) gifts made by this Account in the previous FY. See &quot;Total Combined Credit Previous FY&quot; for overall sum of gifts (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups.</inlineHelpText>
+    <label>Total Soft Credits Last Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Currency</type>
+</CustomField>

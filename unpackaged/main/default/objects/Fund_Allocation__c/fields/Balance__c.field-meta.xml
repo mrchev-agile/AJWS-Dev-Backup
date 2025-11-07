@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Balance__c</fullName>
+    <formula>IF (
+ Hold_Funds_From_Grantmaking__c = TRUE, 0,
+ Amount__c +  Total_Fund_Allocation_Adjustments__c +    Total_Grantmaking_Eligible_from_GAUs__c     - Grant_Expenses__c
+   )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total Amount - Grant Expanses. This, unless &quot;Hold Funds From Grantmaking&quot;  box is checked, in which case will be $0 (i.e. this is how we prevent users from using funds before the FA is ready).</inlineHelpText>
+    <label>Balance</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

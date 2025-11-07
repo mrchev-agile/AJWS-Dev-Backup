@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Use to override &quot;Donor Code&quot; field on this FA record. --></help>
+        <label><!-- Donor Code Override --></label>
+        <name>Donor_Code_Override__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- first gift amount for partial soft credits --></help>
+        <label><!-- First Partial Soft Credit Amount --></label>
+        <name>First_Partial_Soft_Credit_Amount__c</name>
+    </CustomFieldTranslation>

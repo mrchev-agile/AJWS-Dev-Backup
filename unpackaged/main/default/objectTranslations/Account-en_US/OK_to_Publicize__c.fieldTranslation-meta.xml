@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Does AJWS have permission to publicize your organization and its work? --></help>
+        <label><!-- OK to Publicize? --></label>
+        <name>OK_to_Publicize__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown/NA</masterLabel>
+            <translation><!-- Unknown/NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes but do not publish photographs</masterLabel>
+            <translation><!-- Yes but do not publish photographs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes but don&#39;t include individuals names</masterLabel>
+            <translation><!-- Yes but don&apos;t include individuals names --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes but see PO</masterLabel>
+            <translation><!-- Yes but see PO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

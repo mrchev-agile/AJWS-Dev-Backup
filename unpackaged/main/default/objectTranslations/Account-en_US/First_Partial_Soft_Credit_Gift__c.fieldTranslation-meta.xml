@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date of first (partial soft-credit gift) made by this Account. See &quot;Combined First Gift Date&quot; for date of first gift overall (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- First Partial Soft Credit Gift --></label>
+        <name>First_Partial_Soft_Credit_Gift__c</name>
+    </CustomFieldTranslation>

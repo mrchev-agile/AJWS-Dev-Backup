@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used in processes to exclude a user from automation during data migration --></help>
+        <label><!-- Exclude User from Fundraising Automation --></label>
+        <name>Exclude_User_from_Fundraising_Automation__c</name>
+    </CustomFieldTranslation>

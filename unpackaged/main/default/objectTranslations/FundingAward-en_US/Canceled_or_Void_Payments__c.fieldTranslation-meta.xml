@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Amount of canceled or voided payments related to this grant/request --></help>
+        <label><!-- Canceled or Void Payments --></label>
+        <name>Canceled_or_Void_Payments__c</name>
+    </CustomFieldTranslation>

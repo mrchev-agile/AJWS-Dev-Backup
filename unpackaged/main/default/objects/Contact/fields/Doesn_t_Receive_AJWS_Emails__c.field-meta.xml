@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Doesn_t_Receive_AJWS_Emails__c</fullName>
+    <description>The Contact is not receiving emails since: 1. They don&#39;t have an email in the system &amp;/or 2. all their emails are &quot;not active&quot; (see &quot;Email not used for Comms&#39; Sends&quot; field on email records) &amp;/or 3. &quot;Do Not Contact/Email&quot; boxes are checked for Contact.</description>
+    <formula>(Count_of_Emails_not_in_Comms_Send__c = Num_of_Emails_for_Contact__c ||Num_of_Emails_for_Contact__c = 0|| Do_Not_Contact__c   = TRUE||  No_Email__c  = TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Contact is not receiving emails since: 1. They don&#39;t have an email in the system &amp;/or 2. all their emails are &quot;not active&quot; (see &quot;Email not used for Comms&#39; Sends&quot; field on email records) &amp;/or 3. &quot;Do Not Contact/Email&quot; boxes are checked for Contact.</inlineHelpText>
+    <label>Doesn&#39;t Receive AJWS Emails</label>
+    <type>Checkbox</type>
+</CustomField>

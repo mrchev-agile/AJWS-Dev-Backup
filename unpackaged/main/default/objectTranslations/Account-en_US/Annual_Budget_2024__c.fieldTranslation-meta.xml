@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter your organization&apos;s estimated 2024 operating budget here (in US dollars). --></help>
+        <label><!-- Annual Budget - 2024 --></label>
+        <name>Annual_Budget_2024__c</name>
+    </CustomFieldTranslation>

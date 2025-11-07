@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Philanthropic_Interests__c</fullName>
+    <inlineHelpText>Please pick the Philanthropic Interests for this donor.</inlineHelpText>
+    <label>Philanthropic Interests</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <label>Advocacy</label>
+            </value>
+            <value>
+                <fullName>Africa</fullName>
+                <default>false</default>
+                <label>Africa</label>
+            </value>
+            <value>
+                <fullName>Asia</fullName>
+                <default>false</default>
+                <label>Asia</label>
+            </value>
+            <value>
+                <fullName>Burma</fullName>
+                <default>false</default>
+                <label>Burma</label>
+            </value>
+            <value>
+                <fullName>Cambodia</fullName>
+                <default>false</default>
+                <label>Cambodia</label>
+            </value>
+            <value>
+                <fullName>Caribbean</fullName>
+                <default>false</default>
+                <label>Caribbean</label>
+            </value>
+            <value>
+                <fullName>Child Marriage</fullName>
+                <default>false</default>
+                <label>Child Marriage</label>
+            </value>
+            <value>
+                <fullName>Children&#39;s Issues</fullName>
+                <default>false</default>
+                <label>Children&#39;s Issues</label>
+            </value>
+            <value>
+                <fullName>Cote d&#39;Ivoire</fullName>
+                <default>false</default>
+                <label>Cote d&#39;Ivoire</label>
+            </value>
+            <value>
+                <fullName>CPR</fullName>
+                <default>false</default>
+                <label>CPR</label>
+            </value>
+            <value>
+                <fullName>Democratic Republic of Congo</fullName>
+                <default>false</default>
+                <label>Democratic Republic of Congo</label>
+            </value>
+            <value>
+                <fullName>Disaster Relief</fullName>
+                <default>false</default>
+                <label>Disaster Relief</label>
+            </value>
+            <value>
+                <fullName>Dominican Republic</fullName>
+                <default>false</default>
+                <label>Dominican Republic</label>
+            </value>
+            <value>
+                <fullName>El Salvador</fullName>
+                <default>false</default>
+                <label>El Salvador</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Guatemala</fullName>
+                <default>false</default>
+                <label>Guatemala</label>
+            </value>
+            <value>
+                <fullName>Haiti</fullName>
+                <default>false</default>
+                <label>Haiti</label>
+            </value>
+            <value>
+                <fullName>Health Services</fullName>
+                <default>false</default>
+                <label>Health Services</label>
+            </value>
+            <value>
+                <fullName>Honduras</fullName>
+                <default>false</default>
+                <label>Honduras</label>
+            </value>
+            <value>
+                <fullName>Human Rights</fullName>
+                <default>false</default>
+                <label>Human Rights</label>
+            </value>
+            <value>
+                <fullName>Hunger</fullName>
+                <default>false</default>
+                <label>Hunger</label>
+            </value>
+            <value>
+                <fullName>India</fullName>
+                <default>false</default>
+                <label>India</label>
+            </value>
+            <value>
+                <fullName>Indigenous Issues</fullName>
+                <default>false</default>
+                <label>Indigenous Issues</label>
+            </value>
+            <value>
+                <fullName>Jewish Resources</fullName>
+                <default>false</default>
+                <label>Jewish Resources</label>
+            </value>
+            <value>
+                <fullName>Kenya</fullName>
+                <default>false</default>
+                <label>Kenya</label>
+            </value>
+            <value>
+                <fullName>Latin America</fullName>
+                <default>false</default>
+                <label>Latin America</label>
+            </value>
+            <value>
+                <fullName>LGBTI Issues</fullName>
+                <default>false</default>
+                <label>LGBTI Issues</label>
+            </value>
+            <value>
+                <fullName>Liberia</fullName>
+                <default>false</default>
+                <label>Liberia</label>
+            </value>
+            <value>
+                <fullName>LWCJ</fullName>
+                <default>false</default>
+                <label>LWCJ</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Nicaragua</fullName>
+                <default>false</default>
+                <label>Nicaragua</label>
+            </value>
+            <value>
+                <fullName>Philippines</fullName>
+                <default>false</default>
+                <label>Philippines</label>
+            </value>
+            <value>
+                <fullName>Planned Giving</fullName>
+                <default>false</default>
+                <label>Planned Giving</label>
+            </value>
+            <value>
+                <fullName>Poverty</fullName>
+                <default>false</default>
+                <label>Poverty</label>
+            </value>
+            <value>
+                <fullName>Senegal</fullName>
+                <default>false</default>
+                <label>Senegal</label>
+            </value>
+            <value>
+                <fullName>Sex Workers&#39; Rights</fullName>
+                <default>false</default>
+                <label>Sex Workers&#39; Rights</label>
+            </value>
+            <value>
+                <fullName>SHR</fullName>
+                <default>false</default>
+                <label>SHR</label>
+            </value>
+            <value>
+                <fullName>SLRE</fullName>
+                <default>false</default>
+                <label>SLRE</label>
+            </value>
+            <value>
+                <fullName>Sri Lanka</fullName>
+                <default>false</default>
+                <label>Sri Lanka</label>
+            </value>
+            <value>
+                <fullName>Sudan</fullName>
+                <default>false</default>
+                <label>Sudan</label>
+            </value>
+            <value>
+                <fullName>Thailand</fullName>
+                <default>false</default>
+                <label>Thailand</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Travel - Study Tour</fullName>
+                <default>false</default>
+                <label>Travel - Study Tour</label>
+            </value>
+            <value>
+                <fullName>Uganda</fullName>
+                <default>false</default>
+                <label>Uganda</label>
+            </value>
+            <value>
+                <fullName>Women + Girls</fullName>
+                <default>false</default>
+                <label>Women + Girls</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

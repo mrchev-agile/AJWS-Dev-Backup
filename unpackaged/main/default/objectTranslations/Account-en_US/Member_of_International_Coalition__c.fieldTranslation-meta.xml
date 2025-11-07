@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Grantee org is a member of an International Coalition? --></help>
+        <label><!-- Member of International Coalition --></label>
+        <name>Member_of_International_Coalition__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- # of Legacy Donor, PG candidate, or PG prospect Contacts related to the Household Account. Rolled up using DLRS action named: &apos;RT Planned Giving Count to Account&apos;. Used in &apos;Planned Giving&apos; Formula field. --></help>
+        <label><!-- Number of Planned Giving Contacts --></label>
+        <name>Number_of_Planned_Giving_Contacts__c</name>
+    </CustomFieldTranslation>

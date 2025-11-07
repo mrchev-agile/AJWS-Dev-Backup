@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>Adds one to var_num_fundingdisbursementcounter</description>
+        <name>Assign_Funding_Disbursement_Counter_Value</name>
+        <label>Assign Funding Disbursement Counter Value</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>var_num_fundingdisbursementcounter</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Check_if_Funding_Disbursements_are_Complete</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Adds one to var_num_requimrementcounter</description>
+        <name>Assign_Requirement_Counter_Value</name>
+        <label>Assign Requirement Counter Value</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>var_num_requimrementcounter</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Check_if_Requirements_Are_Complete</targetReference>
+        </connector>
+    </assignments>
+    <customErrors>
+        <name>Custom_Error_Open_Funding_Disbursements_or_Requirements_Message</name>
+        <label>Custom Error - Open Funding Disbursements or Requirements Message</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <customErrorMessages>
+            <errorMessage>There are open Funding Disbursements or Requirements associated with this grant. Please make sure all Funding Disbursements or Requirements are closed before marking the grant complete.</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <customErrors>
+        <name>Custom_Error_Running_User_Does_not_Have_GM_Team_Close_Grants</name>
+        <label>Custom Error - Running User Does not Have GM Team: Close Grants</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <customErrorMessages>
+            <errorMessage>You have not been assinged the custom permission GM Team: Close Grants. Please check with your system admin to see if you should have the ability to Close Grants.</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <decisions>
+        <description>Checks if either of the counter variables are greater than 0</description>
+        <name>Decision_Any_Open_Requirements_or_Funding_Disbursements</name>
+        <label>Decision - Any Open Requirements or Funding Disbursements?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_Open_Requirements_or_Funding_Disbursements</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>var_num_fundingdisbursementcounter</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>var_num_requimrementcounter</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Custom_Error_Open_Funding_Disbursements_or_Requirements_Message</targetReference>
+            </connector>
+            <label>Yes, Open Requirements or Funding Disbursements</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decision_Check_if_Status_Approve</name>
+        <label>Decision - Check if Status &lt;&gt; Approved</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Loop_Check_if_Requirements_Are_Complete</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_Approved</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Loop_Check_if_Requirements_Are_Complete.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Requirement_Counter_Value</targetReference>
+            </connector>
+            <label>Status &lt; &gt; Approved</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decision_Check_if_Status_is_not_complete</name>
+        <label>Decision - Check if Status is not complete</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Loop_Check_if_Funding_Disbursements_are_Complete</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Status_is_incomplete</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Loop_Check_if_Funding_Disbursements_are_Complete.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Contingent</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Loop_Check_if_Funding_Disbursements_are_Complete.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Scheduled</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Loop_Check_if_Funding_Disbursements_are_Complete.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Hold</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Funding_Disbursement_Counter_Value</targetReference>
+            </connector>
+            <label>Status is incomplete</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Checks if the running user has been asigned the GM Team: Close Grants custom permission</description>
+        <name>Decision_Does_the_Running_User_have_the_GM_Team_Close_Grants_Custom_Permission</name>
+        <label>Decision - Does the Running User have the GM Team: Close Grants Custom Permission</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Custom_Error_Running_User_Does_not_Have_GM_Team_Close_Grants</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_Running_User_has_GM_Team_Close_Grants</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Permission.GM_Team_Close_Grants</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Funding_Requirements_All</targetReference>
+            </connector>
+            <label>Yes, Running User has GM Team: Close Grants</label>
+        </rules>
+    </decisions>
+    <description>Stops using the &quot; Complete &quot; marking for a Funding Award if the user is not a member of the Grants Team or if there are outstanding Funding Disbursements or Requirements related to the Funding Award.</description>
+    <environments>Default</environments>
+    <interviewLabel>Funding Award: Record Trigger: Complete Status Validation {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Funding Award: Record Trigger: Complete Status Validation</label>
+    <loops>
+        <description>Checks if Funding Disbursements has a status of: Contingent, 	Scheduled or Hold</description>
+        <name>Loop_Check_if_Funding_Disbursements_are_Complete</name>
+        <label>Loop - Check if Funding Disbursements are Complete</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <collectionReference>Get_Funding_Disbursements_All</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Decision_Check_if_Status_is_not_complete</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Decision_Any_Open_Requirements_or_Funding_Disbursements</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <loops>
+        <description>Loop over all FR Requirements to check if their status &lt;&gt; Approved</description>
+        <name>Loop_Check_if_Requirements_Are_Complete</name>
+        <label>Loop - Check if Requirements Are Complete</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <collectionReference>Get_Funding_Requirements_All</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Decision_Check_if_Status_Approve</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Get_Funding_Disbursements_All</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Funding_Disbursements_All</name>
+        <label>Get Funding Disbursements - All</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Check_if_Funding_Disbursements_are_Complete</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>FundingAwardId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>FundingDisbursement</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>Get all Funding Requirements related to the Funding Award that are approved</description>
+        <name>Get_Funding_Requirements_All</name>
+        <label>Get Funding Requirements - All</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Check_if_Requirements_Are_Complete</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>FundingAwardId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>FundingAwardRequirement</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Decision_Does_the_Running_User_have_the_GM_Team_Close_Grants_Custom_Permission</targetReference>
+        </connector>
+        <filterFormula>AND({!$Setup.ACClabs_Automation_Control__c.Disable_All_Automations__c}=False,
+ Text({!$Record.Status}) =&quot;Completed&quot;,
+ISCHANGED({!$Record.Status}))</filterFormula>
+        <object>FundingAward</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>var_num_fundingdisbursementcounter</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>var_num_requimrementcounter</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+</Flow>

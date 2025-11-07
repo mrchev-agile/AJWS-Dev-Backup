@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_Translated__c</fullName>
+    <description>Report &#39;Due Date&#39; translated to grantee language preference (based on Org record). Used in email templates.</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(FundingAward.Awardee.Language_Preference__c)= &quot;Kreyol&quot;,
+
+Text(DAY(DATEVALUE(DueDate))) &amp; &quot; &quot; &amp; CASE(Text(MONTH(DATEVALUE(DueDate))),&quot;1&quot;, &quot;janvye&quot;, &quot;2&quot;, &quot;fevriye&quot;,&quot;3&quot;, &quot;Mas&quot;,&quot;4&quot;, &quot;Avril&quot;,&quot;5&quot;, &quot;Me&quot;,&quot;6&quot;, &quot;Jen&quot;, &quot;7&quot;, &quot;Jiyè&quot;, &quot;8&quot;, &quot;Out&quot;, &quot;9&quot;, &quot;Septanm&quot;, &quot;10&quot;, &quot;Oktòb&quot;, &quot;11&quot;, &quot;Novanm&quot;, &quot;12&quot;, &quot;Desanm&quot;, &quot;&quot;)
+
+&amp; &quot; &quot; &amp; TEXT(YEAR(DATEVALUE(DueDate))),
+
+IF(TEXT(FundingAward.Awardee.Language_Preference__c)= &quot;French&quot;,
+
+TEXT(DAY(DATEVALUE(DueDate))) &amp; &quot; &quot; &amp; CASE(Text(MONTH(DATEVALUE(DueDate))),&quot;1&quot;, &quot;janvier&quot;, &quot;2&quot;, &quot;février&quot;,&quot;3&quot;, &quot;mars&quot;,&quot;4&quot;, &quot;avril&quot;,&quot;5&quot;, &quot;mai&quot;,&quot;6&quot;, &quot;juin&quot;, &quot;7&quot;, &quot;juillet&quot;, &quot;8&quot;, &quot;août&quot;, &quot;9&quot;, &quot;septembre&quot;, &quot;10&quot;, &quot;octobre&quot;, &quot;11&quot;, &quot;november&quot;, &quot;12&quot;, &quot;décembre&quot;, &quot;&quot;) &amp; &quot; &quot; &amp; TEXT(YEAR(DATEVALUE(DueDate))),
+
+IF(TEXT(FundingAward.Awardee.Language_Preference__c)= &quot;Spanish&quot;,
+
+TEXT(DAY(DATEVALUE(DueDate))) &amp; &quot; &quot; &amp; CASE(TEXT(MONTH(DATEVALUE(DueDate))),&quot;1&quot;, &quot;enero&quot;, &quot;2&quot;, &quot;febrero&quot;,&quot;3&quot;, &quot;marzo&quot;,&quot;4&quot;, &quot;abril&quot;,&quot;5&quot;, &quot;mayo&quot;,&quot;6&quot;, &quot;junio&quot;, &quot;7&quot;, &quot;julio&quot;, &quot;8&quot;, &quot;agosto&quot;, &quot;9&quot;, &quot;septiembre&quot;, &quot;10&quot;, &quot;octubre&quot;, &quot;11&quot;, &quot;noviembre&quot;, &quot;12&quot;, &quot;diciembre&quot;, &quot;&quot;) &amp; &quot; &quot; &amp; TEXT(YEAR(DATEVALUE(DueDate))),&quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Report &#39;Due Date&#39; translated to grantee language preference (based on Org record). Used in email templates.</inlineHelpText>
+    <label>Due Date Translated</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

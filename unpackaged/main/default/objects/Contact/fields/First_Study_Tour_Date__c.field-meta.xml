@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Study_Tour_Date__c</fullName>
+    <inlineHelpText>The date of the first AJWS study tour the Contact participated in. Rolled up by a DLRS action named &quot;Nightly First Study Tour to Contact&quot; (based on campaigns where GL code = 42001 and the &quot;Attended&quot; box on the Campaign Member record is checked).</inlineHelpText>
+    <label>First Study Tour Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

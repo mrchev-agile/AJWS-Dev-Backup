@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PG_Annual_Report_Listing__c</fullName>
+    <description>for use by Planned Giving team to note listings for Legacy Society, lifetime donors, etc. that are different than regular Annual Report Listing</description>
+    <inlineHelpText>for use by Planned Giving team to note listings for Legacy Society, lifetime donors, etc. that are different than regular Annual Report Listing</inlineHelpText>
+    <label>PG Annual Report Listing</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

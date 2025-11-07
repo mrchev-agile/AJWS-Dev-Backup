@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select YES if AJWS has permission to include organization&apos;s work &amp; name on the AJWS website. Select NO if we should not publicize on our website. --></help>
+        <label><!-- DNP Website --></label>
+        <name>DNP_Website__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of all (hard credit) gifts made by this Account 2 CY ago. Included in the automated calculation to determine donor Ladder Designation. Calculated by NPSP&apos;s Customizable Rollups. --></help>
+        <label><!-- Total Gifts Two Calendar Years Ago --></label>
+        <name>Total_Gifts_Two_Calendar_Years_Ago__c</name>
+    </CustomFieldTranslation>

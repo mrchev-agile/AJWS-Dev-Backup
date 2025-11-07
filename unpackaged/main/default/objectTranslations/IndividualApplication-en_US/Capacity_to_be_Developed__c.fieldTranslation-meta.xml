@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select all relevant codes from this category when all or part of a grant will be used to build the capacity of the organization receiving the grant. --></help>
+        <label><!-- Capacity to be Developed --></label>
+        <name>Capacity_to_be_Developed__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundraising</masterLabel>
+            <translation><!-- Fundraising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leadership</masterLabel>
+            <translation><!-- Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mission/Org Strategy</masterLabel>
+            <translation><!-- Mission/Org Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoring &amp; Evaluation</masterLabel>
+            <translation><!-- Monitoring &amp; Evaluation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organizational Operations</masterLabel>
+            <translation><!-- Organizational Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Infrastructure</masterLabel>
+            <translation><!-- Physical Infrastructure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program</masterLabel>
+            <translation><!-- Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Advocacy</masterLabel>
+            <translation><!-- Program - Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Gender</masterLabel>
+            <translation><!-- Program - Gender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Legal</masterLabel>
+            <translation><!-- Program - Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Movement Building</masterLabel>
+            <translation><!-- Program - Movement Building --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Research &amp; Documentation</masterLabel>
+            <translation><!-- Program - Research &amp; Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety, Security &amp; Risk Mgmt</masterLabel>
+            <translation><!-- Safety, Security &amp; Risk Mgmt --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

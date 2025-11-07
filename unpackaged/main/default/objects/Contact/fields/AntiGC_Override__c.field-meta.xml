@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AntiGC_Override__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check to manually remove contacts from Global Circle even when they qualify based on age.</inlineHelpText>
+    <label>Anti-GC Override</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

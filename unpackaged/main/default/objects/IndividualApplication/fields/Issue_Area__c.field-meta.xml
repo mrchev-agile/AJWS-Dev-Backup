@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_Area__c</fullName>
+    <description>Corresponds with current AJWS program structure (CPR, NRR, SHR, Disaster)</description>
+    <inlineHelpText>Corresponds with current AJWS program structure (CPR, NRR, SHR, Disaster)</inlineHelpText>
+    <label>Legacy Issue Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sexual health and rights</fullName>
+                <default>false</default>
+                <label>Sexual health and rights</label>
+            </value>
+            <value>
+                <fullName>Natural resource rights and economic justice</fullName>
+                <default>false</default>
+                <label>Natural resource rights and economic justice</label>
+            </value>
+            <value>
+                <fullName>Civil and political rights</fullName>
+                <default>false</default>
+                <label>Civil and political rights</label>
+            </value>
+            <value>
+                <fullName>Disaster response</fullName>
+                <default>false</default>
+                <label>Disaster response</label>
+            </value>
+            <value>
+                <fullName>Pre-2015 Record</fullName>
+                <default>false</default>
+                <label>Pre-2015 Record</label>
+            </value>
+            <value>
+                <fullName>(Old) Conflicts and Emergencies</fullName>
+                <default>false</default>
+                <label>(Old) Conflicts and Emergencies</label>
+            </value>
+            <value>
+                <fullName>Civil Society</fullName>
+                <default>false</default>
+                <label>Civil Society</label>
+            </value>
+            <value>
+                <fullName>Women&#39;s Empowerment</fullName>
+                <default>false</default>
+                <label>Women&#39;s Empowerment</label>
+            </value>
+            <value>
+                <fullName>(Old) Community Health</fullName>
+                <default>false</default>
+                <label>(Old) Community Health</label>
+            </value>
+            <value>
+                <fullName>(Old) Community Voice</fullName>
+                <default>false</default>
+                <label>(Old) Community Voice</label>
+            </value>
+            <value>
+                <fullName>(Old) Education for All</fullName>
+                <default>false</default>
+                <label>(Old) Education for All</label>
+            </value>
+            <value>
+                <fullName>(Old) Sustainable Livelihoods</fullName>
+                <default>false</default>
+                <label>(Old) Sustainable Livelihoods</label>
+            </value>
+            <value>
+                <fullName>Other (Donor-Advised/Discretionary Only)</fullName>
+                <default>false</default>
+                <label>Other (Donor-Advised/Discretionary Only)</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Team_Requirements__c</fullName>
+    <description>Used in Director reports/list views to display Grantee Requirements assigned to the Director&#39;s team.</description>
+    <formula>OR($User.Id = FundingAward.IndividualApplication.Program__r.Program_Director_Area__c,
+$User.Id = FundingAward.IndividualApplication.Program__r.Associate_Director_Area__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used in Director reports/list views to display Grantee Requirements assigned to the Director&#39;s team.</inlineHelpText>
+    <label>My Team Requirements</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

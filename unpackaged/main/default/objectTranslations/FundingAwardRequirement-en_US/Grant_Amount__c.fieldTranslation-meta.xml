@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Amount of the Grant/Request this report is related to. Derived from the Request record&apos;s Amount field. --></help>
+        <label><!-- Grant Amount --></label>
+        <name>Grant_Amount__c</name>
+    </CustomFieldTranslation>

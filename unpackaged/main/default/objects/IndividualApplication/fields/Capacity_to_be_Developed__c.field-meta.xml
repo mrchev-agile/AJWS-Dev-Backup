@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capacity_to_be_Developed__c</fullName>
+    <inlineHelpText>Select all relevant codes from this category when all or part of a grant will be used to build the capacity of the organization receiving the grant.</inlineHelpText>
+    <label>Capacity to be Developed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Fundraising</fullName>
+                <default>false</default>
+                <label>Fundraising</label>
+            </value>
+            <value>
+                <fullName>Leadership</fullName>
+                <default>false</default>
+                <label>Leadership</label>
+            </value>
+            <value>
+                <fullName>Mission/Org Strategy</fullName>
+                <default>false</default>
+                <label>Mission/Org Strategy</label>
+            </value>
+            <value>
+                <fullName>Monitoring &amp; Evaluation</fullName>
+                <default>false</default>
+                <label>Monitoring &amp; Evaluation</label>
+            </value>
+            <value>
+                <fullName>Organizational Operations</fullName>
+                <default>false</default>
+                <label>Organizational Operations</label>
+            </value>
+            <value>
+                <fullName>Physical Infrastructure</fullName>
+                <default>false</default>
+                <label>Physical Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Program</fullName>
+                <default>false</default>
+                <label>Program</label>
+            </value>
+            <value>
+                <fullName>Program - Advocacy</fullName>
+                <default>false</default>
+                <label>Program - Advocacy</label>
+            </value>
+            <value>
+                <fullName>Program - Gender</fullName>
+                <default>false</default>
+                <label>Program - Gender</label>
+            </value>
+            <value>
+                <fullName>Program - Legal</fullName>
+                <default>false</default>
+                <label>Program - Legal</label>
+            </value>
+            <value>
+                <fullName>Program - Movement Building</fullName>
+                <default>false</default>
+                <label>Program - Movement Building</label>
+            </value>
+            <value>
+                <fullName>Program - Research &amp; Documentation</fullName>
+                <default>false</default>
+                <label>Program - Research &amp; Documentation</label>
+            </value>
+            <value>
+                <fullName>Safety, Security &amp; Risk Mgmt</fullName>
+                <default>false</default>
+                <label>Safety, Security &amp; Risk Mgmt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

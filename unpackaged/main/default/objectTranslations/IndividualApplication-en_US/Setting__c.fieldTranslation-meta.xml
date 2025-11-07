@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select Urban, Peri-Urban or Rural. --></help>
+        <label><!-- Setting --></label>
+        <name>Setting__c</name>
+        <picklistValues>
+            <masterLabel>Peri-Urban</masterLabel>
+            <translation><!-- Peri-Urban --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rural</masterLabel>
+            <translation><!-- Rural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urban</masterLabel>
+            <translation><!-- Urban --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Global_Justice_Chavurah__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>is a member of Global Justice Chavurah program - a public commitment by clergy to participate in GJC events and sign on to advocacy actions</inlineHelpText>
+    <label>Global Justice Chavurah</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

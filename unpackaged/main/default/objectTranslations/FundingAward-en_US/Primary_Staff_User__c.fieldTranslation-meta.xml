@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Program Officer (or other AJWS staff) responsible for this Request/Grant. --></help>
+        <label><!-- Primary Staff --></label>
+        <name>Primary_Staff_User__c</name>
+        <relationshipLabel><!-- Funding Awards (Primary Staff) --></relationshipLabel>
+    </CustomFieldTranslation>

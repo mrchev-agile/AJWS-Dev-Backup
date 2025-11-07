@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding_Exception__c</fullName>
+    <description>Funding exception.</description>
+    <inlineHelpText>Funding exception.</inlineHelpText>
+    <label>Funding Exception</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rapid Relief</fullName>
+                <default>false</default>
+                <label>Rapid Relief</label>
+            </value>
+            <value>
+                <fullName>HRD Fund</fullName>
+                <default>false</default>
+                <label>HRD Fund</label>
+            </value>
+            <value>
+                <fullName>Digicel Media Grant</fullName>
+                <default>false</default>
+                <label>Digicel Media Grant</label>
+            </value>
+            <value>
+                <fullName>Clinton Global Initiative - EPCC</fullName>
+                <default>false</default>
+                <label>Clinton Global Initiative - EPCC</label>
+            </value>
+            <value>
+                <fullName>Grant to a for-profit</fullName>
+                <default>false</default>
+                <label>Grant to a for-profit</label>
+            </value>
+            <value>
+                <fullName>Kellogg</fullName>
+                <default>false</default>
+                <label>Kellogg</label>
+            </value>
+            <value>
+                <fullName>President&#39;s Fund (class code 35)</fullName>
+                <default>false</default>
+                <label>President&#39;s Fund (class code 35)</label>
+            </value>
+            <value>
+                <fullName>Class code 51: Nike exchange</fullName>
+                <default>false</default>
+                <label>Class code 51: Nike exchange</label>
+            </value>
+            <value>
+                <fullName>Class code 52: Nike subgrant</fullName>
+                <default>false</default>
+                <label>Class code 52: Nike subgrant</label>
+            </value>
+            <value>
+                <fullName>Class code 53: Nike targeted CB</fullName>
+                <default>false</default>
+                <label>Class code 53: Nike targeted CB</label>
+            </value>
+            <value>
+                <fullName>Class code 54: Nike brain trust</fullName>
+                <default>false</default>
+                <label>Class code 54: Nike brain trust</label>
+            </value>
+            <value>
+                <fullName>Class code 55: Nike AWID meeting</fullName>
+                <default>false</default>
+                <label>Class code 55: Nike AWID meeting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

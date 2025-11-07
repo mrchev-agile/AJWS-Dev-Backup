@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- List the specific activities you will do to support your capacity building needs. --></help>
+        <label><!-- Capacity Activities --></label>
+        <name>Capacity_Activities__c</name>
+    </CustomFieldTranslation>

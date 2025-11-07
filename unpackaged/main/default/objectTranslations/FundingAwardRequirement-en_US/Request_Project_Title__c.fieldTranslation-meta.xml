@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Project Title of the Request/Grant this report is related to. Used in Conga templates. --></help>
+        <label><!-- Request Project Title --></label>
+        <name>Request_Project_Title__c</name>
+    </CustomFieldTranslation>

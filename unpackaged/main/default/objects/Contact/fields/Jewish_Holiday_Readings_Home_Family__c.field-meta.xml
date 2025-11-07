@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jewish_Holiday_Readings_Home_Family__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>One of the options on the Donor Subscription Center. Checked by default, but if the donor unchecks &quot;Jewish Holiday Readings Home &amp; Family&quot; emails from AJWS will no longer be sent to this email address.</inlineHelpText>
+    <label>Jewish Holiday Readings Home &amp; Family</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

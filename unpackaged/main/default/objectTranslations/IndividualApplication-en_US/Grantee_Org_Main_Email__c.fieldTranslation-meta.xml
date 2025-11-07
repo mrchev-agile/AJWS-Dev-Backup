@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Main email for grantee to which this grants is given. Copied by automation from the parent Account/Org record. In turn copied down to grantee report and payment records. Included in report reminders and payment notifications. --></help>
+        <label><!-- Grantee Org Main Email --></label>
+        <name>Grantee_Org_Main_Email__c</name>
+    </CustomFieldTranslation>

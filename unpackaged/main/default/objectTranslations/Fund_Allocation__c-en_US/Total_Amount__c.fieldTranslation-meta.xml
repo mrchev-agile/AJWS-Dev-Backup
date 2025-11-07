@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Amount + Total Amount from child Fund Allocation Adjustments + Total Grantmaking Amount from child GAU Allocations. This, unless &quot;Hold Funds From Grantmaking&quot; box is checked, in which case will be $0 (to prevent users from using funds before FA is ready). --></help>
+        <label><!-- Total Amount --></label>
+        <name>Total_Amount__c</name>
+    </CustomFieldTranslation>

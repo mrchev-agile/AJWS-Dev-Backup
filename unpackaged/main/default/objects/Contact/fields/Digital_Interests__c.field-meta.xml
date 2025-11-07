@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Interests__c</fullName>
+    <inlineHelpText>For Digital team use only! For send in collaboration with Blue State.</inlineHelpText>
+    <label>Digital Interests</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Empowering Women and Girls</fullName>
+                <default>false</default>
+                <label>Empowering Women and Girls</label>
+            </value>
+            <value>
+                <fullName>Securing Free Speech and Free Elections</fullName>
+                <default>false</default>
+                <label>Securing Free Speech and Free Elections</label>
+            </value>
+            <value>
+                <fullName>Protecting the Environment and Indigenous Lands</fullName>
+                <default>false</default>
+                <label>Protecting the Environment and Indigenous Lands</label>
+            </value>
+            <value>
+                <fullName>Responding to Disasters</fullName>
+                <default>false</default>
+                <label>Responding to Disasters</label>
+            </value>
+            <value>
+                <fullName>Supporting LGBTQI+ Rights and Safety</fullName>
+                <default>false</default>
+                <label>Supporting LGBTQI+ Rights and Safety</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

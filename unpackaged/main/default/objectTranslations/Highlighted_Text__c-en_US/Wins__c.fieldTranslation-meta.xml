@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Wins --></label>
+        <name>Wins__c</name>
+        <picklistValues>
+            <masterLabel>advocacy win</masterLabel>
+            <translation><!-- advocacy win --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>capacity building win</masterLabel>
+            <translation><!-- capacity building win --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>social movements win</masterLabel>
+            <translation><!-- social movements win --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

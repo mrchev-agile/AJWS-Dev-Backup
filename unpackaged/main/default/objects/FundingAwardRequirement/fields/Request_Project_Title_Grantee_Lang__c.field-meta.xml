@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Project_Title_Grantee_Lang__c</fullName>
+    <description>The Project Title in the grantee&#39;s language of the Request/Grant this report is related to. Used in Conga templates.</description>
+    <externalId>false</externalId>
+    <formula>FundingAward.IndividualApplication.Project_Title_Grantee_Language__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The Project Title in the grantee&#39;s language of the Request/Grant this report is related to. Used in Conga templates.</inlineHelpText>
+    <label>Request Project Title Grantee Lang</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

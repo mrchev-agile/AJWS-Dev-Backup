@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Calculated field for the amount of all individual applications associated with the docket with a status that&apos;s considered a &quot;Won&quot; Stage. --></help>
+        <label><!-- Value Won Requests in Docket --></label>
+        <name>Value_Won_Requests_in_Docket__c</name>
+    </CustomFieldTranslation>

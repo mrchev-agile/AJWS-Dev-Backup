@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- 5. What challenges, setbacks or failures did you face implementing these activities? How did you respond to these challenges? --></help>
+        <label><!-- Challenges Implementing Activities --></label>
+        <name>Challenges_Implementing_Activities__c</name>
+    </CustomFieldTranslation>

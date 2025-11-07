@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detail__c</fullName>
+    <label>Detail</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Population</fullName>
+                <default>false</default>
+                <label>General Population</label>
+            </value>
+            <value>
+                <fullName>Adults (36+)</fullName>
+                <default>false</default>
+                <label>Adults (36+)</label>
+            </value>
+            <value>
+                <fullName>Youth (35 and under)</fullName>
+                <default>false</default>
+                <label>Youth (35 and under)</label>
+            </value>
+            <value>
+                <fullName>Civil Society Organizations</fullName>
+                <default>false</default>
+                <label>Civil Society Organizations</label>
+            </value>
+            <value>
+                <fullName>Human Rights Defenders at RISK</fullName>
+                <default>false</default>
+                <label>Human Rights Defenders at RISK</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>First funder</fullName>
+                <default>false</default>
+                <label>First funder</label>
+            </value>
+            <value>
+                <fullName>Only funder</fullName>
+                <default>false</default>
+                <label>Only funder</label>
+            </value>
+            <value>
+                <fullName>Women (36+)</fullName>
+                <default>false</default>
+                <label>Women (36+)</label>
+            </value>
+            <value>
+                <fullName>AGYW (35 and under)</fullName>
+                <default>false</default>
+                <label>AGYW (35 and under)</label>
+            </value>
+            <value>
+                <fullName>ITGNCQ</fullName>
+                <default>false</default>
+                <label>ITGNCQ</label>
+            </value>
+            <value>
+                <fullName>LGB</fullName>
+                <default>false</default>
+                <label>LGB</label>
+            </value>
+            <value>
+                <fullName>Ethnic and/ Or Religious Minorities</fullName>
+                <default>false</default>
+                <label>Ethnic and/ Or Religious Minorities</label>
+            </value>
+            <value>
+                <fullName>Farmers, Fisherfolk, Pastoralists, and Foresters</fullName>
+                <default>false</default>
+                <label>Farmers, Fisherfolk, Pastoralists, and Foresters</label>
+            </value>
+            <value>
+                <fullName>Indigenous Peoples</fullName>
+                <default>false</default>
+                <label>Indigenous Peoples</label>
+            </value>
+            <value>
+                <fullName>Internally Displaced Persons</fullName>
+                <default>false</default>
+                <label>Internally Displaced Persons</label>
+            </value>
+            <value>
+                <fullName>Laborers in the Informal Economy</fullName>
+                <default>false</default>
+                <label>Laborers in the Informal Economy</label>
+            </value>
+            <value>
+                <fullName>Migrants</fullName>
+                <default>false</default>
+                <label>Migrants</label>
+            </value>
+            <value>
+                <fullName>Refugees</fullName>
+                <default>false</default>
+                <label>Refugees</label>
+            </value>
+            <value>
+                <fullName>Sex Workers</fullName>
+                <default>false</default>
+                <label>Sex Workers</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Funder Relationship</controllingFieldValue>
+            <valueName>General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Funder Relationship</controllingFieldValue>
+            <valueName>First funder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Funder Relationship</controllingFieldValue>
+            <valueName>Only funder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary of Org</controllingFieldValue>
+            <valueName>General Population</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary of Org</controllingFieldValue>
+            <valueName>Adults (36+)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary of Org</controllingFieldValue>
+            <valueName>Youth (35 and under)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary of Org</controllingFieldValue>
+            <valueName>Civil Society Organizations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary of Org</controllingFieldValue>
+            <valueName>Human Rights Defenders at RISK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>AGYW (35 and under)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>ITGNCQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>LGB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Ethnic and/ Or Religious Minorities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Farmers, Fisherfolk, Pastoralists, and Foresters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Indigenous Peoples</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Internally Displaced Persons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Laborers in the Informal Economy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Migrants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Refugees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Sex Workers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>End Beneficiary Marginalized Groups</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

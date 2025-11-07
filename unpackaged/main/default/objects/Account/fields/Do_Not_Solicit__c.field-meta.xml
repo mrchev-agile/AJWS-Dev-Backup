@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Solicit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check if non of the Household members should be solicited.</inlineHelpText>
+    <label>Do Not Solicit</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

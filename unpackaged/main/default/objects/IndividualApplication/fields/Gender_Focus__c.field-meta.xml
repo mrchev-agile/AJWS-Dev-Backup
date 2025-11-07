@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gender_Focus__c</fullName>
+    <inlineHelpText>Select up to 4 codes that best describes the age groups of the end beneficiaries of the grant.</inlineHelpText>
+    <label>Grant Gender Focus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Gender_Focus</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

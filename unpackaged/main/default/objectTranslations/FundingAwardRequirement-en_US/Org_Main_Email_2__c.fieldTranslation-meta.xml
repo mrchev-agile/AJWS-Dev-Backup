@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Main email address for the Organization receiving the Grant/Request this report is related to. Copied from a similar field on the Request record (which in turn is based on the Org email field on the parent Grantee record). Used in auto-generated report reminders. --></help>
+        <label><!-- Org Main Email --></label>
+        <name>Org_Main_Email_2__c</name>
+    </CustomFieldTranslation>

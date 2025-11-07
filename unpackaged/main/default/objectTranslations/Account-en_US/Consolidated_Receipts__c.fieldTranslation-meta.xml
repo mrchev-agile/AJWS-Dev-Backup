@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Donor asked for a consolidated receipt for all annual donations (instead of individual receipts for each donation). --></help>
+        <label><!-- Consolidated Receipts --></label>
+        <name>Consolidated_Receipts__c</name>
+    </CustomFieldTranslation>

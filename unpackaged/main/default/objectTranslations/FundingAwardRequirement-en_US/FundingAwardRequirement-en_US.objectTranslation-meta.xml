@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <quickActions>
+        <label><!-- Send Reminder --></label>
+        <name>Send_Reminder</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- For tracking crisis narrative reports --></description>
+        <label><!-- Crisis Narrative --></label>
+        <name>Crisis_Narrative</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Crisis Narrative with PO Comments --></description>
+        <label><!-- Crisis Narrative with PO Comments --></label>
+        <name>Crisis_Narrative_with_PO_Comments</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For tracking DAF final reports --></description>
+        <label><!-- DAF Report --></label>
+        <name>DAF_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For submission of financial report only --></description>
+        <label><!-- Financial Report --></label>
+        <name>Financial_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Financial Report with PO Comments --></description>
+        <label><!-- Financial Report with PO Comments --></label>
+        <name>Financial_Report_with_PO_Comments</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- To track quarterly progress/milestones for DRL/GEF Sub-awards --></description>
+        <label><!-- GEF Milestone --></label>
+        <name>GEF_Milestone</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type relates to the Grant Agreement requirement. --></description>
+        <label><!-- Grant Agreement --></label>
+        <name>Grant_Agreement</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type relates to the Grant Amendment requirement. --></description>
+        <label><!-- Grant Amendment --></label>
+        <name>Grant_Amendment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For tracking interim narrative reports --></description>
+        <label><!-- Interim Narrative Report --></label>
+        <name>Interim_Narrative_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Interim Narrative Report with PO Comments --></description>
+        <label><!-- Interim Narrative Report with PO Comments --></label>
+        <name>Interim_Narrative_Report_with_PO_Comments</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Capture Narrative Grantee Reports --></description>
+        <label><!-- Narrative Report --></label>
+        <name>Narrative_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Narrative Report with PO Comments --></description>
+        <label><!-- Narrative Report with PO Comments --></label>
+        <name>Narrative_Report_with_PO_Comments</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For tracking Travel &amp; Opportunity Grant reports. --></description>
+        <label><!-- TOG Narrative Report --></label>
+        <name>TOG_Narrative_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- TOG Narrative Report with PO Comments --></description>
+        <label><!-- TOG Narrative Report with PO Comments --></label>
+        <name>TOG_Narrative_Report_with_PO_Comments</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please note why this report was waived. --></errorMessage>
+        <name>Require_Comments_when_Waive</name>
+    </validationRules>
+</CustomObjectTranslation>

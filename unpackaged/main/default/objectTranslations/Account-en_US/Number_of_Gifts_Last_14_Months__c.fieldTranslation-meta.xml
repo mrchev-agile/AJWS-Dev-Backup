@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of HC gifts last 420 days. Based on NPSP roll-up. Used for Comms Mid-Level Prospects --></help>
+        <label><!-- Number of Gifts Last 14 Months --></label>
+        <name>Number_of_Gifts_Last_14_Months__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Calculated field for the amount of all individual applications associated with the docket regardless of their internal status. Main implication: Pledged Opportunities  related to a recurring donation (i.e. future instalments) are included. --></help>
+        <label><!-- Value Requests in Docket --></label>
+        <name>Value_Requests_in_Docket__c</name>
+    </CustomFieldTranslation>

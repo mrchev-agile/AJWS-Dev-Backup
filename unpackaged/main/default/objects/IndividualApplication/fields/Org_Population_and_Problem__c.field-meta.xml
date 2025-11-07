@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Population_and_Problem__c</fullName>
+    <description>C3 in Project proposal</description>
+    <inlineHelpText>What are the main problems you are seeking to address and how do they impact the communities with whom you work? Describe the causes of the problem(s) you are addressing. (2 to 4 paragraphs)</inlineHelpText>
+    <label>Org Population and Problem</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

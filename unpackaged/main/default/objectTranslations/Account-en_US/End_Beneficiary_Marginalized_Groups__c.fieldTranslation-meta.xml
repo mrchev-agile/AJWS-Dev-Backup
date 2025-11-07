@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- End Beneficiary Marginalized Groups --></label>
+        <name>End_Beneficiary_Marginalized_Groups__c</name>
+        <picklistValues>
+            <masterLabel>AGYW (35 and under)</masterLabel>
+            <translation><!-- AGYW (35 and under) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Children of Sex Workers</masterLabel>
+            <translation><!-- Children of Sex Workers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil Society Organizations</masterLabel>
+            <translation><!-- Civil Society Organizations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethnic and/ Or Religious Minorities</masterLabel>
+            <translation><!-- Ethnic and/ Or Religious Minorities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Farmers, Fisherfolk, Pastoralists, and Foresters</masterLabel>
+            <translation><!-- Farmers, Fisherfolk, Pastoralists, and Foresters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Rights Defenders at RISK</masterLabel>
+            <translation><!-- Human Rights Defenders at RISK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITGNCQ</masterLabel>
+            <translation><!-- ITGNCQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incarcerated Persons</masterLabel>
+            <translation><!-- Incarcerated Persons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indigenous Peoples</masterLabel>
+            <translation><!-- Indigenous Peoples --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internally Displaced Persons</masterLabel>
+            <translation><!-- Internally Displaced Persons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGB</masterLabel>
+            <translation><!-- LGB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGB - LB</masterLabel>
+            <translation><!-- LGB - LB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laborers in the Informal Economy</masterLabel>
+            <translation><!-- Laborers in the Informal Economy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migrants</masterLabel>
+            <translation><!-- Migrants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLWHA</masterLabel>
+            <translation><!-- PLWHA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>People with Disabilities</masterLabel>
+            <translation><!-- People with Disabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refugees</masterLabel>
+            <translation><!-- Refugees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious Minorities</masterLabel>
+            <translation><!-- Religious Minorities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>See Gender and/or Age Codes*</masterLabel>
+            <translation><!-- See Gender and/or Age Codes* --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sex Workers</masterLabel>
+            <translation><!-- Sex Workers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soldiers</masterLabel>
+            <translation><!-- Soldiers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women (36+)</masterLabel>
+            <translation><!-- Women (36+) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

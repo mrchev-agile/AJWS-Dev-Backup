@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Partial_SC_Gifts_2_FY_ago__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of (partial soft-credit) gifts made by this Account 2 FYs ago. See &quot;Total Number of Gifts 2 FY ago&quot; for overall # of gifts (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups.</inlineHelpText>
+    <label>Number of Partial SC Gifts 2 FY ago</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

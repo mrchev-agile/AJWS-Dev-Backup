@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Allows relating FA to an FC budget. When an FA is tied to a budget the &apos;Create Contributing Funds&apos; VFP will match the FA with grants tied to the same budget (via grant payments) or to child budgets of the assigned budget (i.e. if is budget is Dep budget). --></help>
+        <label><!-- Budget --></label>
+        <name>Budget__c</name>
+        <relationshipLabel><!-- Fund Allocations --></relationshipLabel>
+    </CustomFieldTranslation>

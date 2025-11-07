@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DAF_ID__c</fullName>
+    <description>Formula field linking DAF ID number on Request Record to the Grantee Requirement Record.</description>
+    <externalId>false</externalId>
+    <formula>FundingAward.IndividualApplication.DAF_ID__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula field linking DAF ID number on Request Record to the Grantee Requirement Record.</inlineHelpText>
+    <label>DAF ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

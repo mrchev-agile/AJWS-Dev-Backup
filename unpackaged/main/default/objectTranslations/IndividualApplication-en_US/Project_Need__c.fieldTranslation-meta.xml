@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What is the need or opportunity being addressed by the project for which you are seeking funding? --></help>
+        <label><!-- Project Need --></label>
+        <name>Project_Need__c</name>
+    </CustomFieldTranslation>

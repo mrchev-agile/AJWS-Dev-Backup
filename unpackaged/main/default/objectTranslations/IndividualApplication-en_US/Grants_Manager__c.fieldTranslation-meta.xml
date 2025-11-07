@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The GM representative responsible for administrative aspects of this grant. --></help>
+        <label><!-- Grants Manager --></label>
+        <name>Grants_Manager__c</name>
+        <relationshipLabel><!-- Individual Applications (Grants Manager) --></relationshipLabel>
+    </CustomFieldTranslation>

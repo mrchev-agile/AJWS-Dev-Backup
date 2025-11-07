@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Grantee_Requirements__c</fullName>
+    <description>Used to filter list views for users in FC. Identifies whether the user is Primary Staff or the Grants Manager on the Report record.</description>
+    <formula>OR($User.Id = FundingAward.IndividualApplication.Grants_Manager__c,
+$User.Id = FundingAward.IndividualApplication.Primary_Staff_User__c,
+$User.Id = FundingAward.IndividualApplication.Secondary_Staff__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used to filter list views for users in FC. Identifies whether the user is Primary Staff or the Grants Manager on the Report record.</inlineHelpText>
+    <label>My Grantee Requirements</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

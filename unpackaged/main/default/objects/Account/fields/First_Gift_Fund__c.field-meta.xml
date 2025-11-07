@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Gift_Fund__c</fullName>
+    <inlineHelpText>The &#39;Fund&#39; on the first (hard-credit) gift for this Account. Rolled up by DLRS nightly from Opportunity (rolled-up to Opp from it&#39;s child GAUAs by another DLRS nightly roll-up).</inlineHelpText>
+    <label>First Gift Fund</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

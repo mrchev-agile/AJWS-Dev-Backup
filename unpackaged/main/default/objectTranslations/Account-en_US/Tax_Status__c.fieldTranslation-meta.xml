@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Tax Status for Grantee Org. --></help>
+        <label><!-- Tax Status --></label>
+        <name>Tax_Status__c</name>
+        <picklistValues>
+            <masterLabel>501(c)3</masterLabel>
+            <translation><!-- 501(c)3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>501(c)4</masterLabel>
+            <translation><!-- 501(c)4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>501(c)6</masterLabel>
+            <translation><!-- 501(c)6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>509(a)(1)</masterLabel>
+            <translation><!-- 509(a)(1) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>509(a)(2) under 170(b)(1)(A)(vii)</masterLabel>
+            <translation><!-- 509(a)(2) under 170(b)(1)(A)(vii) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>509(a)(3) under 170(b)(1)(A)(viii)</masterLabel>
+            <translation><!-- 509(a)(3) under 170(b)(1)(A)(viii) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>509(a)(4)</masterLabel>
+            <translation><!-- 509(a)(4) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>For-Profit</masterLabel>
+            <translation><!-- For-Profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nonprofit organization</masterLabel>
+            <translation><!-- Nonprofit organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Nonoperating Foundation</masterLabel>
+            <translation><!-- Private Nonoperating Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Operating Foundation</masterLabel>
+            <translation><!-- Private Operating Foundation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

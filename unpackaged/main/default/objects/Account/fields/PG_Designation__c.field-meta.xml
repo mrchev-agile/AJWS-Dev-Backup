@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PG_Designation__c</fullName>
+    <formula>Number_of_Planned_Giving_Contacts__c &gt; 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if any of the Contacts related to this Account are Legacy Society, PG Prospect, or PG Candidate. See related checkboxes on Contacts.</inlineHelpText>
+    <label>PG Designation</label>
+    <type>Checkbox</type>
+</CustomField>

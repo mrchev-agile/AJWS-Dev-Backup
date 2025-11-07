@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <label>Department</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPR (233)</fullName>
+                <default>false</default>
+                <label>CPR (233)</label>
+            </value>
+            <value>
+                <fullName>DAF (223)</fullName>
+                <default>false</default>
+                <label>DAF (223)</label>
+            </value>
+            <value>
+                <fullName>Disaster (313)</fullName>
+                <default>false</default>
+                <label>Disaster (313)</label>
+            </value>
+            <value>
+                <fullName>IOPS (213)</fullName>
+                <default>false</default>
+                <label>IOPS (213)</label>
+            </value>
+            <value>
+                <fullName>LWCJ (243)</fullName>
+                <default>false</default>
+                <label>LWCJ (243)</label>
+            </value>
+            <value>
+                <fullName>President (100)</fullName>
+                <default>false</default>
+                <label>President (100)</label>
+            </value>
+            <value>
+                <fullName>SHR (253)</fullName>
+                <default>false</default>
+                <label>SHR (253)</label>
+            </value>
+            <value>
+                <fullName>SLRE (513)</fullName>
+                <default>false</default>
+                <label>SLRE (513)</label>
+            </value>
+            <value>
+                <fullName>VP for Programs (200)</fullName>
+                <default>false</default>
+                <label>VP for Programs (200)</label>
+            </value>
+            <value>
+                <fullName>Pre-2015 Grant Record (600)</fullName>
+                <default>false</default>
+                <label>Pre-2015 Grant Record (600)</label>
+            </value>
+            <value>
+                <fullName>Fiscal Sponsorship (999)</fullName>
+                <default>false</default>
+                <label>Fiscal Sponsorship (999)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- In the past few years, what progress has your organization made toward achieving its mission? (1 to 2 paragraphs) --></help>
+        <label><!-- Org Recent Success --></label>
+        <name>Org_Recent_success__c</name>
+    </CustomFieldTranslation>

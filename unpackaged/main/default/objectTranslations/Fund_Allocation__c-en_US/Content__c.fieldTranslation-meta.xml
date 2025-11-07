@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Content restriction set by the donor for this money. Used in &quot;Create Contributing Funds&quot; visual force page to match with grants with the same Content. --></help>
+        <label><!-- Content --></label>
+        <name>Content__c</name>
+        <picklistValues>
+            <masterLabel>Access To Justice</masterLabel>
+            <translation><!-- Access To Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bodily Diversity</masterLabel>
+            <translation><!-- Bodily Diversity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Children&#39;s Rights</masterLabel>
+            <translation><!-- Children&apos;s Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civic &amp; Political Participation</masterLabel>
+            <translation><!-- Civic &amp; Political Participation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compensation &amp; Restitution</masterLabel>
+            <translation><!-- Compensation &amp; Restitution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cultural Rights</masterLabel>
+            <translation><!-- Cultural Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability Rights</masterLabel>
+            <translation><!-- Disability Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster Relief</masterLabel>
+            <translation><!-- Disaster Relief --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster Risk Reduction</masterLabel>
+            <translation><!-- Disaster Risk Reduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Marriage</masterLabel>
+            <translation><!-- Early Marriage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Justice &amp; Development - Labor Rights</masterLabel>
+            <translation><!-- Economic Justice &amp; Development - Labor Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Justice &amp; Development - Livelihoods</masterLabel>
+            <translation><!-- Economic Justice &amp; Development - Livelihoods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Justice &amp; Development - Microfinance</masterLabel>
+            <translation><!-- Economic Justice &amp; Development - Microfinance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Justice &amp; Development - Other</masterLabel>
+            <translation><!-- Economic Justice &amp; Development - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economic Justice &amp; Development - Vocational Training</masterLabel>
+            <translation><!-- Economic Justice &amp; Development - Vocational Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equality Rights &amp; Freedom From Stigma &amp; Discrimination</masterLabel>
+            <translation><!-- Equality Rights &amp; Freedom From Stigma &amp; Discrimination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freedom From Violence</masterLabel>
+            <translation><!-- Freedom From Violence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freedom Of Expression &amp; Information</masterLabel>
+            <translation><!-- Freedom Of Expression &amp; Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gender Equality</masterLabel>
+            <translation><!-- Gender Equality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gender Identity &amp; Expression</masterLabel>
+            <translation><!-- Gender Identity &amp; Expression --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Governance &amp; Accountability</masterLabel>
+            <translation><!-- Governance &amp; Accountability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health - Abortion Rights</masterLabel>
+            <translation><!-- Health - Abortion Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health - HIV/AIDS</masterLabel>
+            <translation><!-- Health - HIV/AIDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health - Maternal and Child Health</masterLabel>
+            <translation><!-- Health - Maternal and Child Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health - Other</masterLabel>
+            <translation><!-- Health - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health - Psychosocial Support</masterLabel>
+            <translation><!-- Health - Psychosocial Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health - Reproductive Health &amp; Rights</masterLabel>
+            <translation><!-- Health - Reproductive Health &amp; Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health - Sexual Health</masterLabel>
+            <translation><!-- Health - Sexual Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infrastructure Development</masterLabel>
+            <translation><!-- Infrastructure Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organizational Development</masterLabel>
+            <translation><!-- Organizational Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peacebuilding</masterLabel>
+            <translation><!-- Peacebuilding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Rights - Agro-Ecology</masterLabel>
+            <translation><!-- Resource Rights - Agro-Ecology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Rights - Climate Justice</masterLabel>
+            <translation><!-- Resource Rights - Climate Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Rights - Environmental Safeguards</masterLabel>
+            <translation><!-- Resource Rights - Environmental Safeguards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Rights - Food Sovereignty</masterLabel>
+            <translation><!-- Resource Rights - Food Sovereignty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Rights - Land Rights</masterLabel>
+            <translation><!-- Resource Rights - Land Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Rights - Other</masterLabel>
+            <translation><!-- Resource Rights - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resource Rights - Water Rights</masterLabel>
+            <translation><!-- Resource Rights - Water Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety And Security</masterLabel>
+            <translation><!-- Safety And Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sex Worker Rights</masterLabel>
+            <translation><!-- Sex Worker Rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sexual Orientation</masterLabel>
+            <translation><!-- Sexual Orientation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sexuality Education</masterLabel>
+            <translation><!-- Sexuality Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trafficking</masterLabel>
+            <translation><!-- Trafficking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transitional Justice</masterLabel>
+            <translation><!-- Transitional Justice --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

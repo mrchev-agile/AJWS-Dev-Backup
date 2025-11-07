@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donor_Level__c</fullName>
+    <inlineHelpText>Based on donor&#39;s giving in the current &amp; last 2FY. Set by automation. Can be Overridden by manually changing the level and checking the &#39;Override Level&#39; box. Once donor is designated &quot;Major Donor&quot; (10K or up), downgrade can only be done manually.</inlineHelpText>
+    <label>Donor Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Designation</fullName>
+                <default>false</default>
+                <label>No Designation</label>
+            </value>
+            <value>
+                <fullName>Major Donor</fullName>
+                <default>false</default>
+                <label>Major Donor</label>
+            </value>
+            <value>
+                <fullName>Institutional Giving</fullName>
+                <default>false</default>
+                <label>Institutional Giving</label>
+            </value>
+            <value>
+                <fullName>Giving Vehicle</fullName>
+                <default>false</default>
+                <label>Giving Vehicle</label>
+            </value>
+            <value>
+                <fullName>Mid-Level Low</fullName>
+                <default>false</default>
+                <label>Mid-Level Low</label>
+            </value>
+            <value>
+                <fullName>Mid-Level High</fullName>
+                <default>false</default>
+                <label>Mid-Level High</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

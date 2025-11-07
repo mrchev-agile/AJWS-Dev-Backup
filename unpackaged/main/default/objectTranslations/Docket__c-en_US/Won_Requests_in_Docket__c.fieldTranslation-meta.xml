@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Calculated field for number of &quot;Won&quot; opportunities associated with the campaign. Won opportunities are those whose Stage is defined as A &quot;Won&quot; stage (e.g. Hard Pledge is a &quot;Won&quot; stage, but &quot;Projected&quot; is an &quot;Open&quot; stage). --></help>
+        <label><!-- Won Requests in Docket --></label>
+        <name>Won_Requests_in_Docket__c</name>
+    </CustomFieldTranslation>

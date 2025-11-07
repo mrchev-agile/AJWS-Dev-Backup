@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Last email reminder sent to the grantee and/or PO regarding this report. Set and used by automation for sending these reminders. --></help>
+        <label><!-- Last Reminder Sent --></label>
+        <name>Last_Reminder_Sent__c</name>
+    </CustomFieldTranslation>

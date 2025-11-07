@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hello,<br />
+<br />
+The bank information for Award {{{FundingDisbursement.Funding_Award_Name__c}}} has changed.&nbsp;<br />
+<br />
+To review the new bank information, please review the record at&nbsp;<a href="https://ajwsnpc--dev.sandbox.lightning.force.com/lightning/r/FundingDisbursement/{{{FundingDisbursement.Id}}}/view">https://ajwsnpc--dev.sandbox.lightning.force.com/lightning/r/FundingDisbursement/{{{FundingDisbursement.Id}}}/view</a></span></span></body>
+</html>

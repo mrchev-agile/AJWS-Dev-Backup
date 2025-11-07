@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projected_Expenses_Rollup_1__c</fullName>
+    <inlineHelpText>Sum of payments (or portion of payments) paid by this budget (via a bridge budget contribution record) and related to a YET TO BE approved grant. Includes all non void/canceled/written-off payments. Rolled-up by DLRS.</inlineHelpText>
+    <label>Projected Expenses Rollup</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

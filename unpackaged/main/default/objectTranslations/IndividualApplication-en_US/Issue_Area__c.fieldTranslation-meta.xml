@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Corresponds with current AJWS program structure (CPR, NRR, SHR, Disaster) --></help>
+        <label><!-- Legacy Issue Area --></label>
+        <name>Issue_Area__c</name>
+        <picklistValues>
+            <masterLabel>(Old) Community Health</masterLabel>
+            <translation><!-- (Old) Community Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(Old) Community Voice</masterLabel>
+            <translation><!-- (Old) Community Voice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(Old) Conflicts and Emergencies</masterLabel>
+            <translation><!-- (Old) Conflicts and Emergencies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(Old) Education for All</masterLabel>
+            <translation><!-- (Old) Education for All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>(Old) Sustainable Livelihoods</masterLabel>
+            <translation><!-- (Old) Sustainable Livelihoods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil Society</masterLabel>
+            <translation><!-- Civil Society --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil and political rights</masterLabel>
+            <translation><!-- Civil and political rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster response</masterLabel>
+            <translation><!-- Disaster response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural resource rights and economic justice</masterLabel>
+            <translation><!-- Natural resource rights and economic justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Donor-Advised/Discretionary Only)</masterLabel>
+            <translation><!-- Other (Donor-Advised/Discretionary Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-2015 Record</masterLabel>
+            <translation><!-- Pre-2015 Record --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sexual health and rights</masterLabel>
+            <translation><!-- Sexual health and rights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women&#39;s Empowerment</masterLabel>
+            <translation><!-- Women&apos;s Empowerment --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

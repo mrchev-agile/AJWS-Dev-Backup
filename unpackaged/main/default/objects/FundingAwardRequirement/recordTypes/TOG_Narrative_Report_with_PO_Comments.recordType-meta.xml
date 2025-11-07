@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TOG_Narrative_Report_with_PO_Comments</fullName>
+    <active>true</active>
+    <description>TOG Narrative Report with PO Comments</description>
+    <label>TOG Narrative Report with PO Comments</label>
+    <picklistValues>
+        <picklist>ApprovalStatus</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scope__c</picklist>
+        <values>
+            <fullName>Capital Expenditures Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final Financial Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final Narrative Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEF Milestone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interim Financial Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interim Narrative Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Progress Check-In</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reopened</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waived</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>GEF Milestone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant Amendment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

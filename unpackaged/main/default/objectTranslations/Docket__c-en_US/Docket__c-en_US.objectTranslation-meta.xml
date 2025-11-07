@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Docket</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dockets</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Docket Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Requests --></label>
+            <section>Requests</section>
+        </sections>
+        <sections>
+            <label><!-- Timeframe --></label>
+            <section>Timeframe</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Conga_Composer_On_Docket --></label>
+        <name>Conga_Composer_On_Docket</name>
+    </webLinks>
+</CustomObjectTranslation>

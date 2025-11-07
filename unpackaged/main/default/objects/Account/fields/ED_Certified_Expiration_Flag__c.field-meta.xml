@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ED_Certified_Expiration_Flag__c</fullName>
+    <formula>ED_Expires_Date__c &gt;= TODAY()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if Today &gt;= ED Expires Date.</inlineHelpText>
+    <label>ED Certified Expiration Flag</label>
+    <type>Checkbox</type>
+</CustomField>

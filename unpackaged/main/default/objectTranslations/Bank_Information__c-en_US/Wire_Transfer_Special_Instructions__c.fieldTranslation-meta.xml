@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Wire Transfer Special Instructions. --></help>
+        <label><!-- Wire Transfer Special Instructions --></label>
+        <name>Wire_Transfer_Special_Instructions__c</name>
+    </CustomFieldTranslation>

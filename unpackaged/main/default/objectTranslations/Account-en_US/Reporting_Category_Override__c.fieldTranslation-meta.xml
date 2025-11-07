@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- When applied, all new closed/won gifts from this org will receive this override value for the gift&apos;s Reporting Category (utilized in Einstein revenue reports).  Typically this override is used specifically for Donor-Advised Funds and Family Foundations. --></help>
+        <label><!-- Reporting Category Override --></label>
+        <name>Reporting_Category_Override__c</name>
+        <picklistValues>
+            <masterLabel>Board</masterLabel>
+            <translation><!-- Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Giving</masterLabel>
+            <translation><!-- Individual Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institutional Giving</masterLabel>
+            <translation><!-- Institutional Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Gifts</masterLabel>
+            <translation><!-- Major Gifts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Level High</masterLabel>
+            <translation><!-- Mid-Level High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Level Low</masterLabel>
+            <translation><!-- Mid-Level Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Organization</masterLabel>
+            <translation><!-- Other Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Giving</masterLabel>
+            <translation><!-- Planned Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Synagogues &amp; Federations</masterLabel>
+            <translation><!-- Synagogues &amp; Federations --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

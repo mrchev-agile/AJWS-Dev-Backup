@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Will auto-check if all Contacts (including Email Contacts) related to the Household are marked as Deceased. --></help>
+        <label><!-- All Constituents Deceased --></label>
+        <name>All_Constituents_Deceased__c</name>
+    </CustomFieldTranslation>

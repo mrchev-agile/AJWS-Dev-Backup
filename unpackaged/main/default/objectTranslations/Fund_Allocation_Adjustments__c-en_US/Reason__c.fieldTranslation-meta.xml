@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason --></label>
+        <name>Reason__c</name>
+        <picklistValues>
+            <masterLabel>Adjustment from Previous Year</masterLabel>
+            <translation><!-- Adjustment from Previous Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Adjustment from Finance</masterLabel>
+            <translation><!-- Manual Adjustment from Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover of Unused Prior FY Balance</masterLabel>
+            <translation><!-- Rollover of Unused Prior FY Balance --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phase_Out_Grant_Reason__c</fullName>
+    <inlineHelpText>Select all codes that best describe the reason(s) for a grantee being phased out.</inlineHelpText>
+    <label>Phase Out Grant Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AJWS unable to travel and/or efficiently assess grantee&#39;s work</fullName>
+                <default>false</default>
+                <label>AJWS unable to travel and/or efficiently assess grantee&#39;s work</label>
+            </value>
+            <value>
+                <fullName>Challenges with strategic relationships</fullName>
+                <default>false</default>
+                <label>Challenges with strategic relationships</label>
+            </value>
+            <value>
+                <fullName>Financial: grew into other funding sources</fullName>
+                <default>false</default>
+                <label>Financial: grew into other funding sources</label>
+            </value>
+            <value>
+                <fullName>Financial mismanagement</fullName>
+                <default>false</default>
+                <label>Financial mismanagement</label>
+            </value>
+            <value>
+                <fullName>Grantee is no longer doing AJWS-funded project</fullName>
+                <default>false</default>
+                <label>Grantee is no longer doing AJWS-funded project</label>
+            </value>
+            <value>
+                <fullName>Grantee no longer aligned with AJWS strategy</fullName>
+                <default>false</default>
+                <label>Grantee no longer aligned with AJWS strategy</label>
+            </value>
+            <value>
+                <fullName>Inclusion challenges</fullName>
+                <default>false</default>
+                <label>Inclusion challenges</label>
+            </value>
+            <value>
+                <fullName>Internal operations challenges</fullName>
+                <default>false</default>
+                <label>Internal operations challenges</label>
+            </value>
+            <value>
+                <fullName>Leadership/governance challenges</fullName>
+                <default>false</default>
+                <label>Leadership/governance challenges</label>
+            </value>
+            <value>
+                <fullName>Mission/strategy/program development challenges</fullName>
+                <default>false</default>
+                <label>Mission/strategy/program development challenges</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Red flag</fullName>
+                <default>false</default>
+                <label>Red flag</label>
+            </value>
+            <value>
+                <fullName>Restricted funds spent down</fullName>
+                <default>false</default>
+                <label>Restricted funds spent down</label>
+            </value>
+            <value>
+                <fullName>Safety and security/well-being concerns</fullName>
+                <default>false</default>
+                <label>Safety and security/well-being concerns</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

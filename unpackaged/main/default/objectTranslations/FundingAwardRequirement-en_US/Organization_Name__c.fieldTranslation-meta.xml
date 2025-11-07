@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The name of the organization that received the Grant/Request this report is related to. Derived from the Name field on the Grantee&apos;s account record. --></help>
+        <label><!-- Organization Name --></label>
+        <name>Organization_Name__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Grantee org is Leader of an International Network? --></help>
+        <label><!-- Leader of International Network --></label>
+        <name>Leader_of_International_Network__c</name>
+    </CustomFieldTranslation>

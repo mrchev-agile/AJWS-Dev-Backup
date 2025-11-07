@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Expenses__c</fullName>
+    <inlineHelpText>Sum of the Amounts of child &#39;Contributing Fund&#39; records related to grants with Status = Approved Pending GA, Awarded, Active Grant, Grant Closed, Grant Closed Unsatisfactorily. Set via DLRS action called &quot;Sched Actual Exp to Fund Allocation&quot;.</inlineHelpText>
+    <label>Actual Expenses</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

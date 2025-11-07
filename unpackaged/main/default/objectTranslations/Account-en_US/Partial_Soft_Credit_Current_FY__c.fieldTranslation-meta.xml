@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of (partial soft-credit) gifts made by this Account in the current FY. See &quot;Total Combined Credit Current FY&quot; for overall sum of gifts (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Partial Soft Credit Current FY --></label>
+        <name>Partial_Soft_Credit_Current_FY__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- List the results or impact that you expect from these project activities by the end of the grant period. For each result, explain how you will demonstrate that it was achieved. --></help>
+        <label><!-- Project Results --></label>
+        <name>Project_Results__c</name>
+    </CustomFieldTranslation>

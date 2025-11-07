@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used for dynamic reporting (i.e. can be in reports shared with multiple users that would show each user only the Funding Award records they own) --></help>
+        <label><!-- Account Owned By Me --></label>
+        <name>Account_Owned_By_Me__c</name>
+    </CustomFieldTranslation>

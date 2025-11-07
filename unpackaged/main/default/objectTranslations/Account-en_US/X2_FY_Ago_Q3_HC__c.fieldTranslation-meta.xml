@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- 2 FY Ago Q3 hard credit - for strategic plan metrics --></help>
+        <label><!-- 2 FY Ago Q3 HC --></label>
+        <name>X2_FY_Ago_Q3_HC__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LargestAmount__c</fullName>
+    <description>Do not manually update. Updated by automatic processes. See excluded Record Types in Household Settings.</description>
+    <inlineHelpText>The largest (hard credit) gift from this Account. See &quot;Combined Largest Gift Amount&quot; for largest gift overall (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups.</inlineHelpText>
+    <label>Largest Gift</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Currency</type>
+</CustomField>

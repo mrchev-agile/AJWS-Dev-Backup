@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Organization alert text (carried over from the organization record). --></help>
+        <label><!-- Organization Alert --></label>
+        <name>Organization_Alert__c</name>
+    </CustomFieldTranslation>

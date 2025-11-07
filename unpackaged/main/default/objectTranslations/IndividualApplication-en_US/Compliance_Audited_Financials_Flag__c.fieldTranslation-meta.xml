@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Does your organization have an audited financial statement that details revenues and expenses during the last fiscal year? --></help>
+        <label><!-- Audited Financials --></label>
+        <name>Compliance_Audited_Financials_Flag__c</name>
+    </CustomFieldTranslation>

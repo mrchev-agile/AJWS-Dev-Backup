@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurring_Gift_String__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Account.LargestAmount__c &lt;= 53,&quot;5|10|18|36|54|72&quot;,
+IF(Account.LargestAmount__c &lt;= 107,&quot;10|18|36|54|72|90&quot;,
+IF(Account.LargestAmount__c &lt;= 269,&quot;18|36|54|72|90|108&quot;,
+IF(Account.LargestAmount__c &lt;= 539,&quot;36|54|72|90|108|126&quot;,
+IF(Account.LargestAmount__c &lt;= 719,&quot;54|72|90|108|126|144&quot;,
+IF(Account.LargestAmount__c &lt;= 1079,&quot;72|90|108|126|144|180&quot;,
+IF(Account.LargestAmount__c &lt;= 1799,&quot;90|108|126|144|180|270&quot;,
+IF(Account.LargestAmount__c &lt;= 2699,&quot;126|144|180|270|360|540&quot;,
+IF(Account.LargestAmount__c &lt;= 5399,&quot;180|270|324|360|540|720&quot;,
+IF(Account.LargestAmount__c &lt;= 9999,&quot;360|540|720|900|1080|1260&quot;,
+&quot;18|36|72|126|180|324&quot;))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Recurring Gift String. Part of the SpringBoard package.</inlineHelpText>
+    <label>Recurring Gift String</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

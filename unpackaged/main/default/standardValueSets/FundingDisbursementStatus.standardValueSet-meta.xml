@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Contingent</fullName>
+        <default>true</default>
+        <label>Contingent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled</fullName>
+        <default>false</default>
+        <label>Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid</fullName>
+        <default>false</default>
+        <label>Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Canceled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Void</fullName>
+        <default>false</default>
+        <label>Void</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund</fullName>
+        <default>false</default>
+        <label>Refund</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hold</fullName>
+        <default>false</default>
+        <label>Hold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Write-Off</fullName>
+        <default>false</default>
+        <label>Write-Off</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Void</fullName>
+        <default>false</default>
+        <label>Paid Void</label>
+    </standardValue>
+</StandardValueSet>

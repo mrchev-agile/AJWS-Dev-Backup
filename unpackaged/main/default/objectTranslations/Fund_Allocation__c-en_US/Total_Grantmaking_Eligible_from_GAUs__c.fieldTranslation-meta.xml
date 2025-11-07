@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total sum of &apos;Grantmaking Eligible Amounts&apos; from related GAU Allocation records (see &quot;Related Lists&quot; tab). Included in the &quot;Total Amount&quot; and &quot;Balance&quot; for this FA. Rolled-up by DLRS Action: &quot;GAU Alloc to Fund Allocations&quot; --></help>
+        <label><!-- Total $ Grantmaking Eligible (from GAUs) --></label>
+        <name>Total_Grantmaking_Eligible_from_GAUs__c</name>
+    </CustomFieldTranslation>

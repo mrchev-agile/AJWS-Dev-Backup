@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Selection up to 4 codes that identify end beneficiaries of the grant. If they are marginalized or targeted based on gender/sex or age, please select &quot;See Gender/Age Codes.&quot; --></help>
+        <label><!-- Grant Beneficiary --></label>
+        <name>Grant_Beneficiary__c</name>
+    </CustomFieldTranslation>

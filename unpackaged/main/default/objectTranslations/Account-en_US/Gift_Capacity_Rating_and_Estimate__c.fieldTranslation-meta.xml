@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- GGA Gift Capacity Rating and Estimate is an individual&apos;s capacity to make a gift over five years to their favorite institution --></help>
+        <label><!-- Gift Capacity Rating and Estimate --></label>
+        <name>Gift_Capacity_Rating_and_Estimate__c</name>
+    </CustomFieldTranslation>

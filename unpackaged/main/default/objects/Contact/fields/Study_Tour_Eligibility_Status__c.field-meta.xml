@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Study_Tour_Eligibility_Status__c</fullName>
+    <inlineHelpText>Study Tour Eligibility Status.</inlineHelpText>
+    <label>Study Tour Eligibility Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eligible/prospect</fullName>
+                <default>false</default>
+                <label>Eligible/prospect</label>
+            </value>
+            <value>
+                <fullName>Eligible/interested</fullName>
+                <default>false</default>
+                <label>Eligible/interested</label>
+            </value>
+            <value>
+                <fullName>Eligible/not interested</fullName>
+                <default>false</default>
+                <label>Eligible/not interested</label>
+            </value>
+            <value>
+                <fullName>Not Eligible/interested</fullName>
+                <default>false</default>
+                <label>Not Eligible/interested</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

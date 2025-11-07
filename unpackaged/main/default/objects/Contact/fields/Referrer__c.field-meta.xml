@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referrer__c</fullName>
+    <inlineHelpText>The last seen page before a user fills out a form. In other words, where they just came from. Part of the SpringBoard package.</inlineHelpText>
+    <label>Referrer</label>
+    <length>4000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

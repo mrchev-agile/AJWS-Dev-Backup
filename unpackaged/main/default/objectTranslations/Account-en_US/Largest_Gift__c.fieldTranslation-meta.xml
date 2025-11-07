@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The largest (hard credit) gift from this Account. See &quot;Combined Largest Gift Amount&quot; for largest gift overall (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Largest Gift --></label>
+        <name>Largest_Gift__c</name>
+    </CustomFieldTranslation>

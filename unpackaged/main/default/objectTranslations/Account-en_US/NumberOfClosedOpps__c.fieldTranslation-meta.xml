@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- CRM: Overall Number of (hard-credit) gifts made by this Account. See &quot;Combined Total Number of Gifts&quot; for overall number of gifts (i.e. hard or soft credit) from this Account. FC: Overall number of grants awarded to grantee. NPSP Customizable Rollup. --></help>
+        <label><!-- # of Grants Awarded to Grantee --></label>
+        <name>NumberOfClosedOpps__c</name>
+    </CustomFieldTranslation>

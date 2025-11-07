@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Referrer__c</fullName>
+    <inlineHelpText>The external page that sent the user to the site. For example, if the visitor searched Google, then a Google URL will be the Initial Referrer. Part of the SpringBoard package.</inlineHelpText>
+    <label>Initial Referrer</label>
+    <length>4000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check this box if this grantee is an individual person rather than an organization/entity. --></help>
+        <label><!-- Is this an individual person? --></label>
+        <name>Is_this_an_individual_person__c</name>
+    </CustomFieldTranslation>

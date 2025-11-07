@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if the Household information should not be included in list exchanges with other organizations. --></help>
+        <label><!-- Do Not Exchange --></label>
+        <name>Do_Not_Exchange__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Challenges_with_Remaining_Activities__c</fullName>
+    <inlineHelpText>Describe any challenges you anticipate in implementing the remaining activities of this grant. If your organization needs to modify its plans, describe the proposed changes.</inlineHelpText>
+    <label>Challenges with Remaining Activities</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

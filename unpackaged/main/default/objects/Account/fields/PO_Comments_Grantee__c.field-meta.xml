@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Comments_Grantee__c</fullName>
+    <inlineHelpText>For Program Officers to leave comments or notes on this grantee for future reference.</inlineHelpText>
+    <label>PO Comments - Grantee</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

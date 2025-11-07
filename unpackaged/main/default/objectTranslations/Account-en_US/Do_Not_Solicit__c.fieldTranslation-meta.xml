@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if non of the Household members should be solicited. --></help>
+        <label><!-- Do Not Solicit --></label>
+        <name>Do_Not_Solicit__c</name>
+    </CustomFieldTranslation>

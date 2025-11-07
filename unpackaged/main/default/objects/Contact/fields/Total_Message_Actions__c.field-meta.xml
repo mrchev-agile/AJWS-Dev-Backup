@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Message_Actions__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>For Email records only. The total number of Actions (where Action Type = Message) taken by the parent contact using this email. Part of the SpringBoard Package. Updated by scheduled Apex job.</inlineHelpText>
+    <label>Total Message Actions</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

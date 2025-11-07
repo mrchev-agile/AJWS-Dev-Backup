@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Prospect Research</fullName>
+        <default>false</default>
+        <label>Prospect Research</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Report Requests</fullName>
+        <default>false</default>
+        <label>Report Requests</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Gift Updates</fullName>
+        <default>false</default>
+        <label>Gift Updates</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Portfolio</fullName>
+        <default>false</default>
+        <label>Portfolio</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assignments</fullName>
+        <default>false</default>
+        <label>Assignments</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

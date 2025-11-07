@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For reporting purposes, extracts the 990 description from the &quot;990 code + Description&quot; picklist field --></help>
+        <label><!-- 990 Description --></label>
+        <name>X990_Description__c</name>
+    </CustomFieldTranslation>

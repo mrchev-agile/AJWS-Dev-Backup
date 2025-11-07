@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Acronym or other known name of grantee/donor organization --></help>
+        <label><!-- Acronym or &quot;Also Known As&quot; --></label>
+        <name>AKA__c</name>
+    </CustomFieldTranslation>

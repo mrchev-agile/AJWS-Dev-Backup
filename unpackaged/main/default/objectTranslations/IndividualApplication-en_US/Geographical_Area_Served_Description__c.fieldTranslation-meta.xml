@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For reporting purposes, extracts the Description of the Geographical Area Served selected. --></help>
+        <label><!-- Geographical Area Served Description --></label>
+        <name>Geographical_Area_Served_Description__c</name>
+    </CustomFieldTranslation>

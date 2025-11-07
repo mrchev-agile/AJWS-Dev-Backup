@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospect_Designation__c</fullName>
+    <inlineHelpText>Denotes type in prospect pipeline for Major Gifts or Institutional Giving.</inlineHelpText>
+    <label>Prospect Designation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Disqualified</fullName>
+                <default>false</default>
+                <label>Disqualified</label>
+            </value>
+            <value>
+                <fullName>Influencer/Connector</fullName>
+                <default>false</default>
+                <label>Influencer/Connector</label>
+            </value>
+            <value>
+                <fullName>Institutional Giving</fullName>
+                <default>false</default>
+                <label>Institutional Giving</label>
+            </value>
+            <value>
+                <fullName>Major Donor Prospect</fullName>
+                <default>false</default>
+                <label>Major Donor Prospect</label>
+            </value>
+            <value>
+                <fullName>Major Donor Suspect</fullName>
+                <default>false</default>
+                <label>Major Donor Suspect</label>
+            </value>
+            <value>
+                <fullName>Mid-Level</fullName>
+                <default>false</default>
+                <label>Mid-Level</label>
+            </value>
+            <value>
+                <fullName>NextGen Prospect</fullName>
+                <default>false</default>
+                <label>NextGen Prospect</label>
+            </value>
+            <value>
+                <fullName>Reviewed Not Assigned</fullName>
+                <default>false</default>
+                <label>Reviewed Not Assigned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

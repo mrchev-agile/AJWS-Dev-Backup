@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Major_Donor_Suppression__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>used to flag major donor email contacts that should be suppressed from most general fundraising emails - will still be included in event invitations, special solicitations, non-fundraising emails</inlineHelpText>
+    <label>Major Donor Suppression</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

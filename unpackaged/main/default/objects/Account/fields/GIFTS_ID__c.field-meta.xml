@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GIFTS_ID__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>For Grantee orgs moved from GIFTS this captured their GIFTS ID. Since CRM was brought over from Raiser&#39;s Edge this is used in automation (flow) to assign Grantee ID in Salesforce (the automation ensures donor Accounts are not assigned a grantee ID)</inlineHelpText>
+    <label>GIFTS ID</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

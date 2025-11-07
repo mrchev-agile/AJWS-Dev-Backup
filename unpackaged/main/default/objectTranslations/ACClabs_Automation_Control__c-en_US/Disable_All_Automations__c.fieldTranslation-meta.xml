@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Disable all custom automations --></help>
+        <label><!-- Disable All Automations --></label>
+        <name>Disable_All_Automations__c</name>
+    </CustomFieldTranslation>

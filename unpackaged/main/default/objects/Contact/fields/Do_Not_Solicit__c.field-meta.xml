@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Solicit__c</fullName>
+    <formula>Account.Do_Not_Solicit__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if the &quot;Do Not Solicit&quot; box is checked for the Account/Household this Contact belongs to.</inlineHelpText>
+    <label>Do Not Solicit</label>
+    <type>Checkbox</type>
+</CustomField>

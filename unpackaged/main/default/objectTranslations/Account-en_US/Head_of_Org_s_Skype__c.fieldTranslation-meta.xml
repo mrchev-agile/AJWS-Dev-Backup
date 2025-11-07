@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please enter the Skype name for the head of the Grantee organization. --></help>
+        <label><!-- Head of Organization&apos;s Skype --></label>
+        <name>Head_of_Org_s_Skype__c</name>
+    </CustomFieldTranslation>

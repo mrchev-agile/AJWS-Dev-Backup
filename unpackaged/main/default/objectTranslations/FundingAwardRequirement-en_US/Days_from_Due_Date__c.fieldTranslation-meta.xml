@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of days before or after the report&apos;s &apos;Due Date&apos;. Used in email reminder workflow rules and templates. --></help>
+        <label><!-- Days from Due Date --></label>
+        <name>Days_from_Due_Date__c</name>
+    </CustomFieldTranslation>

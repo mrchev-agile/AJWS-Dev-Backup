@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope_Translated__c</fullName>
+    <description>Used for Conga Templates. Translates the scope field to Grantee languages.</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(FundingAward.Awardee.Language_Preference__c) = &quot;French&quot;, CASE(Type,&quot;Grant Agreement&quot;, &quot;Accord de Subvention&quot;,&quot;Final Financial&quot;,&quot;Rapport Financière Final&quot;,&quot;Final Narrative&quot;,&quot;Rapport Narratif Final&quot;,&quot;Interim Financial&quot;,&quot;Rapport Financière Intermediaire&quot;,&quot;Interim Narrative&quot;,&quot;Rapport Narratif Intermediaire&quot;,&quot;&quot;),
+
+
+IF(TEXT(FundingAward.Awardee.Language_Preference__c) = &quot;Kreyol&quot;, CASE(Type,&quot;Grant Agreement&quot;, &quot;Akò Sibvansyon&quot;,&quot;Final Financial&quot;,&quot;Rapò Finansye Final&quot;,&quot;Final Narrative&quot;,&quot;Rapò Naratif Final&quot;,&quot;Interim Financial&quot;,&quot;Rapò Finansye Enterimè&quot;,&quot;Interim Narrative&quot;,&quot;Rapò Naratif Enterimè&quot;,&quot;&quot;),
+
+
+IF(TEXT(FundingAward.Awardee.Language_Preference__c) = &quot;Spanish&quot;, CASE(Type,&quot;Grant Agreement&quot;, &quot;Acuerdo de Subvención&quot;,&quot;Final Financial&quot;,&quot;Informe Financiero Final&quot;,&quot;Final Narrative&quot;,&quot;Informe Narrativo Final&quot;,&quot;Interim Financial&quot;,&quot;Informe Financiero Intermedio&quot;,&quot;Interim Narrative&quot;,&quot;Informe Narrativo Intermedio&quot;,&quot;&quot;),
+
+
+
+
+&quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used for Conga Templates. Translates the scope field to Grantee languages.</inlineHelpText>
+    <label>Scope Translated</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

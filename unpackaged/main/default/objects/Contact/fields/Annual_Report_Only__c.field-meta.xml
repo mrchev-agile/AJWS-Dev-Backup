@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Report_Only__c</fullName>
+    <formula>Account.Annual_Report_Only__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Annual Report Only box is checked on the Account this Contact belongs to.</inlineHelpText>
+    <label>Annual Report Only</label>
+    <type>Checkbox</type>
+</CustomField>

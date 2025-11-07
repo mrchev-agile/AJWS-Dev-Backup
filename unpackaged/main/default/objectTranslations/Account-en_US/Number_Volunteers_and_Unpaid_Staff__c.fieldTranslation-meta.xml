@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of volunteers and unpaid staff at the organization. --></help>
+        <label><!-- # of Volunteers and Unpaid Staff --></label>
+        <name>Number_Volunteers_and_Unpaid_Staff__c</name>
+    </CustomFieldTranslation>

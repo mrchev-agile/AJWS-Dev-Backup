@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Describe the one greatest success that your organization has had in the last year. --></help>
+        <label><!-- Greatest Success in Last Year --></label>
+        <name>Greatest_Success_in_Last_Year__c</name>
+    </CustomFieldTranslation>

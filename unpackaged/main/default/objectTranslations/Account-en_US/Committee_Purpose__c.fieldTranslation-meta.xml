@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- describe the committee&apos;s oversight + reason for existing --></help>
+        <label><!-- Committee Purpose --></label>
+        <name>Committee_Purpose__c</name>
+    </CustomFieldTranslation>

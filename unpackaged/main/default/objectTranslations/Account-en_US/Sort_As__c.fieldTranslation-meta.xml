@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Organization name field that helps with sorting organizations, so that &quot;The Charity Group&quot; is sorted by &quot;Charity Group, The&quot; --></help>
+        <label><!-- Sort As --></label>
+        <name>Sort_As__c</name>
+    </CustomFieldTranslation>

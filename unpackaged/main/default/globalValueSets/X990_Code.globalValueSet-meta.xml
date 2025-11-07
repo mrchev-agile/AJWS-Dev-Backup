@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Antarctica (800)</fullName>
+        <default>false</default>
+        <label>Antarctica (800)</label>
+    </customValue>
+    <customValue>
+        <fullName>Central America &amp; the Caribbean (801)</fullName>
+        <default>false</default>
+        <label>Central America &amp; the Caribbean (801)</label>
+    </customValue>
+    <customValue>
+        <fullName>East Asia &amp; the Pacific (802)</fullName>
+        <default>false</default>
+        <label>East Asia &amp; the Pacific (802)</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe (803)</fullName>
+        <default>false</default>
+        <label>Europe (803)</label>
+    </customValue>
+    <customValue>
+        <fullName>Middle East &amp; North Africa (804)</fullName>
+        <default>false</default>
+        <label>Middle East &amp; North Africa (804)</label>
+    </customValue>
+    <customValue>
+        <fullName>North America - not US (805)</fullName>
+        <default>false</default>
+        <label>North America - not US (805)</label>
+    </customValue>
+    <customValue>
+        <fullName>Russia &amp; Newly Independent States (806)</fullName>
+        <default>false</default>
+        <label>Russia &amp; Newly Independent States (806)</label>
+    </customValue>
+    <customValue>
+        <fullName>South America (807)</fullName>
+        <default>false</default>
+        <label>South America (807)</label>
+    </customValue>
+    <customValue>
+        <fullName>South Asia (808)</fullName>
+        <default>false</default>
+        <label>South Asia (808)</label>
+    </customValue>
+    <customValue>
+        <fullName>Sub-Saharan Africa (809)</fullName>
+        <default>false</default>
+        <label>Sub-Saharan Africa (809)</label>
+    </customValue>
+    <customValue>
+        <fullName>USA (810)</fullName>
+        <default>false</default>
+        <label>USA (810)</label>
+    </customValue>
+    <masterLabel>990 Code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

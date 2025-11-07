@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SharePoint_Library_URL__c</fullName>
+    <description>Used in FC to link SharePoint folder with its matching Request record.</description>
+    <inlineHelpText>Used in FC to link SharePoint folder with its matching Request record.</inlineHelpText>
+    <label>SharePoint Library URL</label>
+    <length>500</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

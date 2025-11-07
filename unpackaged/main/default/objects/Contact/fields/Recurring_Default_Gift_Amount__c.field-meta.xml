@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurring_Default_Gift_Amount__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;11&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Recurring Default Gift Amount. Part of the SpringBoard package.</inlineHelpText>
+    <label>Recurring Default Gift Amount</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

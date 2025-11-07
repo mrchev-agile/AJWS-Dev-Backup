@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Smarty_Verification_Status__c</fullName>
+    <inlineHelpText>Was the last attempt by Smarty to verify the Contact&#39;s mailing address successful?  If shows &quot;Verification Failed&quot; you can check to the Smarty Verification Log for details. You can also change to &quot;Verification Required&quot; to initiate another attempt.</inlineHelpText>
+    <label>Smarty Verification Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Verification required</fullName>
+                <default>false</default>
+                <label>Verification required</label>
+            </value>
+            <value>
+                <fullName>Processing</fullName>
+                <default>false</default>
+                <label>Processing</label>
+            </value>
+            <value>
+                <fullName>Verification failed</fullName>
+                <default>false</default>
+                <label>Verification failed</label>
+            </value>
+            <value>
+                <fullName>Verified</fullName>
+                <default>false</default>
+                <label>Verified</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

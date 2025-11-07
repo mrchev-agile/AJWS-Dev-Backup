@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What steps will your organization take to prevent future crises and sustain and build upon the results of the crisis response activities? --></help>
+        <label><!-- Prevent Future Crises --></label>
+        <name>Prevent_Future_Crises__c</name>
+    </CustomFieldTranslation>

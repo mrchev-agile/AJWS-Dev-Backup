@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tributee__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Checked if this Contact was the tributee on a gift made to AJWS.</inlineHelpText>
+    <label>Tributee</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

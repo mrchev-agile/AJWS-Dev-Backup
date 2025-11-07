@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Docket__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used in formula for Docket name field in contributing funds</description>
+    <label>Docket</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Funding Awards</relationshipLabel>
+    <relationshipName>Funding_Awards</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <inlineHelpText>Individual for HH Accounts. Select for non-household Accounts (e.g. Family Foundation or Congregation). Determines the Revenue GL Code associated with the Account (used in gift coding) + part of process to set Reporting Category on gifts from Account.</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Board Committee</fullName>
+                <default>false</default>
+                <label>Board Committee</label>
+            </value>
+            <value>
+                <fullName>Board Task Force</fullName>
+                <default>false</default>
+                <label>Board Task Force</label>
+            </value>
+            <value>
+                <fullName>Congregation</fullName>
+                <default>false</default>
+                <label>Congregation</label>
+            </value>
+            <value>
+                <fullName>Corporation</fullName>
+                <default>false</default>
+                <label>Corporation</label>
+            </value>
+            <value>
+                <fullName>Donor-Advised Fund</fullName>
+                <default>false</default>
+                <label>Donor-Advised Fund</label>
+            </value>
+            <value>
+                <fullName>Estate</fullName>
+                <default>false</default>
+                <label>Estate</label>
+            </value>
+            <value>
+                <fullName>Family Foundation</fullName>
+                <default>false</default>
+                <label>Family Foundation</label>
+            </value>
+            <value>
+                <fullName>Federation</fullName>
+                <default>false</default>
+                <label>Federation</label>
+            </value>
+            <value>
+                <fullName>GC Steering Committee</fullName>
+                <default>false</default>
+                <label>GC Steering Committee</label>
+            </value>
+            <value>
+                <fullName>Government Organization</fullName>
+                <default>false</default>
+                <label>Government Organization</label>
+            </value>
+            <value>
+                <fullName>Hillel</fullName>
+                <default>false</default>
+                <label>Hillel</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Individual-DAF</fullName>
+                <default>false</default>
+                <label>Individual-DAF</label>
+            </value>
+            <value>
+                <fullName>Individual-Trust</fullName>
+                <default>false</default>
+                <label>Individual-Trust</label>
+            </value>
+            <value>
+                <fullName>Jewish Organization</fullName>
+                <default>false</default>
+                <label>Jewish Organization</label>
+            </value>
+            <value>
+                <fullName>Leadership Council</fullName>
+                <default>false</default>
+                <label>Leadership Council</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Organization</fullName>
+                <default>false</default>
+                <label>Organization</label>
+            </value>
+            <value>
+                <fullName>Professional Foundation</fullName>
+                <default>false</default>
+                <label>Professional Foundation</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>Wellspring</fullName>
+                <default>false</default>
+                <label>Wellspring</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

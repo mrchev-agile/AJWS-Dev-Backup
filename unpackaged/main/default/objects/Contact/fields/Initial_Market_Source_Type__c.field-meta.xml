@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initial_Market_Source_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( LEFT( UPPER(  Initial_Market_Source__c  ), 3),
+&quot;EML&quot;,&quot;Email&quot;,
+&quot;WEB&quot;,&quot;Organic Website&quot;,
+&quot;BAN&quot;,&quot;Banner Ads&quot;,
+&quot;GAD&quot;,&quot;Google Ads&quot;,
+&quot;OTH&quot;,&quot;Other&quot;,
+&quot;OFL&quot;, &quot;Offline&quot;,
+&quot;DON&quot;, &quot;Donation&quot;,
+&quot;P2P&quot;, &quot;P2P Fundraiser&quot;,
+&quot;ADV&quot;, &quot;Advocacy&quot;,
+&quot;SUR&quot;, &quot;Survey&quot;,
+&quot;PRU&quot;, &quot;Purchase&quot;,
+&quot;TAF&quot;, &quot;Tell A Friend&quot;,
+&quot;n/a&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Initial Market Source Type. Calculated based on the 3 letter prefix of the &quot;Initial Market Source&quot; field. Part of the SpringBoard package.</inlineHelpText>
+    <label>Initial Market Source Type</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

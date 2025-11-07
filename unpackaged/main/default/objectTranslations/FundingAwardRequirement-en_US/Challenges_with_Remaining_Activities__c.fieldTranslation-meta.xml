@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Describe any challenges you anticipate in implementing the remaining activities of this grant. If your organization needs to modify its plans, describe the proposed changes. --></help>
+        <label><!-- Challenges with Remaining Activities --></label>
+        <name>Challenges_with_Remaining_Activities__c</name>
+    </CustomFieldTranslation>

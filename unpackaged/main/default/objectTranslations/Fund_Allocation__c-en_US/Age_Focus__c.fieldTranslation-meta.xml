@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Age Focus restriction set by the donor for this money. Used in &quot;Create Contributing Funds&quot; visual force page to match with grants with the same Age Focus. --></help>
+        <label><!-- Age Focus --></label>
+        <name>Age_Focus__c</name>
+        <picklistValues>
+            <masterLabel>Adolescents 10 to 19</masterLabel>
+            <translation><!-- Adolescents 10 to 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adults Over 35</masterLabel>
+            <translation><!-- Adults Over 35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infants &amp; Children to 9</masterLabel>
+            <translation><!-- Infants &amp; Children to 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Young Adults Under 35</masterLabel>
+            <translation><!-- Young Adults Under 35 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

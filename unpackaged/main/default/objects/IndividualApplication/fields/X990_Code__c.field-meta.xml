@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X990_Code__c</fullName>
+    <description>990 Code + Description</description>
+    <inlineHelpText>This indicates how the grant will be reported on the IRS Form 990.</inlineHelpText>
+    <label>990 Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>X990_Code</valueSetName>
+    </valueSet>
+</CustomField>

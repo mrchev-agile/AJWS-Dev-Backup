@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Donor asked to be included on holiday mailings only. --></help>
+        <label><!-- Holiday Solicitations Only --></label>
+        <name>Holiday_Solicitations_Only__c</name>
+    </CustomFieldTranslation>

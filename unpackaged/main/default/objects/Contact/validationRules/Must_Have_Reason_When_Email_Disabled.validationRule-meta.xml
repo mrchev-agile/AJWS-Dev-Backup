@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Have_Reason_When_Email_Disabled</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+     Doesn_t_Receive_AJWS_Emails__c  = TRUE,
+    NOT(
+        OR(
+            Unsubscribed__c,
+            Do_Not_Contact__c,
+            Bad_Email__c,
+            No_Email__c
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>You must select at least one reason when marking “Does not receive AJWS emails” as TRUE.</errorMessage>
+</ValidationRule>

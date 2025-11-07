@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- CRM: Sum of all (hard credit) gifts made by this Account. See &quot;Combined Gifts Total (since inception)&quot; for overall sum of gifts (i.e. hard or soft credit) from this Account. FC: Sum of grants awarded to grantee. Calculated by NPSP&apos;s Customizable rollups --></help>
+        <label><!-- Total Gifts --></label>
+        <name>TotalOppAmount__c</name>
+    </CustomFieldTranslation>

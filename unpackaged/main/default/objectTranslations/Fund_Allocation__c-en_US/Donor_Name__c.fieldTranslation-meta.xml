@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- 1. If &quot;Donor Name Override&quot; is populated than &quot;Donor Name Override&quot; 2. Otherwise, if Donor Code = 9999 than sets to &quot;Not Applicable&quot; 3. Otherwise, sets to Account Name on Donation related to this FA (see &quot;Donation&quot; field). --></help>
+        <label><!-- Donor Name --></label>
+        <name>Donor_Name__c</name>
+    </CustomFieldTranslation>

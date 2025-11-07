@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exclude_from_Automated_Email__c</fullName>
+    <formula>Account.Exclude_from_Automated_Emails__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Excludes contact from system automated emails like application invitations.</inlineHelpText>
+    <label>Exclude from Automated Email</label>
+    <type>Checkbox</type>
+</CustomField>

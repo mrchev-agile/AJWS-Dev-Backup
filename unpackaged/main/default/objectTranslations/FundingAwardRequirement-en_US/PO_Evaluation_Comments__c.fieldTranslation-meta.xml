@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- PO&apos;s: You may note your evaluation/comments of the report here. This is internal and won&apos;t be shared with the grantee. Optional. --></help>
+        <label><!-- PO Evaluation Comments --></label>
+        <name>PO_Evaluation_Comments__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of the Amounts of child &apos;Contributing Fund&apos; records. Used in calculating the Fund Allocation&apos;s balance. Set via DLRS action called &quot;RT Fund Contrib Amt to Fund Allocation&quot;. --></help>
+        <label><!-- Grant Expenses --></label>
+        <name>Grant_Expenses__c</name>
+    </CustomFieldTranslation>

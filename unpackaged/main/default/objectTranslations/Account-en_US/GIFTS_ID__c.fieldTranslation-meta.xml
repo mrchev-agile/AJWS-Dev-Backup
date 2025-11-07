@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Grantee orgs moved from GIFTS this captured their GIFTS ID. Since CRM was brought over from Raiser&apos;s Edge this is used in automation (flow) to assign Grantee ID in Salesforce (the automation ensures donor Accounts are not assigned a grantee ID) --></help>
+        <label><!-- GIFTS ID --></label>
+        <name>GIFTS_ID__c</name>
+    </CustomFieldTranslation>

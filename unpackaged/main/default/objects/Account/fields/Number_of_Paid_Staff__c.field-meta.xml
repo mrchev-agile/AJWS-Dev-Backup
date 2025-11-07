@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Paid_Staff__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide the number of paid staff that work at your organization.</inlineHelpText>
+    <label># of Paid Staff</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

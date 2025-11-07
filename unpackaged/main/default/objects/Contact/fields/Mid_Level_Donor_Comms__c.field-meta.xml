@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mid_Level_Donor_Comms__c</fullName>
+    <formula>TEXT( Account.Donor_Level__c ) = &quot;Mid-Level Low&quot; || TEXT(Account.Donor_Level__c) = &quot;Mid-Level High&quot; || TEXT(Account.Current_Ladder__c ) = &quot;Global Citizens&quot; || TEXT(Account.Current_Ladder__c ) = &quot;Global Leaders&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>For Digital Communication&#39;s use. Any donor whose donor level is &quot;mid-level low&quot; OR &quot;mid-level high&quot; or whose donor ladder level is &quot;Global Citizens&quot; OR &quot;Global Leaders&quot;.</inlineHelpText>
+    <label>Mid-Level Donor (Comms)</label>
+    <type>Checkbox</type>
+</CustomField>

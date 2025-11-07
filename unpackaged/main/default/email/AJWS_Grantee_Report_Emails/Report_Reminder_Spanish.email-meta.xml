@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>AJWS_Letterhead</letterhead>
+    <name>Report Reminder – Spanish</name>
+    <style>freeForm</style>
+    <subject>{!FundingAwardRequirement.Organization_Name__c}: {!FundingAwardRequirement.Type} Informe Final – {!FundingAwardRequirement.Name} – {!FundingAwardRequirement.Grant_Amount__c}</subject>
+    <textOnly>Saludos desde AJWS!
+
+
+Espero que este mensaje le encuentre bien.
+
+
+Escribo para recordarle que {!FundingAwardRequirement.Organization_Name__c} tiene el Informe Narrativo y Financiero Final/Intermedio {!FundingAwardRequirement.Name} para su subvención “{!FundingAwardRequirement.project_title__c}” ({!FundingAwardRequirement.Grant_Amount__c}) otorgada por el AJWS se debe el {!FundingAwardRequirement.DueDate}.
+
+
+Tenga en cuenta que las organizaciones con informes pendientes no podrán recibir fondos de AJWS. Por favor, infórmenos si prevé alguna dificultad en la presentación de sus informes para esta fecha.
+
+
+Si tiene alguna pregunta con respecto a esta solicitación o cualquier cosa que tenga que ver con su subvención no dude en comunicarse conmigo.
+
+
+Saludos,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

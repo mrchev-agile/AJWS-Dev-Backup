@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Exclude all organization contacts from system automated emails. --></help>
+        <label><!-- Exclude from Automated Emails --></label>
+        <name>Exclude_from_Automated_Emails__c</name>
+    </CustomFieldTranslation>

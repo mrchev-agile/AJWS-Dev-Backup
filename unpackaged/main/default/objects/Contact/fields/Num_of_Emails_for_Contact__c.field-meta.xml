@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Num_of_Emails_for_Contact__c</fullName>
+    <description>Count of email addresses associated with the Development Contact record. Rolled up by DLRS action named: Email Addresses Count.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count of email addresses associated with the Development Contact record. Rolled up by DLRS action named: Email Addresses Count.</inlineHelpText>
+    <label>Num of Emails for Contact</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

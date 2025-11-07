@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Humanitarian Response FAs: End of the timeframe in which GAUAs with the same GL Revenue String as this FA (See Fund Allocation GLs related list to set a GL string on FA) will roll up to the FA and feed grantmaking amount into it&apos;s Total Amount. --></help>
+        <label><!-- Rolled Gifts End --></label>
+        <name>Rolled_Gifts_End__c</name>
+    </CustomFieldTranslation>

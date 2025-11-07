@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fund Allocation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fund Allocations</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Fund Allocation Layout</layout>
+        <sections>
+            <label><!-- Codes --></label>
+            <section>Codes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Expenses --></label>
+            <section>Expenses</section>
+        </sections>
+        <sections>
+            <label><!-- Fund Allocation Balance --></label>
+            <section>Fund Allocation Balance</section>
+        </sections>
+        <sections>
+            <label><!-- Period --></label>
+            <section>Period</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

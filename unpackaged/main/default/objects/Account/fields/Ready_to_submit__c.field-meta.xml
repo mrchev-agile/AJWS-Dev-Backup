@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ready_to_submit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Used as entry criteria for grants&#39; approval. Checkbox will be automatically checked when org codes are completed. The PO will not be able to submit for Director approval unless this checkbox is checked.</inlineHelpText>
+    <label>Ready to submit</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

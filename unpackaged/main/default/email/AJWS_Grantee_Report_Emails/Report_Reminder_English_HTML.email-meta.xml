@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>AJWS_Letterhead</letterhead>
+    <name>Report Reminder – English</name>
+    <style>freeForm</style>
+    <subject>{!FundingAwardRequirement.Organization_Name__c}: {!FundingAwardRequirement.Type} Report – {!FundingAwardRequirement.Name} – {!FundingAwardRequirement.Grant_Amount__c}</subject>
+    <textOnly>Greetings from AJWS!
+
+
+
+
+I hope this email finds you well.
+
+
+I am writing to remind you that {!FundingAwardRequirement.Organization_Name__c} has the {!FundingAwardRequirement.Type} for your AJWS grant “{!FundingAwardRequirement.project_title__c}” {!FundingAwardRequirement.Grant_Amount__c} is due in on {!FundingAwardRequirement.DueDate}.
+
+
+
+
+Please note, organizations with overdue reports are not eligible to receive funding from AJWS. Please let us know if you foresee any difficulty in submitting your reports by the above date.
+
+
+Please feel free to be in touch with any questions or concerns.
+
+
+
+
+
+
+All the best,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

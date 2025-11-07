@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is the &quot;Exclude from Emails&quot; box checked on the Grantee&apos;s account record? If checked will suppress report reminders from being sent to the grantee. --></help>
+        <label><!-- Exclude from Email --></label>
+        <name>Exclude_from_Email__c</name>
+    </CustomFieldTranslation>

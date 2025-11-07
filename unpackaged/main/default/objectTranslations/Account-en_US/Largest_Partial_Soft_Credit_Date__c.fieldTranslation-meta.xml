@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date of largest (partial soft-credit) gift made by this Account. See &quot;Combined Largest Gift Date&quot; for date of largest gift overall (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Largest Partial Soft Credit Date --></label>
+        <name>Largest_Partial_Soft_Credit_Date__c</name>
+    </CustomFieldTranslation>

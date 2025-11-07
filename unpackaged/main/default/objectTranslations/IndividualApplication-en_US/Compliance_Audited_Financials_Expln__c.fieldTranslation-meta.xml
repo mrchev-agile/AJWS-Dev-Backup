@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If organization does not have an audited financial statement, explain why. --></help>
+        <label><!-- Audited Financials Explanation --></label>
+        <name>Compliance_Audited_Financials_Expln__c</name>
+    </CustomFieldTranslation>

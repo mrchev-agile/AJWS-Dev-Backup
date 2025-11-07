@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Largest hard credit gift over last 3 years (1095 days). Based on NPSP roll-up --></help>
+        <label><!-- Largest Gift Last 3 Years --></label>
+        <name>Largest_Gift_Last_3_Years__c</name>
+    </CustomFieldTranslation>

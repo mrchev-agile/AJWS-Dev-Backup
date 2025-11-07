@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please Enter a Declination Reason. --></help>
+        <label><!-- Declination Reason --></label>
+        <name>Declination_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Declined After Staff Visit</masterLabel>
+            <translation><!-- Declined After Staff Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Includes Proselytizing Activities</masterLabel>
+            <translation><!-- Includes Proselytizing Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Resources</masterLabel>
+            <translation><!-- Limited Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Funding to Individuals</masterLabel>
+            <translation><!-- No Funding to Individuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not AJWS Country</masterLabel>
+            <translation><!-- Not AJWS Country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not NGO</masterLabel>
+            <translation><!-- Not NGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside Operating Area</masterLabel>
+            <translation><!-- Outside Operating Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside of Guidelines</masterLabel>
+            <translation><!-- Outside of Guidelines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Flags</masterLabel>
+            <translation><!-- Red Flags --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn by AJWS</masterLabel>
+            <translation><!-- Withdrawn by AJWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn by Applicant</masterLabel>
+            <translation><!-- Withdrawn by Applicant --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

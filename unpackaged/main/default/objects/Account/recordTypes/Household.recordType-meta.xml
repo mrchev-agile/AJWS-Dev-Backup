@@ -1,0 +1,1970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Household</fullName>
+    <active>true</active>
+    <label>Household</label>
+    <picklistValues>
+        <picklist>AJWS_Status__c</picklist>
+        <values>
+            <fullName>Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Former Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Type__c</picklist>
+        <values>
+            <fullName>Committee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grantee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Advocate_at_International_Level__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Advocate_at_Local_Level__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Advocate_at_National_Level__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Blacklist__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Board Committee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Board Task Force</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Congregation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor-Advised Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC Steering Committee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hillel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual-DAF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual-Trust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leadership Council</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellspring</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Ladder__c</picklist>
+        <values>
+            <fullName>Global Champions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Visionaries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Possibility Partners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>President%E2%80%99s Circle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DNP_Check_with_PO__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DNP_External_Surveys__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes but keep organization anonymous</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DNP_Website__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Denomination__c</picklist>
+        <values>
+            <fullName>Atheist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buddhist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian - Catholic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian - Protestant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hindu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Conservative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Culturally Jewish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Humanistic%2FSecular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Non-denominational %28AJR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Non-denominational %28HC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Orthodox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Post-denominational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Reconstructionist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Reform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Traditional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish - Unaffiliated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Muslim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA - Researched Not Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Donor_Level__c</picklist>
+        <values>
+            <fullName>Giving Vehicle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institutional Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Level High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Level Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Designation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ED_Certified__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>End_Beneficiary_Marginalized_Groups__c</picklist>
+        <values>
+            <fullName>AGYW %2835 and under%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Children of Sex Workers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civil Society Organizations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ethnic and%2F Or Religious Minorities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farmers%2C Fisherfolk%2C Pastoralists%2C and Foresters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Rights Defenders at RISK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITGNCQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incarcerated Persons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indigenous Peoples</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internally Displaced Persons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LGB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LGB - LB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laborers in the Informal Economy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migrants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLWHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>People with Disabilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refugees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Religious Minorities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>See Gender and%2For Age Codes*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sex Workers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soldiers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women %2836%2B%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>End_Beneficiary_of_Org__c</picklist>
+        <values>
+            <fullName>Adults %2836%2B%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civil Society Organizations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Population</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Rights Defenders at RISK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Youth %2835 and under%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FCRA_Registration_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Funder_Relationship__c</picklist>
+        <values>
+            <fullName>First funder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Only funder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>High_Risk_Grantee__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry__c</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arts %26 Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information %26 Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Services%3B Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Museums %26 Institutions%3B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonprofit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharma and Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Religious Institutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail %26 Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation %26 Aerospace</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Initial_AJWS_Funding__c</picklist>
+        <values>
+            <fullName>1985</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1986</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1987</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1988</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1989</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1990</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1991</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1992</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1993</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1994</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1995</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1996</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1997</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1998</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2025</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Language_Preference__c</picklist>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kreyol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Leader_of_International_Coalition__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Leader_of_International_Network__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Leader_of_National_Coalition__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Leader_of_National_Network__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Leader_of_SubNational_Coalition__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Leader_of_SubNational_Network__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Member_of_International_Coalition__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Member_of_International_Network__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Member_of_National_Coalition__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Member_of_National_Network__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Member_of_SubNational_Coalition__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Member_of_SubNational_Network__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Membership_Organization__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OK_to_Publicize__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown%2FNA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes but do not publish photographs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes but don%27t include individuals names</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes but see PO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Org_Age_Focus__c</picklist>
+        <values>
+            <fullName>Adolescents 10 to 19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adults Over 35</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infants and Children to 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Young Adults Under 35</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Org_Gender_Focus__c</picklist>
+        <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cis-Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cis-Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intersex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trans-Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trans-Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transgender</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Org_Security_Concerns_or_Threats__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Org_Work_Focus__c</picklist>
+        <values>
+            <fullName>Access to Justice and%2For Transitional Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bodily Diversity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capacity Strengthening %2F Technical Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Children%27s Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civic %26 Political Participation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compensation and Restitution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cultural Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disaster Relief</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disaster Risk Reduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Early Marriage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economic Justice %26 Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economic Justice %26 Development - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economic Justice %26 Development -Labor Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economic Justice %26 Development -Livelihoods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economic Justice %26 Development -Microfinance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economic Justice %26 Development -Vocational Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equality Rights - Gender Equality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equality Rights and Freedom From Stigma and Discrimination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freedom from Violence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freedom of Expression %26 Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gender Identity and Expression and%2For Sexual Orientation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Governance and Accountability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health - HIV%2FAIDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health - Maternal and Child Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health - Psychosocial Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health - Sexual Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health - Sexual and Reproductive Health and Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health -Abortion Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infrastructure Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peacebuilding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights - Agro-ecology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights - Climate Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights - Environmental Safeguards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights - Food Sovereignty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights - Land Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights - Water Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights- Climate justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights- Land Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Rights- Water Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety and Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sex Worker Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sexual Orientation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sexuality Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trafficking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transitional Justice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Org_Work_Level__c</picklist>
+        <values>
+            <fullName>Both Local and National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local and National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local and Sub-National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional or Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub-National</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Phase_Out_Grant_Reason__c</picklist>
+        <values>
+            <fullName>AJWS unable to travel and%2For efficiently assess grantee%27s work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Challenges with strategic relationships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial mismanagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial%3A grew into other funding sources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grantee is no longer doing AJWS-funded project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grantee no longer aligned with AJWS strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inclusion challenges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal operations challenges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leadership%2Fgovernance challenges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mission%2Fstrategy%2Fprogram development challenges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red flag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restricted funds spent down</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety and security%2Fwell-being concerns</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Philanthropic_Interests__c</picklist>
+        <values>
+            <fullName>Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambodia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caribbean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Child Marriage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Children%27s Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cote d%27Ivoire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Democratic Republic of Congo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disaster Relief</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominican Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guatemala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haiti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honduras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hunger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indigenous Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jewish Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kenya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LGBTI Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LWCJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latin America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liberia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nicaragua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philippines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poverty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SHR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senegal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sex Workers%27 Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sri Lanka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sudan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thailand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel - Study Tour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uganda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women %2B Girls</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Precaution_When_Contacting__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prospect_Designation__c</picklist>
+        <values>
+            <fullName>Disqualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Influencer%2FConnector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institutional Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major Donor Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major Donor Suspect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NextGen Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reviewed Not Assigned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reporting_Category_Override__c</picklist>
+        <values>
+            <fullName>Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institutional Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major Gifts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Level High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Level Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Synagogues %26 Federations</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SYSTEM_CUSTOM_NAMING__c</picklist>
+        <values>
+            <fullName>Formal_Greeting%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informal_Greeting%5F%5Fc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Name</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Second_Tier_Leadership__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Security_Risk_Management_Plan__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Strategic_Ally__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tax_Status__c</picklist>
+        <values>
+            <fullName>501%28c%293</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>501%28c%294</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>501%28c%296</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>509%28a%29%281%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>509%28a%29%282%29 under 170%28b%29%281%29%28A%29%28vii%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>509%28a%29%283%29 under 170%28b%29%281%29%28A%29%28viii%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>509%28a%29%284%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>For-Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonprofit organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Nonoperating Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Operating Foundation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advocacy and Program Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capacity Strengthening %2F Technical Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-granting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

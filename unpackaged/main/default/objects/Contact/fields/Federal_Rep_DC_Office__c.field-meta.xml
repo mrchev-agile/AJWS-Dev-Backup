@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Federal_Rep_DC_Office__c</fullName>
+    <inlineHelpText>Phone number for the Contact&#39;s federal Congress Member&#39;s DC (Capitol Hill) office. Populated by Smarty Verification functionality ((provided by SpringBoard/Jackson River) based on the Contact&#39;s ZIP Code.</inlineHelpText>
+    <label>Federal Rep DC Office</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Phone</type>
+</CustomField>

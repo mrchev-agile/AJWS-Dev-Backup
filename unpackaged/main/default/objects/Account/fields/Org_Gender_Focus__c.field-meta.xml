@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Gender_Focus__c</fullName>
+    <inlineHelpText>Please select all relevant codes of the end beneficiary(ies) for the organization.</inlineHelpText>
+    <label>Org Gender Focus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>false</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Cis</fullName>
+                <default>false</default>
+                <label>Cis</label>
+            </value>
+            <value>
+                <fullName>Cis-Female</fullName>
+                <default>false</default>
+                <label>Cis-Female</label>
+            </value>
+            <value>
+                <fullName>Cis-Male</fullName>
+                <default>false</default>
+                <label>Cis-Male</label>
+            </value>
+            <value>
+                <fullName>Transgender</fullName>
+                <default>false</default>
+                <label>Transgender</label>
+            </value>
+            <value>
+                <fullName>Trans-Female</fullName>
+                <default>false</default>
+                <label>Trans-Female</label>
+            </value>
+            <value>
+                <fullName>Trans-Male</fullName>
+                <default>false</default>
+                <label>Trans-Male</label>
+            </value>
+            <value>
+                <fullName>Intersex</fullName>
+                <default>false</default>
+                <label>Intersex</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

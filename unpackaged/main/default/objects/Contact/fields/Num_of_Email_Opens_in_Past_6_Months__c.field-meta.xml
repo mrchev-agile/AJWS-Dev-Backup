@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Num_of_Email_Opens_in_Past_6_Months__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of email opens by the Contact in the past 3 months (Last 90 Days). Rolled up Nightly by two DLRS Actions: 1. &quot;Nightly Opens Last 3 Months to Dev&quot; for Development Contacts and. 2. &quot;Nightly Email Opens Last 3 Months&quot; for emails.</inlineHelpText>
+    <label>Num of Email Opens in Past 6 Months</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legislator_Data_Status__c</fullName>
+    <inlineHelpText>Has this record been processed by Jackson River Legislator Service?</inlineHelpText>
+    <label>Legislator Data Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Processed</fullName>
+                <default>false</default>
+                <label>Not Processed</label>
+            </value>
+            <value>
+                <fullName>Ready to Process</fullName>
+                <default>false</default>
+                <label>Ready to Process</label>
+            </value>
+            <value>
+                <fullName>Processed</fullName>
+                <default>false</default>
+                <label>Processed</label>
+            </value>
+            <value>
+                <fullName>Error in Processing</fullName>
+                <default>false</default>
+                <label>Error in Processing</label>
+            </value>
+            <value>
+                <fullName>Invalid ZipCode</fullName>
+                <default>false</default>
+                <label>Invalid ZipCode</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

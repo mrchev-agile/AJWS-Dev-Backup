@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What challenges do you anticipate and how do you plan to address these challenges? --></help>
+        <label><!-- Challenges &amp; How to Address --></label>
+        <name>Challenges_How_to_Address__c</name>
+    </CustomFieldTranslation>

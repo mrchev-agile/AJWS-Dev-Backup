@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Count of all soft credit gifts made by this Account in the last 5 years (i.e. in the last 1825 days). Used to &quot;calculate&quot; planned giving candidates. Calculated by NPSP&apos;s Customizable rollups. --></help>
+        <label><!-- Number of SC Last 5 Years --></label>
+        <name>Number_of_SC_Last_5_Years__c</name>
+    </CustomFieldTranslation>

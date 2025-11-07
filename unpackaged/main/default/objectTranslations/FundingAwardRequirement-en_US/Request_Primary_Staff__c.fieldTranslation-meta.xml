@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Primary Staff of Associated Request Record --></help>
+        <label><!-- Request Primary Staff --></label>
+        <name>Request_Primary_Staff__c</name>
+    </CustomFieldTranslation>

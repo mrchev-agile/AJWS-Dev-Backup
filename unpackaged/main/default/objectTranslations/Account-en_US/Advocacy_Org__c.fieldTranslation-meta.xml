@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Identifies all grantees involved in advocacy work on the international/national/local Levels (Formula field based on three Advocacy flag fields set by staff). --></help>
+        <label><!-- Advocacy Org --></label>
+        <name>Advocacy_Org__c</name>
+    </CustomFieldTranslation>

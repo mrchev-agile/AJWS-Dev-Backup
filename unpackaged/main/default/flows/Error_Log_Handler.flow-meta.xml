@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Error_Email</name>
+        <label>Send Error Email</label>
+        <locationX>50</locationX>
+        <locationY>542</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Setup.ACClabs_Log_Settings__c.Error_Email_Addresses__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>matthew.porter@agilecloudconsulting.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>emailSubject</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>emailBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+    </actionCalls>
+    <apiVersion>53.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <description>Checks custom settings to see if we should send email</description>
+        <name>Email_Custom_Settings_Check</name>
+        <label>Email Custom Settings Check</label>
+        <locationX>182</locationX>
+        <locationY>434</locationY>
+        <defaultConnectorLabel>Don&#39;t Send Email</defaultConnectorLabel>
+        <rules>
+            <name>Send_Email</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.ACClabs_Log_Settings__c.Send_Error_Emails__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Setup.ACClabs_Log_Settings__c.Send_Error_Emails__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Setup.ACClabs_Log_Settings__c.Error_Email_Addresses__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Setup.ACClabs_Log_Settings__c.Error_Email_Addresses__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Error_Email</targetReference>
+            </connector>
+            <label>Send Email</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Checks custom settings to see if logging is enabled</description>
+        <name>Log_Custom_Setting_Check</name>
+        <label>Log Custom Setting Check</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <defaultConnector>
+            <targetReference>Email_Custom_Settings_Check</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Don&#39;t Log Errors</defaultConnectorLabel>
+        <rules>
+            <name>Log_Errors</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Setup.ACClabs_Log_Settings__c.Log_Errors__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Setup.ACClabs_Log_Settings__c.Log_Errors__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Log</targetReference>
+            </connector>
+            <label>Log Errors</label>
+        </rules>
+    </decisions>
+    <description>Use this flow as a subflow to handle errors in a consistent way</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Subject of email to be sent</description>
+        <name>emailSubject</name>
+        <dataType>String</dataType>
+        <expression>&quot;Error: &quot; &amp; {!$Organization.Name} &amp; &quot; - &quot; &amp; {!source}</expression>
+    </formulas>
+    <formulas>
+        <name>trimmedErrorMessage</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!errorMessage}, 32768)</expression>
+    </formulas>
+    <interviewLabel>Error Log Handler {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Error Log Handler</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <description>Creates ACClabs Log record</description>
+        <name>Create_Log</name>
+        <label>Create Log</label>
+        <locationX>50</locationX>
+        <locationY>242</locationY>
+        <connector>
+            <targetReference>Email_Custom_Settings_Check</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Log_Message__c</field>
+            <value>
+                <elementReference>trimmedErrorMessage</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Record_Id__c</field>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Source__c</field>
+            <value>
+                <elementReference>source</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Timestamp__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>User__c</field>
+            <value>
+                <elementReference>$User.Username</elementReference>
+            </value>
+        </inputAssignments>
+        <object>ACClabs_Log__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Log_Custom_Setting_Check</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <description>Body of error log email</description>
+        <name>emailBody</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;b&gt;Source:&lt;/b&gt; {!source}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Record Id:&lt;/b&gt; {!recordId}&lt;/p&gt;&lt;p&gt;&lt;b&gt;User:&lt;/b&gt; {!$User.Username}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Date/Time:&lt;/b&gt; {!$Flow.CurrentDateTime}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Log Record Id: &lt;/b&gt;{!Create_Log}&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Message:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;{!errorMessage}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <description>The fault error message</description>
+        <name>errorMessage</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>Id of record that caused failure for record triggered automation</description>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The name of the automation that is calling this subflow.</description>
+        <name>source</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

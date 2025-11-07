@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- General Ledger code indicating the main category of grant. --></help>
+        <label><!-- GL --></label>
+        <name>GL__c</name>
+        <picklistValues>
+            <masterLabel>Core Grants (51000)</masterLabel>
+            <translation><!-- Core Grants (51000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAF (51030)</masterLabel>
+            <translation><!-- DAF (51030) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAF ED (51031)</masterLabel>
+            <translation><!-- DAF ED (51031) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster Relief Grants (51020)</masterLabel>
+            <translation><!-- Disaster Relief Grants (51020) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fund held on behalf of other (25100))</masterLabel>
+            <translation><!-- Fund held on behalf of other (25100)) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program-Related Expenses PREs (51010)</masterLabel>
+            <translation><!-- Program-Related Expenses PREs (51010) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel Opportunity Grants (51001)</masterLabel>
+            <translation><!-- Travel Opportunity Grants (51001) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

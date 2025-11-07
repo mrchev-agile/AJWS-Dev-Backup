@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Funding Award Layout</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Amount --></label>
+            <section>Amount</section>
+        </sections>
+        <sections>
+            <label><!-- Dates --></label>
+            <section>Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Mutliyear Proposals --></label>
+            <section>Mutliyear Proposals</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Requirements --></label>
+        <name>Create_Requirements</name>
+    </quickActions>
+</CustomObjectTranslation>

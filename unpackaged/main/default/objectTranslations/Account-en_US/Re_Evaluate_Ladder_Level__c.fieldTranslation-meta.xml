@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used in the Ladder/Level automation. Checked automatically when any of the key summary fields are updated that feed into the Ladder and Level calculation. --></help>
+        <label><!-- Re-Evaluate Ladder/Level --></label>
+        <name>Re_Evaluate_Ladder_Level__c</name>
+    </CustomFieldTranslation>

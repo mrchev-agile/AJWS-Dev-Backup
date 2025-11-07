@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Grants Manager for this Requirement. Set by automation when Grants Manager is set on the parent Request. Can be changed manually. --></help>
+        <label><!-- Grants Manager --></label>
+        <name>Grants_Manager_User__c</name>
+        <relationshipLabel><!-- Funding Award Requirements (Grants Manager) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Civil Society Organizations</fullName>
+        <default>false</default>
+        <label>Civil Society Organizations</label>
+    </customValue>
+    <customValue>
+        <fullName>Conflict</fullName>
+        <default>false</default>
+        <label>Conflict</label>
+    </customValue>
+    <customValue>
+        <fullName>Land</fullName>
+        <default>false</default>
+        <label>Land</label>
+    </customValue>
+    <customValue>
+        <fullName>Mining &amp; Extractives</fullName>
+        <default>false</default>
+        <label>Mining &amp; Extractives</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>Natural Disaster</fullName>
+        <default>false</default>
+        <label>Natural Disaster</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-conflict</fullName>
+        <default>false</default>
+        <label>Post-conflict</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Health Emergency</fullName>
+        <default>false</default>
+        <label>Public Health Emergency</label>
+    </customValue>
+    <customValue>
+        <fullName>Rural</fullName>
+        <default>false</default>
+        <label>Rural</label>
+    </customValue>
+    <customValue>
+        <fullName>Urban/Peri-Urban</fullName>
+        <default>false</default>
+        <label>Urban/Peri-Urban</label>
+    </customValue>
+    <customValue>
+        <fullName>Water</fullName>
+        <default>false</default>
+        <label>Water</label>
+    </customValue>
+    <masterLabel>Context</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Intermediary Bank Code (SWIFT, ABA) --></help>
+        <label><!-- Wire Transfer Inter. Bank Code --></label>
+        <name>Wire_Transfer_Inter_Bank_Code__c</name>
+    </CustomFieldTranslation>

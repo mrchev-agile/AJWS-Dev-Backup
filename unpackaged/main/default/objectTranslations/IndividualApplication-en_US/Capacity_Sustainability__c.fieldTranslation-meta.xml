@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What steps will you take to ensure that the positive results of these capacity building activities will be sustained by your organization? (1 to 2 paragraphs) --></help>
+        <label><!-- Capacity Sustainability --></label>
+        <name>Capacity_Sustainability__c</name>
+    </CustomFieldTranslation>

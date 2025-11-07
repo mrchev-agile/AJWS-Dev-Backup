@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If your organization has evaluated its work, describe the most recent evaluation. If applicable, provide one example of how the evaluation changed the way your organization does its work. (1 to 3 paragraphs). --></help>
+        <label><!-- Org Evaluation --></label>
+        <name>Org_Evaluation__c</name>
+    </CustomFieldTranslation>

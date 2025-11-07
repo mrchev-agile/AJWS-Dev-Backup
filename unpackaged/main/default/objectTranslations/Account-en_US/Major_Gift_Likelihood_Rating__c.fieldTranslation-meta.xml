@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- GGA Major Gift Likelihood Rating - likelihood to give based on wealth, relationship, and historical giving info. Once ranked by total score, assigned likelihood rating based on a fixed percentage of the entire file. --></help>
+        <label><!-- Major Gift Likelihood Rating --></label>
+        <name>Major_Gift_Likelihood_Rating__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Number_of_Gifts__c</fullName>
+    <description>Do not manually update. Updated by automatic processes. See excluded Record Types in Household Settings.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CRM: Overall Number of (hard-credit) gifts made by this Account. See &quot;Combined Total Number of Gifts&quot; for overall number of gifts (i.e. hard or soft credit) from this Account. FC: Overall number of grants awarded to grantee. NPSP Customizable Rollup.</inlineHelpText>
+    <label>Total Number of Gifts</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

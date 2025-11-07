@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Regranting in the US for DAF. --></help>
+        <label><!-- Regranting in the US --></label>
+        <name>Regranting_in_the_US__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What strategies or approaches does your organization use to address these problems? (1 to 4 paragraphs) --></help>
+        <label><!-- Org Problems Strategies --></label>
+        <name>Org_Problems_strategies__c</name>
+    </CustomFieldTranslation>

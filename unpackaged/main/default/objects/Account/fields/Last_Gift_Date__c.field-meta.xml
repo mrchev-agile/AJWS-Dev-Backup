@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Gift_Date__c</fullName>
+    <description>Do not manually update. Updated by automatic processes. See excluded Record Types in Household Settings.Do not manually update. Updated by automatic processes. See excluded Record Types in Household Settings.</description>
+    <inlineHelpText>The date of the last (hard credit) gift from this Account. See &quot;Combined Last Gift Date&quot; for date of last gift overall (hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups.</inlineHelpText>
+    <label>Last Gift Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift_String__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Account.LargestAmount__c &lt;= 35,&quot;18|36|54|72|108|126&quot;,
+IF(Account.LargestAmount__c &lt;= 53,&quot;36|54|72|108|126|180&quot;,
+IF(Account.LargestAmount__c &lt;= 71,&quot;54|72|108|126|180|270&quot;,
+IF(Account.LargestAmount__c &lt;= 107,&quot;72|108|126|180|270|360&quot;,
+IF(Account.LargestAmount__c &lt;= 125,&quot;108|126|180|270|360|540&quot;,
+IF(Account.LargestAmount__c &lt;= 179,&quot;126|180|270|360|540|720&quot;,
+IF(Account.LargestAmount__c &lt;= 269,&quot;180|270|360|540|720|1080&quot;,
+IF(Account.LargestAmount__c &lt;= 359,&quot;270|360|540|720|1080|2700&quot;,
+IF(Account.LargestAmount__c &lt;= 539,&quot;360|540|720|1080|2700|3600&quot;,
+IF(Account.LargestAmount__c &lt;= 719,&quot;540|720|1080|2700|3600|5400&quot;,
+IF(Account.LargestAmount__c &lt;= 1079,&quot;720|1080|2700|3600|5400|7200&quot;,
+IF(Account.LargestAmount__c &lt;= 9999,&quot;720|1080|2700|3600|5400|7200&quot;,
+&quot;54|72|108|360|540|1080&quot;))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Part of the SpringBoard package and used by Digital Communications. Formula for calculating giving options supplied to the encrypted gift string.</inlineHelpText>
+    <label>Gift String</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

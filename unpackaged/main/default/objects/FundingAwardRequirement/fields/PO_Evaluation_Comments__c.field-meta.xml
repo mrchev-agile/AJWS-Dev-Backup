@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Evaluation_Comments__c</fullName>
+    <inlineHelpText>PO&#39;s: You may note your evaluation/comments of the report here. This is internal and won&#39;t be shared with the grantee. Optional.</inlineHelpText>
+    <label>PO Evaluation Comments</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

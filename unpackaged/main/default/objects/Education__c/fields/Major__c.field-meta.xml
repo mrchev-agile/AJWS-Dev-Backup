@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Major__c</fullName>
+    <label>Major</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounting; Psychology</fullName>
+                <default>false</default>
+                <label>Accounting; Psychology</label>
+            </value>
+            <value>
+                <fullName>American Studies; Women and Gender Studies</fullName>
+                <default>false</default>
+                <label>American Studies; Women and Gender Studies</label>
+            </value>
+            <value>
+                <fullName>Art History; Fine Arts; Judaic Studies; Near Eastern Studies</fullName>
+                <default>false</default>
+                <label>Art History; Fine Arts; Judaic Studies; Near Eastern Studies</label>
+            </value>
+            <value>
+                <fullName>Art History; French</fullName>
+                <default>false</default>
+                <label>Art History; French</label>
+            </value>
+            <value>
+                <fullName>Astronomy; Political Science</fullName>
+                <default>false</default>
+                <label>Astronomy; Political Science</label>
+            </value>
+            <value>
+                <fullName>Biology; Economics</fullName>
+                <default>false</default>
+                <label>Biology; Economics</label>
+            </value>
+            <value>
+                <fullName>Biology; Psychology</fullName>
+                <default>false</default>
+                <label>Biology; Psychology</label>
+            </value>
+            <value>
+                <fullName>Business; Education</fullName>
+                <default>false</default>
+                <label>Business; Education</label>
+            </value>
+            <value>
+                <fullName>Chemistry; International Relations; Political Science</fullName>
+                <default>false</default>
+                <label>Chemistry; International Relations; Political Science</label>
+            </value>
+            <value>
+                <fullName>Classics; Pre-Med</fullName>
+                <default>false</default>
+                <label>Classics; Pre-Med</label>
+            </value>
+            <value>
+                <fullName>Cognitive Science; Linguistics; Russian</fullName>
+                <default>false</default>
+                <label>Cognitive Science; Linguistics; Russian</label>
+            </value>
+            <value>
+                <fullName>Computer Science; Economics</fullName>
+                <default>false</default>
+                <label>Computer Science; Economics</label>
+            </value>
+            <value>
+                <fullName>Computer Science; Electrical Engineering</fullName>
+                <default>false</default>
+                <label>Computer Science; Electrical Engineering</label>
+            </value>
+            <value>
+                <fullName>Computer Science; Fine Arts</fullName>
+                <default>false</default>
+                <label>Computer Science; Fine Arts</label>
+            </value>
+            <value>
+                <fullName>Computer Science; Physics</fullName>
+                <default>false</default>
+                <label>Computer Science; Physics</label>
+            </value>
+            <value>
+                <fullName>Dance; Women&#39;s Studies</fullName>
+                <default>false</default>
+                <label>Dance; Women&#39;s Studies</label>
+            </value>
+            <value>
+                <fullName>Economics; Government</fullName>
+                <default>false</default>
+                <label>Economics; Government</label>
+            </value>
+            <value>
+                <fullName>Economics; Japanese</fullName>
+                <default>false</default>
+                <label>Economics; Japanese</label>
+            </value>
+            <value>
+                <fullName>Economics; Political Science</fullName>
+                <default>false</default>
+                <label>Economics; Political Science</label>
+            </value>
+            <value>
+                <fullName>Economics; Psychology</fullName>
+                <default>false</default>
+                <label>Economics; Psychology</label>
+            </value>
+            <value>
+                <fullName>Education; English</fullName>
+                <default>false</default>
+                <label>Education; English</label>
+            </value>
+            <value>
+                <fullName>Education; Hebrew; Rabbinical Studies</fullName>
+                <default>false</default>
+                <label>Education; Hebrew; Rabbinical Studies</label>
+            </value>
+            <value>
+                <fullName>Education; Jewish Studies</fullName>
+                <default>false</default>
+                <label>Education; Jewish Studies</label>
+            </value>
+            <value>
+                <fullName>Education; Psychology</fullName>
+                <default>false</default>
+                <label>Education; Psychology</label>
+            </value>
+            <value>
+                <fullName>English; History</fullName>
+                <default>false</default>
+                <label>English; History</label>
+            </value>
+            <value>
+                <fullName>English; Jewish Studies</fullName>
+                <default>false</default>
+                <label>English; Jewish Studies</label>
+            </value>
+            <value>
+                <fullName>English; Linguistics</fullName>
+                <default>false</default>
+                <label>English; Linguistics</label>
+            </value>
+            <value>
+                <fullName>English; Philosophy</fullName>
+                <default>false</default>
+                <label>English; Philosophy</label>
+            </value>
+            <value>
+                <fullName>English; Political Science</fullName>
+                <default>false</default>
+                <label>English; Political Science</label>
+            </value>
+            <value>
+                <fullName>English; Politics</fullName>
+                <default>false</default>
+                <label>English; Politics</label>
+            </value>
+            <value>
+                <fullName>English; Sociology</fullName>
+                <default>false</default>
+                <label>English; Sociology</label>
+            </value>
+            <value>
+                <fullName>Finance; Management; Marketing</fullName>
+                <default>false</default>
+                <label>Finance; Management; Marketing</label>
+            </value>
+            <value>
+                <fullName>Finance; Marketing</fullName>
+                <default>false</default>
+                <label>Finance; Marketing</label>
+            </value>
+            <value>
+                <fullName>Finance; Sociology</fullName>
+                <default>false</default>
+                <label>Finance; Sociology</label>
+            </value>
+            <value>
+                <fullName>Fine Arts; Religious Studies</fullName>
+                <default>false</default>
+                <label>Fine Arts; Religious Studies</label>
+            </value>
+            <value>
+                <fullName>Government; Political Science</fullName>
+                <default>false</default>
+                <label>Government; Political Science</label>
+            </value>
+            <value>
+                <fullName>Government; Political Science; Psychology</fullName>
+                <default>false</default>
+                <label>Government; Political Science; Psychology</label>
+            </value>
+            <value>
+                <fullName>Health Science; Pre-Med</fullName>
+                <default>false</default>
+                <label>Health Science; Pre-Med</label>
+            </value>
+            <value>
+                <fullName>Hebrew; Judaic Studies</fullName>
+                <default>false</default>
+                <label>Hebrew; Judaic Studies</label>
+            </value>
+            <value>
+                <fullName>History; Jewish Studies</fullName>
+                <default>false</default>
+                <label>History; Jewish Studies</label>
+            </value>
+            <value>
+                <fullName>History; Judaic Studies</fullName>
+                <default>false</default>
+                <label>History; Judaic Studies</label>
+            </value>
+            <value>
+                <fullName>History; Latin American Studies</fullName>
+                <default>false</default>
+                <label>History; Latin American Studies</label>
+            </value>
+            <value>
+                <fullName>History; Philosophy</fullName>
+                <default>false</default>
+                <label>History; Philosophy</label>
+            </value>
+            <value>
+                <fullName>International Relations; Philosophy</fullName>
+                <default>false</default>
+                <label>International Relations; Philosophy</label>
+            </value>
+            <value>
+                <fullName>International Relations; Political Science</fullName>
+                <default>false</default>
+                <label>International Relations; Political Science</label>
+            </value>
+            <value>
+                <fullName>Judaic Studies; Near Eastern Studies</fullName>
+                <default>false</default>
+                <label>Judaic Studies; Near Eastern Studies</label>
+            </value>
+            <value>
+                <fullName>Judaic Studies; Near Eastern Studies; Sociology</fullName>
+                <default>false</default>
+                <label>Judaic Studies; Near Eastern Studies; Sociology</label>
+            </value>
+            <value>
+                <fullName>Judaic Studies; Philosophy</fullName>
+                <default>false</default>
+                <label>Judaic Studies; Philosophy</label>
+            </value>
+            <value>
+                <fullName>Judaic Studies; Public Policy</fullName>
+                <default>false</default>
+                <label>Judaic Studies; Public Policy</label>
+            </value>
+            <value>
+                <fullName>Judaic Studies; Sociology</fullName>
+                <default>false</default>
+                <label>Judaic Studies; Sociology</label>
+            </value>
+            <value>
+                <fullName>Management; Marketing</fullName>
+                <default>false</default>
+                <label>Management; Marketing</label>
+            </value>
+            <value>
+                <fullName>Political Science; Religion</fullName>
+                <default>false</default>
+                <label>Political Science; Religion</label>
+            </value>
+            <value>
+                <fullName>Political Science; Urban Studies</fullName>
+                <default>false</default>
+                <label>Political Science; Urban Studies</label>
+            </value>
+            <value>
+                <fullName>Psychology; Religious Studies</fullName>
+                <default>false</default>
+                <label>Psychology; Religious Studies</label>
+            </value>
+            <value>
+                <fullName>Psychology; Spanish</fullName>
+                <default>false</default>
+                <label>Psychology; Spanish</label>
+            </value>
+            <value>
+                <fullName>Psychology; Visual Arts</fullName>
+                <default>false</default>
+                <label>Psychology; Visual Arts</label>
+            </value>
+            <value>
+                <fullName>Psychology; Women&#39;s Studies</fullName>
+                <default>false</default>
+                <label>Psychology; Women&#39;s Studies</label>
+            </value>
+            <value>
+                <fullName>Public Policy; Sociology</fullName>
+                <default>false</default>
+                <label>Public Policy; Sociology</label>
+            </value>
+            <value>
+                <fullName>Religious Studies; Women&#39;s Studies</fullName>
+                <default>false</default>
+                <label>Religious Studies; Women&#39;s Studies</label>
+            </value>
+            <value>
+                <fullName>Social Work; Sociology</fullName>
+                <default>false</default>
+                <label>Social Work; Sociology</label>
+            </value>
+            <value>
+                <fullName>International Government</fullName>
+                <default>false</default>
+                <label>International Government</label>
+            </value>
+            <value>
+                <fullName>Industrial Engineering</fullName>
+                <default>false</default>
+                <label>Industrial Engineering</label>
+            </value>
+            <value>
+                <fullName>African Studies; Jewish History</fullName>
+                <default>false</default>
+                <label>African Studies; Jewish History</label>
+            </value>
+            <value>
+                <fullName>Conflict Resolution; International Studies</fullName>
+                <default>false</default>
+                <label>Conflict Resolution; International Studies</label>
+            </value>
+            <value>
+                <fullName>Rabbinical Studies</fullName>
+                <default>false</default>
+                <label>Rabbinical Studies</label>
+            </value>
+            <value>
+                <fullName>Psychology</fullName>
+                <default>false</default>
+                <label>Psychology</label>
+            </value>
+            <value>
+                <fullName>Theology</fullName>
+                <default>false</default>
+                <label>Theology</label>
+            </value>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+            <value>
+                <fullName>Art History</fullName>
+                <default>false</default>
+                <label>Art History</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Communications; Journalism</fullName>
+                <default>false</default>
+                <label>Communications; Journalism</label>
+            </value>
+            <value>
+                <fullName>Biology</fullName>
+                <default>false</default>
+                <label>Biology</label>
+            </value>
+            <value>
+                <fullName>Fine Arts</fullName>
+                <default>false</default>
+                <label>Fine Arts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

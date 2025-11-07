@@ -1,0 +1,35 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES">Saludos desde
+AJWS!<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES">Espero que este
+mensaje le encuentre bien.&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES">Escribo para
+recordarle que {!FundingAwardRequirement.Organization_Name__c} tiene el Informe Narrativo y Financiero
+Final/Intermedio&nbsp;{!FundingAwardRequirement.Name} para su subvención&nbsp;</span><span style="font-size: 12pt;">“{!FundingAwardRequirement.project_title__c}”</span><span style="font-size: 12pt;">&nbsp;(</span><span style="font-size: 12pt;">{!FundingAwardRequirement.Grant_Amount__c}</span><span style="font-size: 12pt;">) otorgada por el AJWS se debe el&nbsp;</span><span style="font-size: 12pt;">{!FundingAwardRequirement.DueDate}.&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES">Tenga en cuenta
+que las organizaciones con informes pendientes no podrán recibir fondos de
+AJWS. Por favor, infórmenos si prevé alguna dificultad en la presentación de
+sus informes para esta fecha.&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES">Si tiene alguna
+pregunta con respecto a esta solicitación o cualquier cosa que tenga que ver
+con su subvención no dude en comunicarse conmigo.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="ES" style="mso-ansi-language:ES"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal">Saludos,<o:p></o:p></p>]]></td>
+</tr>
+</table>

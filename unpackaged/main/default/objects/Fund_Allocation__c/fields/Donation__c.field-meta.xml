@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>Lookup/link to the Donation record that is the source of this Fund Allocation. Use the Not Applicable Account&#39;s donation (SFID: 0064100000Cta36AAB) if this an FA for rolling-up revenue from multiple donations (e.g. donations for Humanitarian Response).</inlineHelpText>
+    <label>Donation</label>
+    <referenceTo>FundingAward</referenceTo>
+    <relationshipLabel>Fund Allocations</relationshipLabel>
+    <relationshipName>Fund_Allocations</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

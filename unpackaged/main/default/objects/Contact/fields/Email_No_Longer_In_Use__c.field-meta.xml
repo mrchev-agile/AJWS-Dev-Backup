@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_No_Longer_In_Use__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check if the contact doesn&#39;t use this email address any longer.</inlineHelpText>
+    <label>Email No Longer In Use</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Donor does not wish to receive items like pens, cards, stickers, etc. in the mail (No premiums). --></help>
+        <label><!-- No Premiums --></label>
+        <name>No_Premiums__c</name>
+    </CustomFieldTranslation>

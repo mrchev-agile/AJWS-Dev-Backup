@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If organization is not registered, explain why. --></help>
+        <label><!-- Not Registered Explanation --></label>
+        <name>Compliance_Not_Registered_Explanation__c</name>
+    </CustomFieldTranslation>

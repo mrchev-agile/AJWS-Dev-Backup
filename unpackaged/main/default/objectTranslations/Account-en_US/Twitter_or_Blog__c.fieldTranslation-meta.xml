@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Organization&apos;s blog or Twitter handle. --></help>
+        <label><!-- Twitter or Blog --></label>
+        <name>Twitter_or_Blog__c</name>
+    </CustomFieldTranslation>

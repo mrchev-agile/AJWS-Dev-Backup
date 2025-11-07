@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DNP_Notes__c</fullName>
+    <description>Do Not Publish (DNP) instructions for Communications and others</description>
+    <inlineHelpText>Do Not Publish (DNP) instructions for Communications and others.</inlineHelpText>
+    <label>DNP Notes</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

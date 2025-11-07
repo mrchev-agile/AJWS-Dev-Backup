@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Gifts_This_Year__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of (hard-credit) gifts made by this Account 2 FYs ago. See &quot;Total Number of Gifts 2 FY ago&quot; for overall # of gifts (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups.</inlineHelpText>
+    <label>Number of Gifts Two Years Ago</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

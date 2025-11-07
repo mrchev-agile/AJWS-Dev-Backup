@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Status__c</fullName>
+    <inlineHelpText>Tax Status for Grantee Org.</inlineHelpText>
+    <label>Tax Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>501(c)3</fullName>
+                <default>false</default>
+                <label>501(c)3</label>
+            </value>
+            <value>
+                <fullName>501(c)4</fullName>
+                <default>false</default>
+                <label>501(c)4</label>
+            </value>
+            <value>
+                <fullName>501(c)6</fullName>
+                <default>false</default>
+                <label>501(c)6</label>
+            </value>
+            <value>
+                <fullName>Nonprofit organization</fullName>
+                <default>false</default>
+                <label>Nonprofit organization</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Private Operating Foundation</fullName>
+                <default>false</default>
+                <label>Private Operating Foundation</label>
+            </value>
+            <value>
+                <fullName>Private Nonoperating Foundation</fullName>
+                <default>false</default>
+                <label>Private Nonoperating Foundation</label>
+            </value>
+            <value>
+                <fullName>509(a)(1)</fullName>
+                <default>false</default>
+                <label>509(a)(1)</label>
+            </value>
+            <value>
+                <fullName>509(a)(2) under 170(b)(1)(A)(vii)</fullName>
+                <default>false</default>
+                <label>509(a)(2) under 170(b)(1)(A)(vii)</label>
+            </value>
+            <value>
+                <fullName>509(a)(3) under 170(b)(1)(A)(viii)</fullName>
+                <default>false</default>
+                <label>509(a)(3) under 170(b)(1)(A)(viii)</label>
+            </value>
+            <value>
+                <fullName>509(a)(4)</fullName>
+                <default>false</default>
+                <label>509(a)(4)</label>
+            </value>
+            <value>
+                <fullName>For-Profit</fullName>
+                <default>false</default>
+                <label>For-Profit</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

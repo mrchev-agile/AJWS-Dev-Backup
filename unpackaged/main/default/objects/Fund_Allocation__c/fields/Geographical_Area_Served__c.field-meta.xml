@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geographical_Area_Served__c</fullName>
+    <inlineHelpText>Geographical Area Served restriction set by the donor for this money. Used in &quot;Create Contributing Funds&quot; visual force page to match with grants with the same Geographical Area Served.</inlineHelpText>
+    <label>Geographical Area Served</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Africa (110)</fullName>
+                <default>false</default>
+                <label>Africa (110)</label>
+            </value>
+            <value>
+                <fullName>Asia (120)</fullName>
+                <default>false</default>
+                <label>Asia (120)</label>
+            </value>
+            <value>
+                <fullName>Bangladesh (214)</fullName>
+                <default>false</default>
+                <label>Bangladesh (214)</label>
+            </value>
+            <value>
+                <fullName>Bolivia (221)</fullName>
+                <default>false</default>
+                <label>Bolivia (221)</label>
+            </value>
+            <value>
+                <fullName>Brazil (224)</fullName>
+                <default>false</default>
+                <label>Brazil (224)</label>
+            </value>
+            <value>
+                <fullName>Burma (228)</fullName>
+                <default>false</default>
+                <label>Burma (228)</label>
+            </value>
+            <value>
+                <fullName>Burundi (229)</fullName>
+                <default>false</default>
+                <label>Burundi (229)</label>
+            </value>
+            <value>
+                <fullName>Cambodia (230)</fullName>
+                <default>false</default>
+                <label>Cambodia (230)</label>
+            </value>
+            <value>
+                <fullName>Central African Republic C.A.R. (234)</fullName>
+                <default>false</default>
+                <label>Central African Republic C.A.R. (234)</label>
+            </value>
+            <value>
+                <fullName>Chad (235)</fullName>
+                <default>false</default>
+                <label>Chad (235)</label>
+            </value>
+            <value>
+                <fullName>Colombia (238)</fullName>
+                <default>false</default>
+                <label>Colombia (238)</label>
+            </value>
+            <value>
+                <fullName>Cote d&#39;Ivoire (243)</fullName>
+                <default>false</default>
+                <label>Cote d&#39;Ivoire (243)</label>
+            </value>
+            <value>
+                <fullName>Cross-Regional (198)</fullName>
+                <default>false</default>
+                <label>Cross-Regional (198)</label>
+            </value>
+            <value>
+                <fullName>Democratic Republic of the Congo (240)</fullName>
+                <default>false</default>
+                <label>Democratic Republic of the Congo (240)</label>
+            </value>
+            <value>
+                <fullName>Domestic</fullName>
+                <default>false</default>
+                <label>Domestic</label>
+            </value>
+            <value>
+                <fullName>Dominican Republic (252)</fullName>
+                <default>false</default>
+                <label>Dominican Republic (252)</label>
+            </value>
+            <value>
+                <fullName>Ecuador (254)</fullName>
+                <default>false</default>
+                <label>Ecuador (254)</label>
+            </value>
+            <value>
+                <fullName>El Salvador (256)</fullName>
+                <default>false</default>
+                <label>El Salvador (256)</label>
+            </value>
+            <value>
+                <fullName>Ethiopia (260)</fullName>
+                <default>false</default>
+                <label>Ethiopia (260)</label>
+            </value>
+            <value>
+                <fullName>Ghana (268)</fullName>
+                <default>false</default>
+                <label>Ghana (268)</label>
+            </value>
+            <value>
+                <fullName>Guatemala (271)</fullName>
+                <default>false</default>
+                <label>Guatemala (271)</label>
+            </value>
+            <value>
+                <fullName>Haiti (275)</fullName>
+                <default>false</default>
+                <label>Haiti (275)</label>
+            </value>
+            <value>
+                <fullName>Honduras (277)</fullName>
+                <default>false</default>
+                <label>Honduras (277)</label>
+            </value>
+            <value>
+                <fullName>India (281)</fullName>
+                <default>false</default>
+                <label>India (281)</label>
+            </value>
+            <value>
+                <fullName>Indonesia (282)</fullName>
+                <default>false</default>
+                <label>Indonesia (282)</label>
+            </value>
+            <value>
+                <fullName>Kenya (292)</fullName>
+                <default>false</default>
+                <label>Kenya (292)</label>
+            </value>
+            <value>
+                <fullName>Latin America &amp; The Caribbean (130)</fullName>
+                <default>false</default>
+                <label>Latin America &amp; The Caribbean (130)</label>
+            </value>
+            <value>
+                <fullName>Liberia (303)</fullName>
+                <default>false</default>
+                <label>Liberia (303)</label>
+            </value>
+            <value>
+                <fullName>Malaysia (312)</fullName>
+                <default>false</default>
+                <label>Malaysia (312)</label>
+            </value>
+            <value>
+                <fullName>Mexico (319)</fullName>
+                <default>false</default>
+                <label>Mexico (319)</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Nepal (329)</fullName>
+                <default>false</default>
+                <label>Nepal (329)</label>
+            </value>
+            <value>
+                <fullName>Nicaragua (333)</fullName>
+                <default>false</default>
+                <label>Nicaragua (333)</label>
+            </value>
+            <value>
+                <fullName>Nigeria (335)</fullName>
+                <default>false</default>
+                <label>Nigeria (335)</label>
+            </value>
+            <value>
+                <fullName>Philippines (345)</fullName>
+                <default>false</default>
+                <label>Philippines (345)</label>
+            </value>
+            <value>
+                <fullName>Senegal (359)</fullName>
+                <default>false</default>
+                <label>Senegal (359)</label>
+            </value>
+            <value>
+                <fullName>Sierra Leone (362)</fullName>
+                <default>false</default>
+                <label>Sierra Leone (362)</label>
+            </value>
+            <value>
+                <fullName>Somalia (368)</fullName>
+                <default>false</default>
+                <label>Somalia (368)</label>
+            </value>
+            <value>
+                <fullName>South Africa (369)</fullName>
+                <default>false</default>
+                <label>South Africa (369)</label>
+            </value>
+            <value>
+                <fullName>South Sudan (370)</fullName>
+                <default>false</default>
+                <label>South Sudan (370)</label>
+            </value>
+            <value>
+                <fullName>Sri Lanka (372)</fullName>
+                <default>false</default>
+                <label>Sri Lanka (372)</label>
+            </value>
+            <value>
+                <fullName>Sudan (373)</fullName>
+                <default>false</default>
+                <label>Sudan (373)</label>
+            </value>
+            <value>
+                <fullName>Tanzania (381)</fullName>
+                <default>false</default>
+                <label>Tanzania (381)</label>
+            </value>
+            <value>
+                <fullName>Thailand (382)</fullName>
+                <default>false</default>
+                <label>Thailand (382)</label>
+            </value>
+            <value>
+                <fullName>Uganda (391)</fullName>
+                <default>false</default>
+                <label>Uganda (391)</label>
+            </value>
+            <value>
+                <fullName>United States (395)</fullName>
+                <default>false</default>
+                <label>United States (395)</label>
+            </value>
+            <value>
+                <fullName>Zambia (402)</fullName>
+                <default>false</default>
+                <label>Zambia (402)</label>
+            </value>
+            <value>
+                <fullName>Zimbabwe (403)</fullName>
+                <default>false</default>
+                <label>Zimbabwe (403)</label>
+            </value>
+            <value>
+                <fullName>NA (999)</fullName>
+                <default>false</default>
+                <label>NA (999)</label>
+            </value>
+            <value>
+                <fullName>Venezuela (399)</fullName>
+                <default>false</default>
+                <label>Venezuela (399)</label>
+            </value>
+            <value>
+                <fullName>Namibia (327)</fullName>
+                <default>false</default>
+                <label>Namibia (327)</label>
+            </value>
+            <value>
+                <fullName>Japan (289)</fullName>
+                <default>false</default>
+                <label>Japan (289)</label>
+            </value>
+            <value>
+                <fullName>Mozambique (326)</fullName>
+                <default>false</default>
+                <label>Mozambique (326)</label>
+            </value>
+            <value>
+                <fullName>Afghanistan (200)</fullName>
+                <default>false</default>
+                <label>Afghanistan (200)</label>
+            </value>
+            <value>
+                <fullName>Niger (334)</fullName>
+                <default>false</default>
+                <label>Niger (334)</label>
+            </value>
+            <value>
+                <fullName>Rwanda (351)</fullName>
+                <default>false</default>
+                <label>Rwanda (351)</label>
+            </value>
+            <value>
+                <fullName>Taiwan (379)</fullName>
+                <default>false</default>
+                <label>Taiwan (379)</label>
+            </value>
+            <value>
+                <fullName>Turkey (388)</fullName>
+                <default>false</default>
+                <label>Turkey (388)</label>
+            </value>
+            <value>
+                <fullName>Pakistan (338)</fullName>
+                <default>false</default>
+                <label>Pakistan (338)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

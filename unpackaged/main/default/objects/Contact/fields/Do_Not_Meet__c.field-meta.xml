@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Meet__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Please do not reach out to this Contact regarding scheduling a meeting. Will be checked automatically if the &quot;Do Not Meet&quot; box is checked on the Account record (e.g. Household) the Contact belongs to.</inlineHelpText>
+    <label>Do Not Meet</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

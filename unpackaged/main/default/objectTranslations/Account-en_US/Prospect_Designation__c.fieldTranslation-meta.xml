@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Denotes type in prospect pipeline for Major Gifts or Institutional Giving. --></help>
+        <label><!-- Prospect Designation --></label>
+        <name>Prospect_Designation__c</name>
+        <picklistValues>
+            <masterLabel>Disqualified</masterLabel>
+            <translation><!-- Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer/Connector</masterLabel>
+            <translation><!-- Influencer/Connector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Institutional Giving</masterLabel>
+            <translation><!-- Institutional Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Donor Prospect</masterLabel>
+            <translation><!-- Major Donor Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Donor Suspect</masterLabel>
+            <translation><!-- Major Donor Suspect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Level</masterLabel>
+            <translation><!-- Mid-Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NextGen Prospect</masterLabel>
+            <translation><!-- NextGen Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed Not Assigned</masterLabel>
+            <translation><!-- Reviewed Not Assigned --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

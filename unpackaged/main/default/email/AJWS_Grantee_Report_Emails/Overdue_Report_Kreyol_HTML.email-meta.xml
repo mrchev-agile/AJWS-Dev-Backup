@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>AJWS_Letterhead</letterhead>
+    <name>Overdue Report – Kreyol</name>
+    <style>freeForm</style>
+    <subject>{!FundingAwardRequirement.Organization_Name__c}: Rapport Final – {!FundingAwardRequirement.Name} – {!FundingAwardRequirement.Grant_Amount__c}</subject>
+    <textOnly>Salutations d’AJWS!
+
+J&#39;espère que vous vous portez bien. Nos dossiers indiquent que nous aurions
+
+dû recevoir votre rapport final pour le projet &quot;{!FundingAwardRequirement.project_title__c}&quot;
+
+({!FundingAwardRequirement.Grant_Amount__c}) (#{!FundingAwardRequirement.Number__c}) le
+
+{!FundingAwardRequirement.DueDate}.
+
+
+Prière noter que les organisations dont les rapports sont en retard ne sont
+
+pas éligibles pour recevoir des fonds d&#39;AJWS. Veuillez nous le faire parvenir
+
+afin que nous puissions connaître la progression de notre projet.
+
+
+Prière nous faire savoir si vous avez déjà présenté votre rapport ou si vous
+
+avez convenu d&#39;un nouvel échéancier avec l&#39;agent responsable de votre
+
+subvention.
+
+
+Je vous prie d&#39;accepter l&#39;expression de mes sentiments distingués.
+
+
+Cordialement,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

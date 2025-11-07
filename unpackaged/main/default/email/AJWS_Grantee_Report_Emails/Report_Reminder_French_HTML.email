@@ -1,0 +1,35 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR">Salutations
+d’AJWS!<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p><p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p><br></o:p></span></p><p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p><br></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR">J'espère que vous
+vous portez bien.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR">Je vous écris
+pour vous rappeler que&nbsp;</span><span style="font-size: 12pt;">{!FundingAwardRequirement.Organization_Name__c}</span><span style="font-size: 12pt;">&nbsp;a le Rapport Final/Intermédiaire
+Narratif et Financier final de la subvention pour le projet&nbsp;</span>“{!FundingAwardRequirement.project_title__c}” {!FundingAwardRequirement.Grant_Amount__c}&nbsp;<span style="font-size: 12pt;">reçue de AJWS est dû el&nbsp;</span><span style="font-size: 12pt;">{!FundingAwardRequirement.DueDate}.&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p><br></o:p></span></p><p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR">Prière noter que
+les organisations dont les rapports sont en retard ne sont pas éligibles pour
+recevoir des fonds d'AJWS. Prière nous faire savoir si vous anticiper des
+difficultés pour pouvoir soumettre vos rapports d'ici les dates ci-dessus
+indiquées.&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR">N'hésitez pas à
+nous contacter si vous avez des questions ou des préoccupations.&nbsp;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p><br></o:p></span></p><p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p><br></o:p></span></p><p class="MsoNormal"><span lang="FR" style="mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal">Cordialement,<o:p></o:p></p>]]></td>
+</tr>
+</table>

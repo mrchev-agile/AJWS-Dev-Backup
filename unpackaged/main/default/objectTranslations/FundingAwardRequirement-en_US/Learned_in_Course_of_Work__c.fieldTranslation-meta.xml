@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What have you learned in the course of doing this work? Based on this learning, is your organization making any changes to your organizational goals, strategies, processes and/or future activities? If so, please describe. --></help>
+        <label><!-- Learned in Course of Work --></label>
+        <name>Learned_in_Course_of_Work__c</name>
+    </CustomFieldTranslation>

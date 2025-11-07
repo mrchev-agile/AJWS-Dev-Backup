@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select &quot;Yes&quot; if the grantee is involved in advocacy on a local level. --></help>
+        <label><!-- Advocate at Local Level --></label>
+        <name>Advocate_at_Local_Level__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Advocacy_Org__c</fullName>
+    <formula>if (ISPICKVAL(  Advocate_at_International_Level__c , &quot;Yes&quot;) || ISPICKVAL(  Advocate_at_International_Level__c , &quot;Yes&quot;) ||  ISPICKVAL(    Advocate_at_International_Level__c , &quot;Yes&quot;), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identifies all grantees involved in advocacy work on the international/national/local Levels (Formula field based on three Advocacy flag fields set by staff).</inlineHelpText>
+    <label>Advocacy Org</label>
+    <type>Checkbox</type>
+</CustomField>

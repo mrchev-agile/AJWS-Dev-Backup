@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If checked, the Balance field is $0 so that the funds are not made available for selection to apply to grants. --></help>
+        <label><!-- Hold Funds From Grantmaking --></label>
+        <name>Hold_Funds_From_Grantmaking__c</name>
+    </CustomFieldTranslation>

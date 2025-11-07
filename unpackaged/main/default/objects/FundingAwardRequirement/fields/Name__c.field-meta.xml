@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>AssignedContact.FirstName &amp;
+IF(AssignedContact.MiddleName=&quot;&quot;,
+&quot;&quot;, &quot; &quot; &amp; AssignedContact.MiddleName)
+&amp; &quot; &quot; &amp; AssignedContact.LastName
+&amp;
+IF(AssignedContact.Suffix=&quot;&quot;,
+&quot;&quot;, &quot;, &quot; &amp; AssignedContact.Suffix)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Full name (including middle name, suffix, etc.) for the Report Contact.</inlineHelpText>
+    <label>Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

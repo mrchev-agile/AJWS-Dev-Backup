@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>AJWS_Letterhead</letterhead>
+    <name>Overdue Report – Spanish</name>
+    <style>freeForm</style>
+    <subject>{!FundingAwardRequirement.Organization_Name__c}: Informe Pendiente – {!FundingAwardRequirement.Name}– {!FundingAwardRequirement.Grant_Amount__c}</subject>
+    <textOnly>Saludos desde AJWS!
+
+
+Espero que este correo le encuentre bien.
+
+
+Nuestra base de datos indica que {!FundingAwardRequirement.Organization_Name__c} tiene un
+
+informe final pendiente para el proyecto “{!FundingAwardRequirement.project_title__c}” (#{!FundingAwardRequirement.Number__c}) ({!FundingAwardRequirement.Grant_Amount__c}) desde el {!FundingAwardRequirement.DueDate}.
+
+
+
+Tenga en cuenta que las organizaciones con informes pendientes no podrán recibir fondos de AJWS. Por favor de enviárnoslo para que podamos mantenernos al tanto del proyecto. Si ya ha enviado su informe, o ha hablado con su oficial de programas y han acordado otra fecha, por favor avísame.
+
+
+
+Si tiene alguna pregunta con respecto a esta solicitación o cualquier cosa que tenga que ver con su subvención no dude en comunicarse conmigo.
+
+
+
+Saludos,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Checked if any of the Contacts related to this Account are Legacy Society, PG Prospect, or PG Candidate. See related checkboxes on Contacts. --></help>
+        <label><!-- PG Designation --></label>
+        <name>PG_Designation__c</name>
+    </CustomFieldTranslation>

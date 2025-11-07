@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Contribution__c</fullName>
+    <description>C7 on Project proposal</description>
+    <inlineHelpText>List the changes you will seek to accomplish over the next three years as a result of your efforts? (Include a maximum of 5 changes)</inlineHelpText>
+    <label>Org Contribution</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Exchange__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check if the Household information should not be included in list exchanges with other organizations.</inlineHelpText>
+    <label>Do Not Exchange</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

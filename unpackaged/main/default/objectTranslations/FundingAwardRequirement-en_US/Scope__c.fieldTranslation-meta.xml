@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please choose the type of reporting requirements. --></help>
+        <label><!-- Scope --></label>
+        <name>Scope__c</name>
+        <picklistValues>
+            <masterLabel>Capital Expenditures Report</masterLabel>
+            <translation><!-- Capital Expenditures Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Financial Report</masterLabel>
+            <translation><!-- Final Financial Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Narrative Report</masterLabel>
+            <translation><!-- Final Narrative Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEF Milestone</masterLabel>
+            <translation><!-- GEF Milestone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grant Agreement</masterLabel>
+            <translation><!-- Grant Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grant Amendment</masterLabel>
+            <translation><!-- Grant Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial Report</masterLabel>
+            <translation><!-- Interim Financial Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Narrative Report</masterLabel>
+            <translation><!-- Interim Narrative Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Progress Check-In</masterLabel>
+            <translation><!-- Progress Check-In --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

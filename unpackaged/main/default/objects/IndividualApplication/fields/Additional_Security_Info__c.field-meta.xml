@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Security_Info__c</fullName>
+    <description>Security information specific to a request, such as passwords for protected attachments.</description>
+    <inlineHelpText>Security information specific to a request, such as passwords for protected attachments.</inlineHelpText>
+    <label>Additional Security Info</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

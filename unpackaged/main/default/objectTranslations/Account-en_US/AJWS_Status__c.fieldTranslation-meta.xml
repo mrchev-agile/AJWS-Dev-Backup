@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Identifies current and former AJWS staff and board members. Used for Acknowledgments Letters. --></help>
+        <label><!-- AJWS Status --></label>
+        <name>AJWS_Status__c</name>
+        <picklistValues>
+            <masterLabel>Board</masterLabel>
+            <translation><!-- Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former Board</masterLabel>
+            <translation><!-- Former Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former Staff</masterLabel>
+            <translation><!-- Former Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staff</masterLabel>
+            <translation><!-- Staff --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

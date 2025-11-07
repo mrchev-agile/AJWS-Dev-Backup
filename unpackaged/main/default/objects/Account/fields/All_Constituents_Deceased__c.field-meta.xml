@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Constituents_Deceased__c</fullName>
+    <formula>If (  Number_of_Deceased_Contacts__c = Number_of_Household_Members__c, true,false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Will auto-check if all Contacts (including Email Contacts) related to the Household are marked as Deceased.</inlineHelpText>
+    <label>All Constituents Deceased</label>
+    <type>Checkbox</type>
+</CustomField>

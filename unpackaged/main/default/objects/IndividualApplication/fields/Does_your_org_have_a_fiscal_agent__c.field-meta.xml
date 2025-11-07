@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Does_your_org_have_a_fiscal_agent__c</fullName>
+    <description>For grantees to indicate if they have a fiscal agent.</description>
+    <inlineHelpText>Please indicate if your organization has a fiscal agent.</inlineHelpText>
+    <label>Does your org have a fiscal agent?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

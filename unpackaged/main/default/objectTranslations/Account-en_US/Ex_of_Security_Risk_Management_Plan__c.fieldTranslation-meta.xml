@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If yes, share one example of a security guideline or practice that you use. --></help>
+        <label><!-- Security Risk Management Plan Example --></label>
+        <name>Ex_of_Security_Risk_Management_Plan__c</name>
+    </CustomFieldTranslation>

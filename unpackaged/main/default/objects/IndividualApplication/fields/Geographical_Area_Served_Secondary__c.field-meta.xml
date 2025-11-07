@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geographical_Area_Served_Secondary__c</fullName>
+    <inlineHelpText>Select additional secondary countries or regions that the grant is serving.</inlineHelpText>
+    <label>Geographical Area Served - Secondary</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Location_Codes</valueSetName>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

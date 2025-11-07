@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Results__c</fullName>
+    <description>D3 on Project proposal</description>
+    <inlineHelpText>List the results or impact that you expect from these project activities by the end of the grant period. For each result, explain how you will demonstrate that it was achieved.</inlineHelpText>
+    <label>Project Results</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

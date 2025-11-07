@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- In the past few years, what challenges, setbacks or failures have you experienced toward achieving your mission? Setbacks can include changes in your organization or changes in social, political or economic contexts.
+(1 to 2 paragraphs) --></help>
+        <label><!-- Org Obstacles --></label>
+        <name>Org_obstacles__c</name>
+    </CustomFieldTranslation>

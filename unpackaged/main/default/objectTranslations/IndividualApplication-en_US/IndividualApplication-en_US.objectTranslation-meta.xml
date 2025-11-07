@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Individual Application Layout</layout>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Amount --></label>
+            <section>Amount</section>
+        </sections>
+        <sections>
+            <label><!-- DAF --></label>
+            <section>DAF</section>
+        </sections>
+        <sections>
+            <label><!-- Grant Coding --></label>
+            <section>Grant Coding</section>
+        </sections>
+        <sections>
+            <label><!-- Grant Rejection --></label>
+            <section>Grant Rejection</section>
+        </sections>
+        <sections>
+            <label><!-- Multiyear Proposals --></label>
+            <section>Multiyear Proposals</section>
+        </sections>
+        <sections>
+            <label><!-- PO Write-Up --></label>
+            <section>PO Write-Up</section>
+        </sections>
+        <sections>
+            <label><!-- Project Title --></label>
+            <section>Project Title</section>
+        </sections>
+        <sections>
+            <label><!-- Proposal - Capacity Building --></label>
+            <section>Proposal - Capacity Building</section>
+        </sections>
+        <sections>
+            <label><!-- Proposal - Organization --></label>
+            <section>Proposal - Organization</section>
+        </sections>
+        <sections>
+            <label><!-- Proposal - Project Funding --></label>
+            <section>Proposal - Project Funding</section>
+        </sections>
+        <sections>
+            <label><!-- Registration &amp; Complaince --></label>
+            <section>Registration &amp; Complaince</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Clone Application --></label>
+        <name>Clone_Application</name>
+    </quickActions>
+</CustomObjectTranslation>

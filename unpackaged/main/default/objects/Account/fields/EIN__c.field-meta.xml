@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EIN__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The EIN is a unique nine-digit number assigned by the IRS to businesses operating in the United States. It is also known as the Tax Identification Number (TIN), Federal Employer Identification Number (FEIN) or the Federal Tax Identification Number.</inlineHelpText>
+    <label>EIN</label>
+    <length>20</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

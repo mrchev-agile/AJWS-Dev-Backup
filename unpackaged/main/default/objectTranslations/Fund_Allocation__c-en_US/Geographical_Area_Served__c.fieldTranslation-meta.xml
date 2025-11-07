@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Geographical Area Served restriction set by the donor for this money. Used in &quot;Create Contributing Funds&quot; visual force page to match with grants with the same Geographical Area Served. --></help>
+        <label><!-- Geographical Area Served --></label>
+        <name>Geographical_Area_Served__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan (200)</masterLabel>
+            <translation><!-- Afghanistan (200) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africa (110)</masterLabel>
+            <translation><!-- Africa (110) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia (120)</masterLabel>
+            <translation><!-- Asia (120) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh (214)</masterLabel>
+            <translation><!-- Bangladesh (214) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolivia (221)</masterLabel>
+            <translation><!-- Bolivia (221) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil (224)</masterLabel>
+            <translation><!-- Brazil (224) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burma (228)</masterLabel>
+            <translation><!-- Burma (228) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burundi (229)</masterLabel>
+            <translation><!-- Burundi (229) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia (230)</masterLabel>
+            <translation><!-- Cambodia (230) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central African Republic C.A.R. (234)</masterLabel>
+            <translation><!-- Central African Republic C.A.R. (234) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chad (235)</masterLabel>
+            <translation><!-- Chad (235) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia (238)</masterLabel>
+            <translation><!-- Colombia (238) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cote d&#39;Ivoire (243)</masterLabel>
+            <translation><!-- Cote d&apos;Ivoire (243) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross-Regional (198)</masterLabel>
+            <translation><!-- Cross-Regional (198) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Democratic Republic of the Congo (240)</masterLabel>
+            <translation><!-- Democratic Republic of the Congo (240) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic</masterLabel>
+            <translation><!-- Domestic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic (252)</masterLabel>
+            <translation><!-- Dominican Republic (252) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador (254)</masterLabel>
+            <translation><!-- Ecuador (254) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador (256)</masterLabel>
+            <translation><!-- El Salvador (256) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethiopia (260)</masterLabel>
+            <translation><!-- Ethiopia (260) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana (268)</masterLabel>
+            <translation><!-- Ghana (268) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala (271)</masterLabel>
+            <translation><!-- Guatemala (271) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haiti (275)</masterLabel>
+            <translation><!-- Haiti (275) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras (277)</masterLabel>
+            <translation><!-- Honduras (277) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India (281)</masterLabel>
+            <translation><!-- India (281) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia (282)</masterLabel>
+            <translation><!-- Indonesia (282) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan (289)</masterLabel>
+            <translation><!-- Japan (289) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya (292)</masterLabel>
+            <translation><!-- Kenya (292) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America &amp; The Caribbean (130)</masterLabel>
+            <translation><!-- Latin America &amp; The Caribbean (130) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia (303)</masterLabel>
+            <translation><!-- Liberia (303) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia (312)</masterLabel>
+            <translation><!-- Malaysia (312) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico (319)</masterLabel>
+            <translation><!-- Mexico (319) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique (326)</masterLabel>
+            <translation><!-- Mozambique (326) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA (999)</masterLabel>
+            <translation><!-- NA (999) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia (327)</masterLabel>
+            <translation><!-- Namibia (327) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal (329)</masterLabel>
+            <translation><!-- Nepal (329) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua (333)</masterLabel>
+            <translation><!-- Nicaragua (333) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niger (334)</masterLabel>
+            <translation><!-- Niger (334) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria (335)</masterLabel>
+            <translation><!-- Nigeria (335) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan (338)</masterLabel>
+            <translation><!-- Pakistan (338) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines (345)</masterLabel>
+            <translation><!-- Philippines (345) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda (351)</masterLabel>
+            <translation><!-- Rwanda (351) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senegal (359)</masterLabel>
+            <translation><!-- Senegal (359) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Leone (362)</masterLabel>
+            <translation><!-- Sierra Leone (362) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somalia (368)</masterLabel>
+            <translation><!-- Somalia (368) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa (369)</masterLabel>
+            <translation><!-- South Africa (369) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Sudan (370)</masterLabel>
+            <translation><!-- South Sudan (370) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka (372)</masterLabel>
+            <translation><!-- Sri Lanka (372) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sudan (373)</masterLabel>
+            <translation><!-- Sudan (373) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan (379)</masterLabel>
+            <translation><!-- Taiwan (379) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania (381)</masterLabel>
+            <translation><!-- Tanzania (381) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand (382)</masterLabel>
+            <translation><!-- Thailand (382) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey (388)</masterLabel>
+            <translation><!-- Turkey (388) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda (391)</masterLabel>
+            <translation><!-- Uganda (391) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States (395)</masterLabel>
+            <translation><!-- United States (395) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venezuela (399)</masterLabel>
+            <translation><!-- Venezuela (399) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia (402)</masterLabel>
+            <translation><!-- Zambia (402) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe (403)</masterLabel>
+            <translation><!-- Zimbabwe (403) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

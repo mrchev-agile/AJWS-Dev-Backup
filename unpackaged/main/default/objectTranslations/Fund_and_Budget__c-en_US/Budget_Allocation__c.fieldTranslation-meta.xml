@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Budget Allocation --></label>
+        <name>Budget_Allocation__c</name>
+        <relationshipLabel><!-- Funds and Budgets --></relationshipLabel>
+    </CustomFieldTranslation>

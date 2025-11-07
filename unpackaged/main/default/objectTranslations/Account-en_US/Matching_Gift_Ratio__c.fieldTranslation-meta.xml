@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The match ratio for the company&apos;s matching program (e.g. 1.0 if the company matches the employee gift $ for $, or 0.5 if the company will give 50 cents for every 1$ the employee gave). --></help>
+        <label><!-- Matching Gift Ratio --></label>
+        <name>Matching_Gift_Ratio__c</name>
+    </CustomFieldTranslation>

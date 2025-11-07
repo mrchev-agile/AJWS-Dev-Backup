@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date of the last (partial soft-credit) gift made by this Account. See &quot;Combined Last Gift Date&quot; for date of last gift overall (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Last Partial Soft Credit Gift Date --></label>
+        <name>Last_Partial_Soft_Credit_Gift_Date__c</name>
+    </CustomFieldTranslation>

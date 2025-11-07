@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Access To Justice</fullName>
+        <default>false</default>
+        <label>Access To Justice</label>
+    </customValue>
+    <customValue>
+        <fullName>Bodily Diversity</fullName>
+        <default>false</default>
+        <label>Bodily Diversity</label>
+    </customValue>
+    <customValue>
+        <fullName>Children&#39;s Rights</fullName>
+        <default>false</default>
+        <label>Children&#39;s Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Civic &amp; Political Participation</fullName>
+        <default>false</default>
+        <label>Civic &amp; Political Participation</label>
+    </customValue>
+    <customValue>
+        <fullName>Compensation &amp; Restitution</fullName>
+        <default>false</default>
+        <label>Compensation &amp; Restitution</label>
+    </customValue>
+    <customValue>
+        <fullName>Cultural Rights</fullName>
+        <default>false</default>
+        <label>Cultural Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Disability Rights</fullName>
+        <default>false</default>
+        <label>Disability Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Disaster Relief</fullName>
+        <default>false</default>
+        <label>Disaster Relief</label>
+    </customValue>
+    <customValue>
+        <fullName>Disaster Risk Reduction</fullName>
+        <default>false</default>
+        <label>Disaster Risk Reduction</label>
+    </customValue>
+    <customValue>
+        <fullName>Early Marriage</fullName>
+        <default>false</default>
+        <label>Early Marriage</label>
+    </customValue>
+    <customValue>
+        <fullName>Economic Justice &amp; Development - Labor Rights</fullName>
+        <default>false</default>
+        <label>Economic Justice &amp; Development - Labor Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Economic Justice &amp; Development - Livelihoods</fullName>
+        <default>false</default>
+        <label>Economic Justice &amp; Development - Livelihoods</label>
+    </customValue>
+    <customValue>
+        <fullName>Economic Justice &amp; Development - Microfinance</fullName>
+        <default>false</default>
+        <label>Economic Justice &amp; Development - Microfinance</label>
+    </customValue>
+    <customValue>
+        <fullName>Economic Justice &amp; Development - Other</fullName>
+        <default>false</default>
+        <label>Economic Justice &amp; Development - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Economic Justice &amp; Development - Vocational Training</fullName>
+        <default>false</default>
+        <label>Economic Justice &amp; Development - Vocational Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Equality Rights &amp; Freedom From Stigma &amp; Discrimination</fullName>
+        <default>false</default>
+        <label>Equality Rights &amp; Freedom From Stigma &amp; Discrimination</label>
+    </customValue>
+    <customValue>
+        <fullName>Freedom From Violence</fullName>
+        <default>false</default>
+        <label>Freedom From Violence</label>
+    </customValue>
+    <customValue>
+        <fullName>Freedom Of Expression &amp; Information</fullName>
+        <default>false</default>
+        <label>Freedom Of Expression &amp; Information</label>
+    </customValue>
+    <customValue>
+        <fullName>Gender Equality</fullName>
+        <default>false</default>
+        <label>Gender Equality</label>
+    </customValue>
+    <customValue>
+        <fullName>Gender Identity &amp; Expression</fullName>
+        <default>false</default>
+        <label>Gender Identity &amp; Expression</label>
+    </customValue>
+    <customValue>
+        <fullName>Governance &amp; Accountability</fullName>
+        <default>false</default>
+        <label>Governance &amp; Accountability</label>
+    </customValue>
+    <customValue>
+        <fullName>Health - Abortion Rights</fullName>
+        <default>false</default>
+        <label>Health - Abortion Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Health - HIV/AIDS</fullName>
+        <default>false</default>
+        <label>Health - HIV/AIDS</label>
+    </customValue>
+    <customValue>
+        <fullName>Health - Maternal and Child Health</fullName>
+        <default>false</default>
+        <label>Health - Maternal and Child Health</label>
+    </customValue>
+    <customValue>
+        <fullName>Health - Other</fullName>
+        <default>false</default>
+        <label>Health - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Health - Psychosocial Support</fullName>
+        <default>false</default>
+        <label>Health - Psychosocial Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Health - Reproductive Health &amp; Rights</fullName>
+        <default>false</default>
+        <label>Health - Reproductive Health &amp; Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Health - Sexual Health</fullName>
+        <default>false</default>
+        <label>Health - Sexual Health</label>
+    </customValue>
+    <customValue>
+        <fullName>Infrastructure Development</fullName>
+        <default>false</default>
+        <label>Infrastructure Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Organizational Development</fullName>
+        <default>false</default>
+        <label>Organizational Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Peacebuilding</fullName>
+        <default>false</default>
+        <label>Peacebuilding</label>
+    </customValue>
+    <customValue>
+        <fullName>Resource Rights - Agro-Ecology</fullName>
+        <default>false</default>
+        <label>Resource Rights - Agro-Ecology</label>
+    </customValue>
+    <customValue>
+        <fullName>Resource Rights - Climate Justice</fullName>
+        <default>false</default>
+        <label>Resource Rights - Climate Justice</label>
+    </customValue>
+    <customValue>
+        <fullName>Resource Rights - Environmental Safeguards</fullName>
+        <default>false</default>
+        <label>Resource Rights - Environmental Safeguards</label>
+    </customValue>
+    <customValue>
+        <fullName>Resource Rights - Food Sovereignty</fullName>
+        <default>false</default>
+        <label>Resource Rights - Food Sovereignty</label>
+    </customValue>
+    <customValue>
+        <fullName>Resource Rights - Land Rights</fullName>
+        <default>false</default>
+        <label>Resource Rights - Land Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Resource Rights - Other</fullName>
+        <default>false</default>
+        <label>Resource Rights - Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Resource Rights - Water Rights</fullName>
+        <default>false</default>
+        <label>Resource Rights - Water Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Safety And Security</fullName>
+        <default>false</default>
+        <label>Safety And Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Sexuality Education</fullName>
+        <default>false</default>
+        <label>Sexuality Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Sexual Orientation</fullName>
+        <default>false</default>
+        <label>Sexual Orientation</label>
+    </customValue>
+    <customValue>
+        <fullName>Sex Worker Rights</fullName>
+        <default>false</default>
+        <label>Sex Worker Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Trafficking</fullName>
+        <default>false</default>
+        <label>Trafficking</label>
+    </customValue>
+    <customValue>
+        <fullName>Transitional Justice</fullName>
+        <default>false</default>
+        <label>Transitional Justice</label>
+    </customValue>
+    <masterLabel>Content</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

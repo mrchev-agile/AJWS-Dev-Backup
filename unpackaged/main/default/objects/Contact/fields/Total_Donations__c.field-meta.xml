@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Donations__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>For email records only. Total Amount the parent Contact fundraised via their P2P pages. Associated with Email record used to create the P2P page online. Part of the SpringBoard package and updated by scheduled Apex job.</inlineHelpText>
+    <label>Total Donations</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

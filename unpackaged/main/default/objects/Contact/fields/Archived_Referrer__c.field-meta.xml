@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Archived_Referrer__c</fullName>
+    <inlineHelpText>Field that captures first referrer - Updated by Workflow rule. Part of the SB package.</inlineHelpText>
+    <label>Archived Referrer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

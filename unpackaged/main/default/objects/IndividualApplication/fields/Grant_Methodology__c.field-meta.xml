@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grant_Methodology__c</fullName>
+    <inlineHelpText>This is the key activity and high level focus of the grant. Please select all relevant methodologies/approaches that will be utilized through this grant.</inlineHelpText>
+    <label>Grant Methodology</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <label>Advocacy</label>
+            </value>
+            <value>
+                <fullName>Capacity Building for Other Orgs</fullName>
+                <default>false</default>
+                <label>Capacity Building for Other Orgs</label>
+            </value>
+            <value>
+                <fullName>Capacity Building for Self</fullName>
+                <default>false</default>
+                <label>Capacity Building for Self</label>
+            </value>
+            <value>
+                <fullName>Cash Transfer</fullName>
+                <default>false</default>
+                <label>Cash Transfer</label>
+            </value>
+            <value>
+                <fullName>Collective Organizing</fullName>
+                <default>false</default>
+                <label>Collective Organizing</label>
+            </value>
+            <value>
+                <fullName>Community Skills Building</fullName>
+                <default>false</default>
+                <label>Community Skills Building</label>
+            </value>
+            <value>
+                <fullName>Conferences &amp; Convenings</fullName>
+                <default>false</default>
+                <label>Conferences &amp; Convenings</label>
+            </value>
+            <value>
+                <fullName>Documenting, Reporting &amp; Fact-Finding</fullName>
+                <default>false</default>
+                <label>Documenting, Reporting &amp; Fact-Finding</label>
+            </value>
+            <value>
+                <fullName>Facilitation of Access to Services</fullName>
+                <default>false</default>
+                <label>Facilitation of Access to Services</label>
+            </value>
+            <value>
+                <fullName>Funding other Partners</fullName>
+                <default>false</default>
+                <label>Funding other Partners</label>
+            </value>
+            <value>
+                <fullName>Humanitarian Response: Immediate Relief</fullName>
+                <default>false</default>
+                <label>Humanitarian Response: Immediate Relief</label>
+            </value>
+            <value>
+                <fullName>Humanitarian Response: Preparedness and Mitigation</fullName>
+                <default>false</default>
+                <label>Humanitarian Response: Preparedness and Mitigation</label>
+            </value>
+            <value>
+                <fullName>Legal Education &amp; Assistance (Paralegal)</fullName>
+                <default>false</default>
+                <label>Legal Education &amp; Assistance (Paralegal)</label>
+            </value>
+            <value>
+                <fullName>Monitoring Accountability</fullName>
+                <default>false</default>
+                <label>Monitoring Accountability</label>
+            </value>
+            <value>
+                <fullName>Other (fill in Other Methodology Details)</fullName>
+                <default>false</default>
+                <label>Other (fill in Other Methodology Details)</label>
+            </value>
+            <value>
+                <fullName>Preparedness and Mitigation</fullName>
+                <default>false</default>
+                <label>Preparedness and Mitigation</label>
+            </value>
+            <value>
+                <fullName>Public Education &amp; Awareness-Raising</fullName>
+                <default>false</default>
+                <label>Public Education &amp; Awareness-Raising</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Resettlement</fullName>
+                <default>false</default>
+                <label>Resettlement</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Access to Markets</fullName>
+                <default>false</default>
+                <label>Service Provision - Access to Markets</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Community Based Food Systems</fullName>
+                <default>false</default>
+                <label>Service Provision - Community Based Food Systems</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Distribution of Seeds and Tools</fullName>
+                <default>false</default>
+                <label>Service Provision - Distribution of Seeds and Tools</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Emergency Relief</fullName>
+                <default>false</default>
+                <label>Service Provision - Emergency Relief</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Food Distribution</fullName>
+                <default>false</default>
+                <label>Service Provision - Food Distribution</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Health</fullName>
+                <default>false</default>
+                <label>Service Provision - Health</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Infrastructure Development</fullName>
+                <default>false</default>
+                <label>Service Provision - Infrastructure Development</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Legal Aid</fullName>
+                <default>false</default>
+                <label>Service Provision - Legal Aid</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Livelihoods</fullName>
+                <default>false</default>
+                <label>Service Provision - Livelihoods</label>
+            </value>
+            <value>
+                <fullName>Service Provision - PPE, Hygiene Kits</fullName>
+                <default>false</default>
+                <label>Service Provision - PPE, Hygiene Kits</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Psychosocial Support</fullName>
+                <default>false</default>
+                <label>Service Provision - Psychosocial Support</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Resettlement</fullName>
+                <default>false</default>
+                <label>Service Provision - Resettlement</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Sexual and Reproductive Health</fullName>
+                <default>false</default>
+                <label>Service Provision - Sexual and Reproductive Health</label>
+            </value>
+            <value>
+                <fullName>Service Provision - Sustainable Farming</fullName>
+                <default>false</default>
+                <label>Service Provision - Sustainable Farming</label>
+            </value>
+            <value>
+                <fullName>Strategic Mass Communication</fullName>
+                <default>false</default>
+                <label>Strategic Mass Communication</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

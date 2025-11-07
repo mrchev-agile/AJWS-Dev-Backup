@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mid_Level_Donor_Prospect_Comms__c</fullName>
+    <formula>AND(
+Account.RecordType.DeveloperName = &#39;HH_Account&#39;,
+ISPICKVAL(Account.Current_Ladder__c ,&#39;&#39;),
+OR(
+Account.Annual_Giving_Rating__c = &#39;1: $5,000+&#39;,
+Account.Annual_Giving_Rating__c = &#39;2: $2,500 - $4,999&#39;,
+Account.Annual_Giving_Rating__c = &#39;3: $1,000 - $2,499&#39;,
+(Account.Soft_Credit_in_Last_14_Months__c + Account.Hard_Credit_in_Last_14_Months__c &gt;= 500)), 
+OR(
+ISPICKVAL( Account.Donor_Level__c, &#39;No Designation&#39;),
+ISPICKVAL( Account.Donor_Level__c, &#39;&#39;))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Any donor with Donor Level = No Designation with cumulative hard/soft credits of $500+ in the past 14 months or who has an Annual Giving Rating of 1,2, or 3</inlineHelpText>
+    <label>Mid-Level Donor Prospect (Comms)</label>
+    <type>Checkbox</type>
+</CustomField>

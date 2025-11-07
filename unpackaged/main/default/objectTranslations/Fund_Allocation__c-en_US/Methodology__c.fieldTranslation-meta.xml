@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the key activity and high level focus of the gift. --></help>
+        <label><!-- Methodology --></label>
+        <name>Methodology__c</name>
+        <picklistValues>
+            <masterLabel>Advocacy</masterLabel>
+            <translation><!-- Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capacity Building for Other Orgs</masterLabel>
+            <translation><!-- Capacity Building for Other Orgs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capacity Building for Self</masterLabel>
+            <translation><!-- Capacity Building for Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Transfer</masterLabel>
+            <translation><!-- Cash Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collective Organizing</masterLabel>
+            <translation><!-- Collective Organizing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Skills Building</masterLabel>
+            <translation><!-- Community Skills Building --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conferences &amp; Convenings</masterLabel>
+            <translation><!-- Conferences &amp; Convenings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documenting, Reporting &amp; Fact-Finding</masterLabel>
+            <translation><!-- Documenting, Reporting &amp; Fact-Finding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facilitation of Access to Services</masterLabel>
+            <translation><!-- Facilitation of Access to Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding other Partners</masterLabel>
+            <translation><!-- Funding other Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal Education &amp; Assistance (Paralegal)</masterLabel>
+            <translation><!-- Legal Education &amp; Assistance (Paralegal) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoring Accountability</masterLabel>
+            <translation><!-- Monitoring Accountability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (fill in Other Methodology Details)</masterLabel>
+            <translation><!-- Other (fill in Other Methodology Details) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Education &amp; Awareness-Raising</masterLabel>
+            <translation><!-- Public Education &amp; Awareness-Raising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research</masterLabel>
+            <translation><!-- Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resettlement</masterLabel>
+            <translation><!-- Resettlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Access to Markets</masterLabel>
+            <translation><!-- Service Provision - Access to Markets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Community Based Food Systems</masterLabel>
+            <translation><!-- Service Provision - Community Based Food Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Distribution of Seeds and Tools</masterLabel>
+            <translation><!-- Service Provision - Distribution of Seeds and Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Emergency Relief</masterLabel>
+            <translation><!-- Service Provision - Emergency Relief --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Food Distribution</masterLabel>
+            <translation><!-- Service Provision - Food Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Health</masterLabel>
+            <translation><!-- Service Provision - Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Infrastructure Development</masterLabel>
+            <translation><!-- Service Provision - Infrastructure Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Legal Aid</masterLabel>
+            <translation><!-- Service Provision - Legal Aid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Livelihoods</masterLabel>
+            <translation><!-- Service Provision - Livelihoods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - PPE, Hygiene Kits</masterLabel>
+            <translation><!-- Service Provision - PPE, Hygiene Kits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Psychosocial Support</masterLabel>
+            <translation><!-- Service Provision - Psychosocial Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Resettlement</masterLabel>
+            <translation><!-- Service Provision - Resettlement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Sexual and Reproductive Health</masterLabel>
+            <translation><!-- Service Provision - Sexual and Reproductive Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provision - Sustainable Farming</masterLabel>
+            <translation><!-- Service Provision - Sustainable Farming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Mass Communication</masterLabel>
+            <translation><!-- Strategic Mass Communication --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Direct_Mail__c</fullName>
+    <formula>Account.No_Direct_Mail__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The &quot;No Direct Mail&quot; field is checked for the Account the Contact belongs to (i.e. the donor asked not to receive direct mail).</inlineHelpText>
+    <label>No Direct Mail</label>
+    <type>Checkbox</type>
+</CustomField>

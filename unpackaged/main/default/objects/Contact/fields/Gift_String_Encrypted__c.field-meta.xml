@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift_String_Encrypted__c</fullName>
+    <inlineHelpText>Part of the SpringBoard package and used by Digital Communications. Encrypted set of characters for pre-populating giving options on Springboard forms.</inlineHelpText>
+    <label>Gift String Encrypted</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

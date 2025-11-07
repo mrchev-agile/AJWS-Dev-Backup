@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Funding_Disbursement_Send_Finance_Email_when_Bank_Info_Changes</fullName>
+        <description>Funding Disbursement - Send Finance Email when Bank Info Changes</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Finance_Contacts_for_Notifications</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>GrantmakingEmails/Internal_Bank_Information_Changed_1756930317315</template>
+    </alerts>
+</Workflow>

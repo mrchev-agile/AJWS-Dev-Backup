@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Decision_Bank_Information_Changed</name>
+        <label>Decision - Bank Information Changed</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Bank_Information_Changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Bank_Information__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_email_when_Bank_Information_changes</targetReference>
+            </connector>
+            <label>Bank Information Changed</label>
+        </rules>
+    </decisions>
+    <description>v1 - Primary flow for Funding Disbursement. Adding branch to send email to finance contacts when Bank Information is changed
+v2 - Added automation killswitch</description>
+    <environments>Default</environments>
+    <interviewLabel>Funding Disbursement - Primary Flow - On Create/Edit {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Funding Disbursement - Primary Flow - On Create/Edit</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Decision_Bank_Information_Changed</targetReference>
+        </connector>
+        <filterFormula>{!$Setup.ACClabs_Automation_Control__c.Disable_All_Automations__c}= false</filterFormula>
+        <object>FundingDisbursement</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Send_email_when_Bank_Information_changes</name>
+        <label>Send email when Bank Information changes</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <flowName>Funding_Disbursement_Subflow_Send_email_when_Bank_Information_changes</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

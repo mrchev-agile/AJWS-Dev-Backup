@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- &quot;The highest sum of HARD Credit gifts given by this donor in one FY.  
+Also see &apos;Best Gift Year&apos;.&quot; --></help>
+        <label><!-- Best Gift Year Total --></label>
+        <name>Best_Gift_Year_Total__c</name>
+    </CustomFieldTranslation>

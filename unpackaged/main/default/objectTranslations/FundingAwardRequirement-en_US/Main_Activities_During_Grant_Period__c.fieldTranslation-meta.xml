@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Describe the main activities that you carried out during this grant period. If capacity building was an objective of your grant, please include anything related to capacity-building in your answers below. --></help>
+        <label><!-- Main Activities During Grant Period --></label>
+        <name>Main_Activities_During_Grant_Period__c</name>
+    </CustomFieldTranslation>

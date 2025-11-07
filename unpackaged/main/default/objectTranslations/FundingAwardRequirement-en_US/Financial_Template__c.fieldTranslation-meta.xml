@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Link to a template of the financial reports grantees should submit. Included on Reports&apos; layouts in the portal. --></help>
+        <label><!-- Financial Template --></label>
+        <name>Financial_Template__c</name>
+    </CustomFieldTranslation>

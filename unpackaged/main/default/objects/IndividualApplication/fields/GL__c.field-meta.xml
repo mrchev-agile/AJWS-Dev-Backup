@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GL__c</fullName>
+    <inlineHelpText>General Ledger code indicating the main category of grant.</inlineHelpText>
+    <label>GL</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Core Grants (51000)</fullName>
+                <default>false</default>
+                <label>Core Grants (51000)</label>
+            </value>
+            <value>
+                <fullName>Travel Opportunity Grants (51001)</fullName>
+                <default>false</default>
+                <label>Travel Opportunity Grants (51001)</label>
+            </value>
+            <value>
+                <fullName>Disaster Relief Grants (51020)</fullName>
+                <default>false</default>
+                <label>Disaster Relief Grants (51020)</label>
+            </value>
+            <value>
+                <fullName>DAF (51030)</fullName>
+                <default>false</default>
+                <label>DAF (51030)</label>
+            </value>
+            <value>
+                <fullName>DAF ED (51031)</fullName>
+                <default>false</default>
+                <label>DAF ED (51031)</label>
+            </value>
+            <value>
+                <fullName>Program-Related Expenses PREs (51010)</fullName>
+                <default>false</default>
+                <label>Program-Related Expenses PREs (51010)</label>
+            </value>
+            <value>
+                <fullName>Fund held on behalf of other (25100))</fullName>
+                <default>false</default>
+                <label>Fund held on behalf of other (25100))</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

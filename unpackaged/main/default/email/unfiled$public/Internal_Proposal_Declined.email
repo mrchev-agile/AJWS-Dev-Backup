@@ -1,0 +1,17 @@
+The proposal “{!FundingAward.Name}” for {!FundingAward.Account_Name__c}, has been declined.
+ 
+Please see comments below.  
+
+Grant Amount: {!FundingAward.Amount}
+
+Project Title: {!FundingAward.Project_Title__c}
+
+Grant ID: [[FUNDING AWARD > INDIVIDUAL APPLICATION > AJWS GRANT ID]]  
+
+Program: {!FundingAward.Program_Name__c}
+
+Comments:  
+
+{!ApprovalRequest.Comments}
+
+{!FundingAward.Link}

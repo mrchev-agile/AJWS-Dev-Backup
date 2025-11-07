@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spending_Period_Start__c</fullName>
+    <inlineHelpText>The start of the period in which this Fund Allocation needs to be spent. When using the &quot;Create Contributing Funds&quot; visual force page this FA would be matched with grants with an Award Date that&#39;s within the FA&#39;s spending period.</inlineHelpText>
+    <label>Spending Period Start</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

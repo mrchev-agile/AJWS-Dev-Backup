@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_End_Date__c</fullName>
+    <description>For Request/Grant that was amended where the &#39;End Date&#39; was changed. Set automatically (by Process Builder) when the record type is changed to &quot;Awarded Grant&quot;</description>
+    <inlineHelpText>For Request/Grant that was amended where the &#39;End Date&#39; was changed. Set automatically (by Process Builder) when the record type is changed to &quot;Awarded Grant&quot;</inlineHelpText>
+    <label>Original End Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

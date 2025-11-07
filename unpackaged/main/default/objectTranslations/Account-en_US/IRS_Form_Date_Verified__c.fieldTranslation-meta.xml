@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- IRS Form Date Verified --></label>
+        <name>IRS_Form_Date_Verified__c</name>
+    </CustomFieldTranslation>

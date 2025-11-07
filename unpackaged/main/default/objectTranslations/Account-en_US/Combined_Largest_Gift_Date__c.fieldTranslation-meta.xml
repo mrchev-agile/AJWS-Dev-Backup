@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date of the largest gift received from this Account (includes hard, soft, and partial soft credit gifts). Based on NPSP rollups. --></help>
+        <label><!-- Combined Largest Gift Date --></label>
+        <name>Combined_Largest_Gift_Date__c</name>
+    </CustomFieldTranslation>

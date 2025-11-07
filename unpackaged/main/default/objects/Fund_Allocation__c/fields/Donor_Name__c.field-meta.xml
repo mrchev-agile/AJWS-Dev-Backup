@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donor_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(NOT(ISBLANK( Donor_Name_Override__c)),Donor_Name_Override__c, if (Donor_Code__c = &quot;9999&quot;, &quot;Not Applicable&quot; , Donation__r.Account_Name__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>1. If &quot;Donor Name Override&quot; is populated than &quot;Donor Name Override&quot; 2. Otherwise, if Donor Code = 9999 than sets to &quot;Not Applicable&quot; 3. Otherwise, sets to Account Name on Donation related to this FA (see &quot;Donation&quot; field).</inlineHelpText>
+    <label>Donor Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

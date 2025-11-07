@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funder_Relationship__c</fullName>
+    <label>Funder Relationship</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>First funder</fullName>
+                <default>false</default>
+                <label>First funder</label>
+            </value>
+            <value>
+                <fullName>Only funder</fullName>
+                <default>false</default>
+                <label>Only funder</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

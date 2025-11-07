@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DNP_External_Surveys__c</fullName>
+    <inlineHelpText>Select YES if AJWS has permission to include organization&#39;s work &amp; name in external surveys. Select NO if we should not publicize in surveys.</inlineHelpText>
+    <label>DNP External Surveys</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Yes but keep organization anonymous</fullName>
+                <default>false</default>
+                <label>Yes but keep organization anonymous</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

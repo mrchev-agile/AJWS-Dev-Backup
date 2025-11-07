@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>AJWS Committee</fullName>
+        <default>false</default>
+        <label>AJWS Committee</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Board Member</fullName>
+        <default>false</default>
+        <label>Board Member</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cantor</fullName>
+        <default>false</default>
+        <label>Cantor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Congregation</fullName>
+        <default>false</default>
+        <label>Congregation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Donor Advised Fund</fullName>
+        <default>false</default>
+        <label>Donor Advised Fund</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee</fullName>
+        <default>false</default>
+        <label>Employee</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employer</fullName>
+        <default>false</default>
+        <label>Employer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Estate</fullName>
+        <default>false</default>
+        <label>Estate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Family Foundation</fullName>
+        <default>false</default>
+        <label>Family Foundation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Household Member</fullName>
+        <default>false</default>
+        <label>Household Member</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Organization</fullName>
+        <default>false</default>
+        <label>Organization</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Primary Contact</fullName>
+        <default>false</default>
+        <label>Primary Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solicitor</fullName>
+        <default>false</default>
+        <label>Solicitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trust</fullName>
+        <default>false</default>
+        <label>Trust</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unknown Relationship</fullName>
+        <default>false</default>
+        <label>Unknown Relationship</label>
+    </standardValue>
+</StandardValueSet>

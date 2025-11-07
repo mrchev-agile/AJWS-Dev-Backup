@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bank Information --></label>
+        <lookupFilter>
+            <errorMessage><!-- Bank Account needs to be associated with the Awardee or Fiscal Sponsor --></errorMessage>
+        </lookupFilter>
+        <name>Bank_Information__c</name>
+        <relationshipLabel><!-- Funding Awards --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Springboard_Address_Status__c</fullName>
+    <inlineHelpText>Sets to &quot;Review&quot; if an address is entered by the Contact online and no Mailing address exists. As part of the QC process, DevOps sets to &quot;Review Completed&quot; (clears SB address fields) or &quot;Update Address&quot; (creates new Mailing address + clears SB fields).</inlineHelpText>
+    <label>Springboard Address Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Review</fullName>
+                <default>false</default>
+                <label>Review</label>
+            </value>
+            <value>
+                <fullName>Review Completed</fullName>
+                <default>false</default>
+                <label>Review Completed</label>
+            </value>
+            <value>
+                <fullName>Update Address</fullName>
+                <default>false</default>
+                <label>Update Address</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

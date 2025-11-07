@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- AJWS Donor Ladder designation for Account. Auto-assigned based on the donor&apos;s best giving year (hard + soft credit) in the last 3 calendar years (i.e. current year + 2 years back). DOES NOT DOWNGRADE LADDER DESIGNATION! DOWNGRADE SHOULD BE DONE MANUALLY. --></help>
+        <label><!-- Current Ladder --></label>
+        <name>Current_Ladder__c</name>
+        <picklistValues>
+            <masterLabel>Global Champions</masterLabel>
+            <translation><!-- Global Champions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Visionaries</masterLabel>
+            <translation><!-- Global Visionaries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Possibility Partners</masterLabel>
+            <translation><!-- Possibility Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President’s Circle</masterLabel>
+            <translation><!-- President’s Circle --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Work_Focus__c</fullName>
+    <inlineHelpText>Please select all relevant codes that describe the work of this grantee organization. This should include all work that they do, regardless of what AJWS is funding.</inlineHelpText>
+    <label>Org Work Focus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Access to Justice and/or Transitional Justice</fullName>
+                <default>false</default>
+                <label>Access to Justice and/or Transitional Justice</label>
+            </value>
+            <value>
+                <fullName>Bodily Diversity</fullName>
+                <default>false</default>
+                <label>Bodily Diversity</label>
+            </value>
+            <value>
+                <fullName>Capacity Strengthening / Technical Assistance</fullName>
+                <default>false</default>
+                <label>Capacity Strengthening / Technical Assistance</label>
+            </value>
+            <value>
+                <fullName>Children&#39;s Rights</fullName>
+                <default>false</default>
+                <label>Children&#39;s Rights</label>
+            </value>
+            <value>
+                <fullName>Civic &amp; Political Participation</fullName>
+                <default>false</default>
+                <label>Civic &amp; Political Participation</label>
+            </value>
+            <value>
+                <fullName>Compensation and Restitution</fullName>
+                <default>false</default>
+                <label>Compensation and Restitution</label>
+            </value>
+            <value>
+                <fullName>Cultural Rights</fullName>
+                <default>false</default>
+                <label>Cultural Rights</label>
+            </value>
+            <value>
+                <fullName>Disability Rights</fullName>
+                <default>false</default>
+                <label>Disability Rights</label>
+            </value>
+            <value>
+                <fullName>Disaster Relief</fullName>
+                <default>false</default>
+                <label>Disaster Relief</label>
+            </value>
+            <value>
+                <fullName>Disaster Risk Reduction</fullName>
+                <default>false</default>
+                <label>Disaster Risk Reduction</label>
+            </value>
+            <value>
+                <fullName>Early Marriage</fullName>
+                <default>false</default>
+                <label>Early Marriage</label>
+            </value>
+            <value>
+                <fullName>Economic Justice &amp; Development</fullName>
+                <default>false</default>
+                <label>Economic Justice &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Economic Justice &amp; Development -Labor Rights</fullName>
+                <default>false</default>
+                <label>Economic Justice &amp; Development -Labor Rights</label>
+            </value>
+            <value>
+                <fullName>Economic Justice &amp; Development -Livelihoods</fullName>
+                <default>false</default>
+                <label>Economic Justice &amp; Development -Livelihoods</label>
+            </value>
+            <value>
+                <fullName>Economic Justice &amp; Development -Microfinance</fullName>
+                <default>false</default>
+                <label>Economic Justice &amp; Development -Microfinance</label>
+            </value>
+            <value>
+                <fullName>Economic Justice &amp; Development - Other</fullName>
+                <default>false</default>
+                <label>Economic Justice &amp; Development - Other</label>
+            </value>
+            <value>
+                <fullName>Economic Justice &amp; Development -Vocational Training</fullName>
+                <default>false</default>
+                <label>Economic Justice &amp; Development -Vocational Training</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Equality Rights and Freedom From Stigma and Discrimination</fullName>
+                <default>false</default>
+                <label>Equality Rights and Freedom From Stigma and Discrimination</label>
+            </value>
+            <value>
+                <fullName>Equality Rights - Gender Equality</fullName>
+                <default>false</default>
+                <label>Equality Rights - Gender Equality</label>
+            </value>
+            <value>
+                <fullName>Freedom from Violence</fullName>
+                <default>false</default>
+                <label>Freedom from Violence</label>
+            </value>
+            <value>
+                <fullName>Freedom of Expression &amp; Information</fullName>
+                <default>false</default>
+                <label>Freedom of Expression &amp; Information</label>
+            </value>
+            <value>
+                <fullName>Gender Identity and Expression and/or Sexual Orientation</fullName>
+                <default>false</default>
+                <label>Gender Identity and Expression and/or Sexual Orientation</label>
+            </value>
+            <value>
+                <fullName>Governance and Accountability</fullName>
+                <default>false</default>
+                <label>Governance and Accountability</label>
+            </value>
+            <value>
+                <fullName>Health -Abortion Rights</fullName>
+                <default>false</default>
+                <label>Health -Abortion Rights</label>
+            </value>
+            <value>
+                <fullName>Health - HIV/AIDS</fullName>
+                <default>false</default>
+                <label>Health - HIV/AIDS</label>
+            </value>
+            <value>
+                <fullName>Health - Maternal and Child Health</fullName>
+                <default>false</default>
+                <label>Health - Maternal and Child Health</label>
+            </value>
+            <value>
+                <fullName>Health - Other</fullName>
+                <default>false</default>
+                <label>Health - Other</label>
+            </value>
+            <value>
+                <fullName>Health - Psychosocial Support</fullName>
+                <default>false</default>
+                <label>Health - Psychosocial Support</label>
+            </value>
+            <value>
+                <fullName>Health - Sexual and Reproductive Health and Rights</fullName>
+                <default>false</default>
+                <label>Health - Sexual and Reproductive Health and Rights</label>
+            </value>
+            <value>
+                <fullName>Health - Sexual Health</fullName>
+                <default>false</default>
+                <label>Health - Sexual Health</label>
+            </value>
+            <value>
+                <fullName>Infrastructure Development</fullName>
+                <default>false</default>
+                <label>Infrastructure Development</label>
+            </value>
+            <value>
+                <fullName>Organizational Development</fullName>
+                <default>false</default>
+                <label>Organizational Development</label>
+            </value>
+            <value>
+                <fullName>Peacebuilding</fullName>
+                <default>false</default>
+                <label>Peacebuilding</label>
+            </value>
+            <value>
+                <fullName>Resource Rights- Climate justice</fullName>
+                <default>false</default>
+                <label>Resource Rights- Climate justice</label>
+            </value>
+            <value>
+                <fullName>Resource Rights- Water Rights</fullName>
+                <default>false</default>
+                <label>Resource Rights- Water Rights</label>
+            </value>
+            <value>
+                <fullName>Resource Rights- Land Rights</fullName>
+                <default>false</default>
+                <label>Resource Rights- Land Rights</label>
+            </value>
+            <value>
+                <fullName>Resource Rights - Agro-ecology</fullName>
+                <default>false</default>
+                <label>Resource Rights - Agro-ecology</label>
+            </value>
+            <value>
+                <fullName>Resource Rights - Climate Justice</fullName>
+                <default>false</default>
+                <label>Resource Rights - Climate Justice</label>
+            </value>
+            <value>
+                <fullName>Resource Rights - Environmental Safeguards</fullName>
+                <default>false</default>
+                <label>Resource Rights - Environmental Safeguards</label>
+            </value>
+            <value>
+                <fullName>Resource Rights - Food Sovereignty</fullName>
+                <default>false</default>
+                <label>Resource Rights - Food Sovereignty</label>
+            </value>
+            <value>
+                <fullName>Resource Rights - Land Rights</fullName>
+                <default>false</default>
+                <label>Resource Rights - Land Rights</label>
+            </value>
+            <value>
+                <fullName>Resource Rights - Water Rights</fullName>
+                <default>false</default>
+                <label>Resource Rights - Water Rights</label>
+            </value>
+            <value>
+                <fullName>Safety and Security</fullName>
+                <default>false</default>
+                <label>Safety and Security</label>
+            </value>
+            <value>
+                <fullName>Sex Worker Rights</fullName>
+                <default>false</default>
+                <label>Sex Worker Rights</label>
+            </value>
+            <value>
+                <fullName>Sexual Orientation</fullName>
+                <default>false</default>
+                <label>Sexual Orientation</label>
+            </value>
+            <value>
+                <fullName>Sexuality Education</fullName>
+                <default>false</default>
+                <label>Sexuality Education</label>
+            </value>
+            <value>
+                <fullName>Trafficking</fullName>
+                <default>false</default>
+                <label>Trafficking</label>
+            </value>
+            <value>
+                <fullName>Transitional Justice</fullName>
+                <default>false</default>
+                <label>Transitional Justice</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

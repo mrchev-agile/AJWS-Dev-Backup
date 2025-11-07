@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Contact_Name_vs_Dev_Contact_Name__c</fullName>
+    <formula>(LastName + FirstName) &lt;&gt; (Development_Contact__r.LastName + Development_Contact__r.FirstName)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Flags when the name on the email record (which is the name used in email sends) does not match the name the parent Development Contact name. Used in DevOps QC.</inlineHelpText>
+    <label>Email Contact Name vs. Dev Contact Name</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+The proposal for{!FundingAward.Account_Name__c}, {!FundingAward.Name}, has been declined by {!ApprovalRequest.Process_Approver}.
+
+Please see comments below.
+  
+Requested Amount: {!FundingAward.Requested_Amount__c}
+
+Program: {!FundingAward.Program_Name__c}
+ 
+Comments:  
+
+{!ApprovalRequest.Comments}
+
+{!FundingAward.Link}

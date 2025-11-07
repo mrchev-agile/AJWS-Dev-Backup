@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Completed_Activity_Date__c</fullName>
+    <inlineHelpText>The date (&#39;Due Date&#39;) of the last completed activity (task/email/meeting/etc.) for this Account or one or more of its Contacts.</inlineHelpText>
+    <label>Last Completed Activity Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

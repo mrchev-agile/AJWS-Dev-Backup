@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Australian Dollars AUD</fullName>
+        <default>false</default>
+        <label>Australian Dollars AUD</label>
+    </customValue>
+    <customValue>
+        <fullName>Bolivian Bolivianos BOB</fullName>
+        <default>false</default>
+        <label>Bolivian Bolivianos BOB</label>
+    </customValue>
+    <customValue>
+        <fullName>Brazilian Reals BRL</fullName>
+        <default>false</default>
+        <label>Brazilian Reals BRL</label>
+    </customValue>
+    <customValue>
+        <fullName>British Pounds GPB</fullName>
+        <default>false</default>
+        <label>British Pounds GPB</label>
+    </customValue>
+    <customValue>
+        <fullName>Canadian Dollars CAD</fullName>
+        <default>false</default>
+        <label>Canadian Dollars CAD</label>
+    </customValue>
+    <customValue>
+        <fullName>Central African CFA Francs XAF</fullName>
+        <default>false</default>
+        <label>Central African CFA Francs XAF</label>
+    </customValue>
+    <customValue>
+        <fullName>Chinese Yuans CNY</fullName>
+        <default>false</default>
+        <label>Chinese Yuans CNY</label>
+    </customValue>
+    <customValue>
+        <fullName>Colombian Pesos COP</fullName>
+        <default>false</default>
+        <label>Colombian Pesos COP</label>
+    </customValue>
+    <customValue>
+        <fullName>Congolese Francs CDF</fullName>
+        <default>false</default>
+        <label>Congolese Francs CDF</label>
+    </customValue>
+    <customValue>
+        <fullName>Dominican Pesos DOP</fullName>
+        <default>false</default>
+        <label>Dominican Pesos DOP</label>
+    </customValue>
+    <customValue>
+        <fullName>Ethiopian Birrs ETB</fullName>
+        <default>false</default>
+        <label>Ethiopian Birrs ETB</label>
+    </customValue>
+    <customValue>
+        <fullName>Euros EUR</fullName>
+        <default>false</default>
+        <label>Euros EUR</label>
+    </customValue>
+    <customValue>
+        <fullName>Guatemalan Quetzals GTQ</fullName>
+        <default>false</default>
+        <label>Guatemalan Quetzals GTQ</label>
+    </customValue>
+    <customValue>
+        <fullName>Haitian Gourde HTG</fullName>
+        <default>false</default>
+        <label>Haitian Gourde HTG</label>
+    </customValue>
+    <customValue>
+        <fullName>Indian Rupees INR</fullName>
+        <default>false</default>
+        <label>Indian Rupees INR</label>
+    </customValue>
+    <customValue>
+        <fullName>Indonesian Rupiah IDR</fullName>
+        <default>false</default>
+        <label>Indonesian Rupiah IDR</label>
+    </customValue>
+    <customValue>
+        <fullName>Kenyan Shillings KES</fullName>
+        <default>false</default>
+        <label>Kenyan Shillings KES</label>
+    </customValue>
+    <customValue>
+        <fullName>Malaysian Ringgits MYR</fullName>
+        <default>false</default>
+        <label>Malaysian Ringgits MYR</label>
+    </customValue>
+    <customValue>
+        <fullName>Mexican Pesos MXN</fullName>
+        <default>false</default>
+        <label>Mexican Pesos MXN</label>
+    </customValue>
+    <customValue>
+        <fullName>Nepalese Rupee NPR</fullName>
+        <default>false</default>
+        <label>Nepalese Rupee NPR</label>
+    </customValue>
+    <customValue>
+        <fullName>Philippine Peso PHP</fullName>
+        <default>false</default>
+        <label>Philippine Peso PHP</label>
+    </customValue>
+    <customValue>
+        <fullName>South African Rands ZAR</fullName>
+        <default>false</default>
+        <label>South African Rands ZAR</label>
+    </customValue>
+    <customValue>
+        <fullName>Sri Lankan Rupees LKR</fullName>
+        <default>false</default>
+        <label>Sri Lankan Rupees LKR</label>
+    </customValue>
+    <customValue>
+        <fullName>Swedish Kroner SEK</fullName>
+        <default>false</default>
+        <label>Swedish Kroner SEK</label>
+    </customValue>
+    <customValue>
+        <fullName>Tanzanian Shillings TZS</fullName>
+        <default>false</default>
+        <label>Tanzanian Shillings TZS</label>
+    </customValue>
+    <customValue>
+        <fullName>Thai Bahts THB</fullName>
+        <default>false</default>
+        <label>Thai Bahts THB</label>
+    </customValue>
+    <customValue>
+        <fullName>Ugandan Shillings UGX</fullName>
+        <default>false</default>
+        <label>Ugandan Shillings UGX</label>
+    </customValue>
+    <customValue>
+        <fullName>United States Dollars USD</fullName>
+        <default>false</default>
+        <label>United States Dollars USD</label>
+    </customValue>
+    <customValue>
+        <fullName>Western African CFA Francs XOF</fullName>
+        <default>false</default>
+        <label>Western African CFA Francs XOF</label>
+    </customValue>
+    <customValue>
+        <fullName>Zambian Kwacha ZMW</fullName>
+        <default>false</default>
+        <label>Zambian Kwacha ZMW</label>
+    </customValue>
+    <masterLabel>Currencies</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

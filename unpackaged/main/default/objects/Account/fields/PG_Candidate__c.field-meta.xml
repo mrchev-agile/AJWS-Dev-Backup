@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PG_Candidate__c</fullName>
+    <description>Checked if Contact not marked &quot;deceased&quot; and either: 1.Contact is 60+ YO with 5 gifts over last 10 years, 2.Contact is 70+ YO with 3 gifts over last 5 years.</description>
+    <formula>AND (
+ Deceased__pc  = FALSE,
+OR(
+  
+ AND( Number_of_Gifts_Last_10_Years__c + Number_of_Partial_SC_Last_10_Years__c +  Number_of_SC_Last_10_Years__c &gt;= 5 ,  PersonContact.Age__c  &gt;=60),
+ AND( Number_of_Gifts_Last_5_Years__c + Number_of_Partial_SC_Last_5_Years__c +  Number_of_Partial_SC_Last_5_Years__c  &gt;= 3 ,  PersonContact.Age__c  &gt;=70)
+  )
+   )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if Contact not marked &quot;deceased&quot; and either: 1.Contact is 60+ YO with 5 gifts over last 10 years, 2.Contact is 70+ YO with 3 gifts over last 5 years.</inlineHelpText>
+    <label>PG Candidate</label>
+    <type>Checkbox</type>
+</CustomField>

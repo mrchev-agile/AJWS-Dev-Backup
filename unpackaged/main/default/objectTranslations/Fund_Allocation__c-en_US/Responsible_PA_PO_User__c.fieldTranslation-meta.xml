@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Responsible PA/PO User --></label>
+        <name>Responsible_PA_PO_User__c</name>
+        <relationshipLabel><!-- Fund Allocations --></relationshipLabel>
+    </CustomFieldTranslation>

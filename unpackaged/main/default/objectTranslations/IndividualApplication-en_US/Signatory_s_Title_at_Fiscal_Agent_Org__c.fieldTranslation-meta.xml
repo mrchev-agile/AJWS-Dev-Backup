@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please enter the title of the Signatory at Fiscal Agent Org. --></help>
+        <label><!-- Signatory’s Title at Fiscal Agent Org --></label>
+        <name>Signatory_s_Title_at_Fiscal_Agent_Org__c</name>
+    </CustomFieldTranslation>

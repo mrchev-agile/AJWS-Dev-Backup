@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payments_Balance_AJWS__c</fullName>
+    <description>For grants/requests shows the grant/request amount minus the payments paid.</description>
+    <formula>Amount -  Payments_Paid__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>For grants/requests shows the grant/request amount minus the payments paid.</inlineHelpText>
+    <label>Payments Balance</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

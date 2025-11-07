@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Wire Transfer Bank Code. --></help>
+        <label><!-- Wire Transfer Bank Code --></label>
+        <name>Wire_Transfer_Bank_Code__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The amount of the last (hard credit) gift from this Account. See &quot;Combined Last Gift Amount&quot; for amount of last gift overall (hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Last Gift Amount --></label>
+        <name>Last_Gift_Amount__c</name>
+    </CustomFieldTranslation>

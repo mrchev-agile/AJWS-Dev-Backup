@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Combined_Largest_Gift_Last_3_Years__c</fullName>
+    <formula>max(Largest_Gift_Last_3_Years__c,Largest_Partial_Soft_Credit_Last_3_Years__c,Largest_SC_Last_3_Years__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Largest combined gift (hard, soft, partial soft credit) over last 3 years (1095 days). Based on NPSP rollups</inlineHelpText>
+    <label>Combined Largest Gift Last 3 Years</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

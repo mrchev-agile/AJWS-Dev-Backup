@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of (soft-credit) gifts made by this Account in the current FY. See &quot;Total Number of Gifts this Year&quot; for overall # of gifts (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Number of SC Gifts This FY --></label>
+        <name>Number_of_SC_Gifts_This_FY__c</name>
+    </CustomFieldTranslation>

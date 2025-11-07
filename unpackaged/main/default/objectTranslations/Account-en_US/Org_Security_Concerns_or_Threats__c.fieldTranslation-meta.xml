@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Does your organization face any security concerns or threats? --></help>
+        <label><!-- Org Security Concerns or Threats --></label>
+        <name>Org_Security_Concerns_or_Threats__c</name>
+    </CustomFieldTranslation>

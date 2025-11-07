@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- GGA Annual Giving Rating identifies a household&apos;s current annual giving level based upon largest single gift and whether they have the upgrade potential for the next largest band --></help>
+        <label><!-- Annual Giving Rating --></label>
+        <name>Annual_Giving_Rating__c</name>
+    </CustomFieldTranslation>

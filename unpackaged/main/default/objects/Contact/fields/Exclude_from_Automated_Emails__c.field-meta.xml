@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exclude_from_Automated_Emails__c</fullName>
+    <formula>Primary_Organization_Household__r.Exclude_from_Automated_Emails__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Exclude from Automated Emails</label>
+    <type>Checkbox</type>
+</CustomField>

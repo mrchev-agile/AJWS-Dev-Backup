@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_User_Assigned__c</fullName>
+    <formula>CONTAINS(
+  &quot;;&quot; &amp; Assigned_Users__c &amp; &quot;;&quot;,
+  &quot;;&quot; &amp; CASESAFEID($User.Id) &amp; &quot;;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used to filter list views and reports showing the user the budgets they are assigned too. Based on the &#39;Assigned Users&#39; fields.</inlineHelpText>
+    <label>Current User Assigned</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If yes, explain what steps you prefer we take. (For example: password protecting documents) --></help>
+        <label><!-- Precautionary Steps --></label>
+        <name>Precautionary_Steps__c</name>
+    </CustomFieldTranslation>

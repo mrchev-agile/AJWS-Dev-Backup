@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- AJWS has awarded NUMBER grants totaling $AMOUNT --></help>
+        <label><!-- AJWS Funding History --></label>
+        <name>AJWS_Funding_History__c</name>
+    </CustomFieldTranslation>

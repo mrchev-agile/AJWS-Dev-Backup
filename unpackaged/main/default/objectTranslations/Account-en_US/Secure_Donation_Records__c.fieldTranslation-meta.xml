@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Checking this field will hide account donation records from most users. --></help>
+        <label><!-- Secure Donation Records --></label>
+        <name>Secure_Donation_Records__c</name>
+    </CustomFieldTranslation>

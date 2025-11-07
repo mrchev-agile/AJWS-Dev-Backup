@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select YES if one should check with the PO before publicizing this organization&apos;s information.  Select NO if that is not necessary. --></help>
+        <label><!-- DNP Check with PO --></label>
+        <name>DNP_Check_with_PO__c</name>
+    </CustomFieldTranslation>

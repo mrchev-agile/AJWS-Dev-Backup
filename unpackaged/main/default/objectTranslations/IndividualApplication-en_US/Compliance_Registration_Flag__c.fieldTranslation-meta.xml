@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Does your organization have a registration certificate? --></help>
+        <label><!-- Is Org Registered? --></label>
+        <name>Compliance_Registration_Flag__c</name>
+    </CustomFieldTranslation>

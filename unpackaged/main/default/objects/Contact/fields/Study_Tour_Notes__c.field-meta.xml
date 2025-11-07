@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Study_Tour_Notes__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Details on the constituent&#39;s specific interests for participating in a Study Tour program</inlineHelpText>
+    <label>Study Tour Notes</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

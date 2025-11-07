@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consolidated_Receipt_Preference__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates donor prefers one consolidated receipt for multiple gifts within a calendar year.</description>
+    <inlineHelpText>Check this box if the donor has requested a single annual consolidated receipt</inlineHelpText>
+    <label>Consolidated Receipt Preference</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

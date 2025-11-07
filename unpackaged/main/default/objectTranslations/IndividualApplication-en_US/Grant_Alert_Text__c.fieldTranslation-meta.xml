@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Grant specific alerts for GM or PD staff, such as outstanding items, restricted funding, etc. --></help>
+        <label><!-- Grant Alert Text --></label>
+        <name>Grant_Alert_Text__c</name>
+    </CustomFieldTranslation>

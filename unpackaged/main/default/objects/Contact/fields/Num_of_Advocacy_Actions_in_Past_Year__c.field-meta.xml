@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Num_of_Advocacy_Actions_in_Past_Year__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Number of Advocacy Actions taken by the Contact in the past year (past 365 days). Rolled up Nightly by two DLRS Actions: 1. &quot;Nightly Email Action in Past Year&quot; for Development Contacts 2. &quot;Nightly Email Actions in Past Year&quot; for Email.</inlineHelpText>
+    <label>Num of Advocacy Actions in Past Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

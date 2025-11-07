@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Website for the Account&apos;s matching program. --></help>
+        <label><!-- Matching Program Website --></label>
+        <name>Matching_Program_Website__c</name>
+    </CustomFieldTranslation>

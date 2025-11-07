@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total sum of Amount from related Fund Allocation Adjustment records. Included in Total Amount and Balance of this FA. --></help>
+        <label><!-- Total $ Fund Allocation Adjustments --></label>
+        <name>Total_Fund_Allocation_Adjustments__c</name>
+    </CustomFieldTranslation>

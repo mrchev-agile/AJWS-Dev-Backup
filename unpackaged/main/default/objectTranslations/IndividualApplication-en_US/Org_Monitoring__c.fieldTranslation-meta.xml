@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How will you assess progress (successes and challenges) toward these changes? Describe any monitoring and evaluation processes that you currently use including types of data that you regularly collect and timeframe for data collection. (1 to 2 paragraphs) --></help>
+        <label><!-- Org Monitoring --></label>
+        <name>Org_Monitoring__c</name>
+    </CustomFieldTranslation>

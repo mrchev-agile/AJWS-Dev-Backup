@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if non of the Household members should receive regular mail (such as direct mail campaigns). Checking/un-checking will check/un-check the &quot;Do Mail&quot; box for all child Contacts (i.e. HH members). --></help>
+        <label><!-- Do Not Mail --></label>
+        <name>Do_Not_Mail__c</name>
+    </CustomFieldTranslation>

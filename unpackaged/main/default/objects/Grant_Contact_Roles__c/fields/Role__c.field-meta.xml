@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <label>Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Grant Contact</fullName>
+                <default>false</default>
+                <label>Grant Contact</label>
+            </value>
+            <value>
+                <fullName>Head of Organization</fullName>
+                <default>false</default>
+                <label>Head of Organization</label>
+            </value>
+            <value>
+                <fullName>Board Chair</fullName>
+                <default>false</default>
+                <label>Board Chair</label>
+            </value>
+            <value>
+                <fullName>Payee</fullName>
+                <default>false</default>
+                <label>Payee</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>Executive Sponsor</fullName>
+                <default>false</default>
+                <label>Executive Sponsor</label>
+            </value>
+            <value>
+                <fullName>Finance Representative</fullName>
+                <default>false</default>
+                <label>Finance Representative</label>
+            </value>
+            <value>
+                <fullName>Programs Representative</fullName>
+                <default>false</default>
+                <label>Programs Representative</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

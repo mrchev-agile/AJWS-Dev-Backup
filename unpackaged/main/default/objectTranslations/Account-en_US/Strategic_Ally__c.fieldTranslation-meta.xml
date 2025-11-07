@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Strategic allies are national, regional or global organizations that support grassroots groups’ social change agenda, by providing capacity building technical assistance and advocacy services. --></help>
+        <label><!-- Strategic Ally --></label>
+        <name>Strategic_Ally__c</name>
+    </CustomFieldTranslation>

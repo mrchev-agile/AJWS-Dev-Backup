@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amendment_Reason__c</fullName>
+    <description>Rolled-up by DLRS from child Amendment. Used in Amendment Agreement Conga templets.</description>
+    <inlineHelpText>Rolled-up by DLRS from child Amendment. Used in Amendment Agreement Conga templets.</inlineHelpText>
+    <label>Amendment Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

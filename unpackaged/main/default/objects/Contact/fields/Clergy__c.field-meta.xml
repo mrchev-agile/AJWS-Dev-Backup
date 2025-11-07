@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clergy__c</fullName>
+    <formula>IF(
+OR(
+ISPICKVAL(Salutation, &quot;Rabbanit&quot;),
+ISPICKVAL(Salutation , &quot;Rabba&quot;),
+ISPICKVAL(Salutation , &quot;Rabbi&quot;),
+ISPICKVAL(Salutation , &quot;Rabbi Dr.&quot;),
+ISPICKVAL(Salutation , &quot;Cantor&quot;),
+ISPICKVAL(Salutation , &quot;Hazzan&quot;),
+ISPICKVAL(Salutation , &quot;Maharat&quot;)
+),
+TRUE,   
+if ( Clergy_Override__c = TRUE, TRUE, False)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if the Contact&#39;s salutation is set to Rabbi, Rabbi Dr., Rabbanit, Cantor, Hazzan or Maharatif, or the &quot;Clergy Override&quot; box is checked.</inlineHelpText>
+    <label>Clergy</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope__c</fullName>
+    <inlineHelpText>Please choose the type of reporting requirements.</inlineHelpText>
+    <label>Scope</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Capital Expenditures Report</fullName>
+                <default>false</default>
+                <label>Capital Expenditures Report</label>
+            </value>
+            <value>
+                <fullName>Final Financial Report</fullName>
+                <default>false</default>
+                <label>Final Financial Report</label>
+            </value>
+            <value>
+                <fullName>Final Narrative Report</fullName>
+                <default>false</default>
+                <label>Final Narrative Report</label>
+            </value>
+            <value>
+                <fullName>Grant Agreement</fullName>
+                <default>false</default>
+                <label>Grant Agreement</label>
+            </value>
+            <value>
+                <fullName>Interim Financial Report</fullName>
+                <default>false</default>
+                <label>Interim Financial Report</label>
+            </value>
+            <value>
+                <fullName>Interim Narrative Report</fullName>
+                <default>false</default>
+                <label>Interim Narrative Report</label>
+            </value>
+            <value>
+                <fullName>Progress Check-In</fullName>
+                <default>false</default>
+                <label>Progress Check-In</label>
+            </value>
+            <value>
+                <fullName>Grant Amendment</fullName>
+                <default>false</default>
+                <label>Grant Amendment</label>
+            </value>
+            <value>
+                <fullName>GEF Milestone</fullName>
+                <default>false</default>
+                <label>GEF Milestone</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

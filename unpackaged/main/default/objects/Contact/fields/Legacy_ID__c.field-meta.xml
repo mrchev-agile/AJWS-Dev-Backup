@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legacy_ID__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>GIFTS ID for Contacts migrated from GIFTS to FC. For Constituents use migrated from Raiser&#39;s Edge user &quot;CRM Legacy ID&quot; field.</inlineHelpText>
+    <label>Legacy ID</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

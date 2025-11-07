@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FirstCloseDate__c</fullName>
+    <description>Do not manually update. Updated by automatic processes. See excluded Record Types in Household Settings.</description>
+    <inlineHelpText>Date of the first (hard credit) gift made by this Account. See &quot;Combined First Gift Date&quot; for date of first gift overall (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups.</inlineHelpText>
+    <label>First Gift Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

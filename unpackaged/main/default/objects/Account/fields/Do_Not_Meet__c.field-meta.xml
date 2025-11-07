@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Meet__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Check if non of the Household members should be contacted regarding scheduling a meeting. Checking/un-checking will check/un-check the &quot;Do Not Meet&quot; box for all child Contacts (i.e. HH members).</inlineHelpText>
+    <label>Do Not Meet</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

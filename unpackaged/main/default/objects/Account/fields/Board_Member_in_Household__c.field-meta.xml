@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Board_Member_in_Household__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>A member of this HH is an AJWS Board Member. Auto-checked when an Affiliation is created for the Contact with the AJWS Account (Status = Current + Contact Type = Board Member). Automatically unchecked when status of Affiliation changed to &quot;Former&quot;.</inlineHelpText>
+    <label>Board Member in Household</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to filter list views for users in FC. Identifies whether the user is Primary Staff or the Grants Manager on the Report record. --></help>
+        <label><!-- My Grantee Requirements --></label>
+        <name>My_Grantee_Requirements__c</name>
+    </CustomFieldTranslation>

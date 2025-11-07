@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anti_Next_Gen_Override__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>for people who qualify for Global Circle based on age who need to be manually removed from program</description>
+    <inlineHelpText>Check to manually remove contacts from Global Circle even when they qualify based on age.</inlineHelpText>
+    <label>Anti–Next Gen Override</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

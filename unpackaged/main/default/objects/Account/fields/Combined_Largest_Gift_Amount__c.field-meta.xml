@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Combined_Largest_Gift_Amount__c</fullName>
+    <formula>max(  LargestAmount__c ,  Largest_Soft_Credit_Amount__c ,  Largest_Partial_Soft_Credit_Amount__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Largest gift amount including hard, soft and partial soft credit. Based on NPSP rollups.</inlineHelpText>
+    <label>Combined Largest Gift Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

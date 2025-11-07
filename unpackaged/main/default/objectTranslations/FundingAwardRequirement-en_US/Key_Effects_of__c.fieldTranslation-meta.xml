@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What were the key effects or results of these activities? --></help>
+        <label><!-- Key Effects of Activities --></label>
+        <name>Key_Effects_of__c</name>
+    </CustomFieldTranslation>

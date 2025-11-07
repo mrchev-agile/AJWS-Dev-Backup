@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Users__c</fullName>
+    <inlineHelpText>Concatenated list of the User IDs for Users assigned to this Budget (see Budget Assignment related list).Used for the &quot;Current User Assigned&quot; field that in turns is used to filter lists and reports showing the user the budgets they are assigned too. Rolled up using DLRS action named &quot;Budget User Assignments&quot;</inlineHelpText>
+    <label>Assigned Users</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

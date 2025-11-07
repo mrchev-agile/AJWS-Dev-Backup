@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Budget_2022__c</fullName>
+    <inlineHelpText>Enter your organization&#39;s estimated 2022 operating budget here (in US dollars).</inlineHelpText>
+    <label>Annual Budget - 2022</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Currency</type>
+</CustomField>

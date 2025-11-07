@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Query_String__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(FirstName),&#39;&#39;, &#39;first_name=&#39; &amp; FirstName) &amp; &#39;&amp;last_name=&#39; &amp; LastName &amp; &#39;&amp;email=&#39; &amp; Email &amp;
+IF((MailingStreet == &#39;&#39; || MailingStreet == NULL),&#39;&#39;, &#39;&amp;address=&#39; &amp; MailingStreet)
+&amp; IF((MailingCity == &#39;&#39; || MailingCity == NULL),&#39;&#39;, &#39;&amp;city=&#39; &amp; MailingCity )
+&amp; IF((MailingState == &#39;&#39; || MailingState == NULL),&#39;&#39;, &#39;&amp;state=&#39; &amp; MailingState)
+&amp; IF((MailingPostalCode == &#39;&#39; || MailingPostalCode == NULL),&#39;&#39;, &#39;&amp;zip=&#39; &amp; MailingPostalCode)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Formula field pulling in user contact information for the encrypted query string. Part of the SpringBoard package.</inlineHelpText>
+    <label>Query String</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

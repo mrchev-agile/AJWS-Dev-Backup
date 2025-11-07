@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Provide the number of paid staff that work at your organization. --></help>
+        <label><!-- # of Paid Staff --></label>
+        <name>Number_of_Paid_Staff__c</name>
+    </CustomFieldTranslation>

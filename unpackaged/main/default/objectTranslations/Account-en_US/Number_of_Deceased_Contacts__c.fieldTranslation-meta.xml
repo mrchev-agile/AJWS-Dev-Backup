@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Rollup count of deceased contacts related to the Account. Used in &quot;All Constituents Deceased checkbox&quot; formula field. Rolled up using DLRS action named: &apos;Count Deceased Contacts on Account&apos;. --></help>
+        <label><!-- Number of Deceased Contacts --></label>
+        <name>Number_of_Deceased_Contacts__c</name>
+    </CustomFieldTranslation>

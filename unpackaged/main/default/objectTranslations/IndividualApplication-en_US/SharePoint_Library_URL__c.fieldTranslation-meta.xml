@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used in FC to link SharePoint folder with its matching Request record. --></help>
+        <label><!-- SharePoint Library URL --></label>
+        <name>SharePoint_Library_URL__c</name>
+    </CustomFieldTranslation>

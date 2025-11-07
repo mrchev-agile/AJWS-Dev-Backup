@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please select all relevant codes of the end beneficiary(ies) for the organization. --></help>
+        <label><!-- Org Gender Focus --></label>
+        <name>Org_Gender_Focus__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cis</masterLabel>
+            <translation><!-- Cis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cis-Female</masterLabel>
+            <translation><!-- Cis-Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cis-Male</masterLabel>
+            <translation><!-- Cis-Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intersex</masterLabel>
+            <translation><!-- Intersex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trans-Female</masterLabel>
+            <translation><!-- Trans-Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trans-Male</masterLabel>
+            <translation><!-- Trans-Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transgender</masterLabel>
+            <translation><!-- Transgender --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

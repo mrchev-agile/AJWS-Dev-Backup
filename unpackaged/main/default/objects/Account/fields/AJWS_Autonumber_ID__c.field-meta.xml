@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AJWS_Autonumber_ID__c</fullName>
+    <description>No longer used. Initially was part of setting the &#39;AJWS Organization ID&#39; for Grantee Account. However, &#39;AJWS Organization ID&#39; is now = GIFTS ID which is set by automation. This was done to avoid setting &#39;AJWS Organization ID&#39; for donor Accounts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>No longer used. Initially was part of setting the &#39;AJWS Organization ID&#39; for Grantee Account. However, &#39;AJWS Organization ID&#39; is now = GIFTS ID which is set by automation. This was done to avoid setting &#39;AJWS Organization ID&#39; for donor Accounts.</inlineHelpText>
+    <label>AJWS Autonumber ID</label>
+    <type>AutoNumber</type>
+</CustomField>

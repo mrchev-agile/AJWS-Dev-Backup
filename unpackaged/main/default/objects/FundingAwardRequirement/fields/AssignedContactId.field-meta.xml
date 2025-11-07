@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AssignedContactId</fullName>
+    <inlineHelpText>The Grantee Contact responsible for submitting this report. Will be automatically set as the Primary Contact on the parent if was selected on Contact Roles. Can be changed manually. Used in report reminders (if Exclude from automated emails is not checked on parent Grantee account record).</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

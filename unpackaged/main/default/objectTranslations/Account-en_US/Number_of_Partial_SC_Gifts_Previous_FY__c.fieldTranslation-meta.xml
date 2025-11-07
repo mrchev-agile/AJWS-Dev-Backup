@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of (partial soft-credit) gifts made by this Account in the previous FY. See &quot;Total Number of Gifts Previous Year&quot; for overall # of gifts (i.e. hard or soft credit) from this Account. Calculated by NPSP Customizable Rollups. --></help>
+        <label><!-- Number of Partial SC Gifts Previous FY --></label>
+        <name>Number_of_Partial_SC_Gifts_Previous_FY__c</name>
+    </CustomFieldTranslation>

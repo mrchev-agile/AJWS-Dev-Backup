@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used for DAF requests/grants --></help>
+        <label><!-- Capital Expenditure --></label>
+        <name>Capital_Expenditure__c</name>
+    </CustomFieldTranslation>

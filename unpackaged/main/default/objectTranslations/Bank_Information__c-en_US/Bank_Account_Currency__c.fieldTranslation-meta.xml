@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please choose the currency in which you would like the transfer to be made. --></help>
+        <label><!-- Bank Account Currency --></label>
+        <name>Bank_Account_Currency__c</name>
+    </CustomFieldTranslation>

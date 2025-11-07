@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Combined_Created_Date__c</fullName>
+    <formula>IF( Date_Added__c = NULL, DATEVALUE(CreatedDate) ,Date_Added__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Most recent Double the Donation company selected for matching gifts. Please do not update this value. Your Double the Donation subscription will actively manage this field.</inlineHelpText>
+    <label>Combined Created Date</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

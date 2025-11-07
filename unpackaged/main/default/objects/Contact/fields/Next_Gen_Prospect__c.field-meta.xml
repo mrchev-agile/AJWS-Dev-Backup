@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Gen_Prospect__c</fullName>
+    <description>Updated to handle for grace period</description>
+    <formula>AND(  Next_Gen__c  = TRUE , OR( Total_Gifts_This_Calendar_Year__c  + Total_Soft_Credits_This_Calendar_Year__c +  Partial_Soft_Credit_Previous_CY__c  &gt;= 500,Total_Gifts_Last_Calendar_Year__c + Total_Soft_Credits_Last_Calendar_Year__c + Partial_Soft_Credit_Previous_CY__c &gt;=500,  Next_Gen_Prospect_Override__c  =TRUE ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Member of Global Circle and donated &gt;= 500 this calendar year or donated &gt;= 500 last calendar year or GC Investor override box</inlineHelpText>
+    <label>Next Gen Prospect</label>
+    <type>Checkbox</type>
+</CustomField>

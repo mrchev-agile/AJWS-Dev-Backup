@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- PO&apos;s: Please add any comments for the Grantee. These comments will appear on the Grantee Portal if you &quot;kick back&quot; the report to have them resubmit. --></help>
+        <label><!-- PO Comments for Grantee --></label>
+        <name>PO_Report_Comments__c</name>
+    </CustomFieldTranslation>

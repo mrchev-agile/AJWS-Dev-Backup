@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Problems_strategies__c</fullName>
+    <description>C4 on Project proposal</description>
+    <inlineHelpText>What strategies or approaches does your organization use to address these problems? (1 to 4 paragraphs)</inlineHelpText>
+    <label>Org Problems Strategies</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,18 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p data-pm-slice="1 1 []">Salutations d’AJWS!
+</p><p>J'espère que vous vous portez bien. Nos dossiers indiquent que nous aurions
+</p><p>dû recevoir votre rapport final pour le projet "{!FundingAwardRequirement.project_title__c}" 
+</p><p>({!FundingAwardRequirement.Grant_Amount__c}) (#{!FundingAwardRequirement.Number__c}) le 
+</p><p>{!FundingAwardRequirement.DueDate}.
+<br><br></p><p>Prière noter que les organisations dont les rapports sont en retard ne sont 
+</p><p>pas éligibles pour recevoir des fonds d'AJWS. Veuillez nous le faire parvenir 
+</p><p>afin que nous puissions connaître la progression de notre projet.
+<br><br></p><p>Prière nous faire savoir si vous avez déjà présenté votre rapport ou si vous 
+</p><p>avez convenu d'un nouvel échéancier avec l'agent responsable de votre 
+</p><p>subvention.
+<br><br></p><p>Je vous prie d'accepter l'expression de mes sentiments distingués.
+<br><br></p><p>Cordialement,</p>]]></td>
+</tr>
+</table>

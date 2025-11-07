@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of trans female decision makers at the organization. --></help>
+        <label><!-- # Trans Female Leadership Decisionmakers --></label>
+        <name>Number_Trans_Female_Leadership_Decision__c</name>
+    </CustomFieldTranslation>

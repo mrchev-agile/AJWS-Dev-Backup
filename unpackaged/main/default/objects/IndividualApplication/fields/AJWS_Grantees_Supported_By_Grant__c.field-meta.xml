@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AJWS_Grantees_Supported_By_Grant__c</fullName>
+    <inlineHelpText>If you selected &quot;Capacity Building for Other Orgs&quot; for grant methodology, please list any AJWS grantees receiving capacity building support through this grant. Please do so by typing grantee AKAs separated by a comma (,)</inlineHelpText>
+    <label>AJWS Grantees Supported By Grant</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

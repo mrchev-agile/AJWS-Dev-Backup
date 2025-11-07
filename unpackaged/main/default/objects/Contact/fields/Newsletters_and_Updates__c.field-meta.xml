@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Newsletters_and_Updates__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>One of the options on the Donor Subscription Center. Checked by default, but if the donor unchecks &quot;Newsletters and Updates&quot; emails from AJWS will no longer be sent to this email address.</inlineHelpText>
+    <label>Newsletters and Updates</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

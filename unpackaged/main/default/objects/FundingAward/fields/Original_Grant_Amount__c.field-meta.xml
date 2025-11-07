@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Grant_Amount__c</fullName>
+    <description>Capture to original Grant Amount for amended grants.</description>
+    <inlineHelpText>Capture to original Grant Amount for amended grants.</inlineHelpText>
+    <label>Original Grant Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

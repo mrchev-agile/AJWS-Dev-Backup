@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Planned_Giving_Contacts__c</fullName>
+    <description># of Legacy Donor, PG candidate, or PG prospect Contacts related to the Household Account. Rolled up using DLRS action named: &#39;RT Planned Giving Count to Account&#39;. Used in &#39;Planned Giving&#39; Formula field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText># of Legacy Donor, PG candidate, or PG prospect Contacts related to the Household Account. Rolled up using DLRS action named: &#39;RT Planned Giving Count to Account&#39;. Used in &#39;Planned Giving&#39; Formula field.</inlineHelpText>
+    <label>Number of Planned Giving Contacts</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

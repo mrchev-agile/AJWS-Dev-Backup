@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Security information specific to a request, such as passwords for protected attachments. --></help>
+        <label><!-- Additional Security Info --></label>
+        <name>Additional_Security_Info__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bank_Information__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Bank Information</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <errorMessage>Bank Account needs to be associated with the Awardee or Fiscal Sponsor</errorMessage>
+        <filterItems>
+            <field>Bank_Information__c.Organization__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.AwardeeId</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Bank_Information__c.Organization__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Fiscal_Sponsor__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Bank_Information__c</referenceTo>
+    <relationshipLabel>Funding Awards</relationshipLabel>
+    <relationshipName>Funding_Awards</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of intersex decision makers at the organization. --></help>
+        <label><!-- # Intersex Leadership Decisionmakers --></label>
+        <name>Number_Intersex_Leadership_Decision_Make__c</name>
+    </CustomFieldTranslation>

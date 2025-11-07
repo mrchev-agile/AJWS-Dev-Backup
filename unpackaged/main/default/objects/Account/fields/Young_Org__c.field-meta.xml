@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Young_Org__c</fullName>
+    <formula>if(value(text( Initial_AJWS_Funding__c )) - value( Year_Founded__c ) &lt; 6, TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Young Org</label>
+    <type>Checkbox</type>
+</CustomField>

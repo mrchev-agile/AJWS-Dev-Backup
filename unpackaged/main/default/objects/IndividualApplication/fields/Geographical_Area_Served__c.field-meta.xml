@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Geographical_Area_Served__c</fullName>
+    <inlineHelpText>Select one primary country or region served by this grant. If the grant primarily serves multiple countries in one region, select that region (e.g. Americas, Asia). If the grant primarily serves multiple regions, select Cross-Regional.</inlineHelpText>
+    <label>Geographical Area Served</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Location_Codes</valueSetName>
+    </valueSet>
+</CustomField>

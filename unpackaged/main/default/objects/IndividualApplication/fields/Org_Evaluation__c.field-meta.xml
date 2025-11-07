@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Evaluation__c</fullName>
+    <description>C10 on Project proposal</description>
+    <inlineHelpText>If your organization has evaluated its work, describe the most recent evaluation. If applicable, provide one example of how the evaluation changed the way your organization does its work. (1 to 3 paragraphs).</inlineHelpText>
+    <label>Org Evaluation</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

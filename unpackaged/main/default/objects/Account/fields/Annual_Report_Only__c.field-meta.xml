@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Report_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Donor requested to receive no mailings except our annual report mailing.</inlineHelpText>
+    <label>Annual Report Only</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

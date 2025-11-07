@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Request/Grant that was amended where the start date was changed. Set automatically (by Process Builder) when the record type is changed to &quot;Awarded Grant&quot; --></help>
+        <label><!-- Original Start Date --></label>
+        <name>Original_Start_Date__c</name>
+    </CustomFieldTranslation>

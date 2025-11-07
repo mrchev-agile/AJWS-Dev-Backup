@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The geographical area served of the Grant/Request this report is related to. Derived from the Request record&apos;s &apos;Geographical Area Served&apos; field. --></help>
+        <label><!-- Request Geo Area Served --></label>
+        <name>Request_Geo_Area_Served__c</name>
+    </CustomFieldTranslation>

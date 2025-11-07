@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Individual for HH Accounts. Select for non-household Accounts (e.g. Family Foundation or Congregation). Determines the Revenue GL Code associated with the Account (used in gift coding) + part of process to set Reporting Category on gifts from Account. --></help>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Board Committee</masterLabel>
+            <translation><!-- Board Committee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board Task Force</masterLabel>
+            <translation><!-- Board Task Force --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congregation</masterLabel>
+            <translation><!-- Congregation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation><!-- Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor-Advised Fund</masterLabel>
+            <translation><!-- Donor-Advised Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation><!-- Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Foundation</masterLabel>
+            <translation><!-- Family Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federation</masterLabel>
+            <translation><!-- Federation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC Steering Committee</masterLabel>
+            <translation><!-- GC Steering Committee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Organization</masterLabel>
+            <translation><!-- Government Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hillel</masterLabel>
+            <translation><!-- Hillel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual-DAF</masterLabel>
+            <translation><!-- Individual-DAF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual-Trust</masterLabel>
+            <translation><!-- Individual-Trust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jewish Organization</masterLabel>
+            <translation><!-- Jewish Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leadership Council</masterLabel>
+            <translation><!-- Leadership Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation><!-- Miscellaneous --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organization</masterLabel>
+            <translation><!-- Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Foundation</masterLabel>
+            <translation><!-- Professional Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School</masterLabel>
+            <translation><!-- School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellspring</masterLabel>
+            <translation><!-- Wellspring --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

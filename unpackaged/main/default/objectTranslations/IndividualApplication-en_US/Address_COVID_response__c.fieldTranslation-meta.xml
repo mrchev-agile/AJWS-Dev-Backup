@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Response required for all grants. Choose within strategy for any COVID fund grants, choose outside strategy for any COVID-response grants funded through other means. --></help>
+        <label><!-- Does this grant address COVID response? --></label>
+        <name>Address_COVID_response__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, outside of COVID strategy</masterLabel>
+            <translation><!-- Yes, outside of COVID strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, through COVID strategy</masterLabel>
+            <translation><!-- Yes, through COVID strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, through COVID strategy AND outside of COVID strategy</masterLabel>
+            <translation><!-- Yes, through COVID strategy AND outside of COVID strategy --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

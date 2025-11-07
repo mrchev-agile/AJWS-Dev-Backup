@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If no, explain what your security concerns are with publicity. (For example: geographic location of work, photography, individual names) --></help>
+        <label><!-- Security Concerns With Publicity --></label>
+        <name>Security_Concerns_With_Publicity__c</name>
+    </CustomFieldTranslation>

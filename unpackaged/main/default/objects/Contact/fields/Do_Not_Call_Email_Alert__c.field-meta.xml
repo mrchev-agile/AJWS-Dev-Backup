@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Call_Email_Alert__c</fullName>
+    <formula>OR ((Do_Not_Contact_Preferred_Phone__c = True), (DoNotCall  = True), (Do_Not_Contact__c   = True), (No_Email__c  = True))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Please check the Contact&#39;s solicit codes and Phone Preferences as one or more of the following flags is checked: &quot;Do Not Contact&quot;, &quot;Do Not Call&quot;, &quot;Do Not Email&quot;, &quot;Do Not Contact Preferred Phone&quot;.</inlineHelpText>
+    <label>Do Not Call/Email Alert</label>
+    <type>Checkbox</type>
+</CustomField>
