@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Combined_Last_3_CY_for_Ladder__c</fullName>
+    <formula>IF (
+AND(( Total_Soft_Credits_This_Calendar_Year__pc  +  Total_Gifts_This_Calendar_Year__pc )&gt;=
+( Total_Soft_Credits_Last_Calendar_Year__pc  +  Total_Gifts_Last_Calendar_Year__pc  ),
+( Total_Soft_Credits_This_Calendar_Year__pc  + Total_Gifts_This_Calendar_Year__pc)&gt;=
+(Total_Soft_Credits_2_Calendar_Years_Ago__c + Total_Gifts_Two_Calendar_Years_Ago__c)
+),
+Total_Soft_Credits_This_Calendar_Year__pc + Total_Gifts_This_Calendar_Year__pc,
+
+IF (
+AND((Total_Soft_Credits_Last_Calendar_Year__pc + Total_Gifts_Last_Calendar_Year__pc)&gt;
+(Total_Soft_Credits_Last_Calendar_Year__pc + Total_Gifts_Last_Calendar_Year__pc),
+(Total_Soft_Credits_Last_Calendar_Year__pc + Total_Gifts_Last_Calendar_Year__pc) &gt;=
+(Total_Soft_Credits_2_Calendar_Years_Ago__c + Total_Gifts_Two_Calendar_Years_Ago__c)
+),
+Total_Soft_Credits_This_Calendar_Year__pc  + Total_Gifts_Last_Calendar_Year__pc,
+Total_Soft_Credits_2_Calendar_Years_Ago__c + Total_Gifts_Two_Calendar_Years_Ago__c
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The sum of all (hard/soft credit) gifts made by this Account in its &quot;best giving year&quot; out of the last 3 CYs (i.e. this year, last year and two years ago). Used in the automation that set Donor Ladder (See mass-actions scheduler app)</inlineHelpText>
+    <label>High Combined Last 3 CY (for Ladder)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>
