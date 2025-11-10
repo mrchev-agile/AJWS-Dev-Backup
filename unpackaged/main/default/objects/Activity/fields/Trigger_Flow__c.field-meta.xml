@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trigger_Flow__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for triggering the flow that sets the &quot;Last Completed Activity Date&quot; fields on Account and Contact for tasks created by &quot;email to salesforce&quot; functionality.</description>
+    <inlineHelpText>Used for triggering the flow that sets the &quot;Last Completed Activity Date&quot; fields on Account and Contact for tasks created by &quot;email to salesforce&quot; functionality.</inlineHelpText>
+    <label>Trigger Flow</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -27,7 +27,7 @@
             <assignToReference>Get_Contact_Records.Last_Completed_Activity_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>CompletedDate</elementReference>
+                <elementReference>$Record.ActivityDate</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -59,7 +59,7 @@
             <assignToReference>Get_Account_Records.Last_Completed_Activity_Date__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <elementReference>CompletedDate</elementReference>
+                <elementReference>$Record.ActivityDate</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -106,13 +106,6 @@
         </connector>
     </assignments>
     <constants>
-        <name>Ten</name>
-        <dataType>Number</dataType>
-        <value>
-            <numberValue>10.0</numberValue>
-        </value>
-    </constants>
-    <constants>
         <name>Zero</name>
         <dataType>Number</dataType>
         <value>
@@ -132,10 +125,10 @@
             <name>IsContact</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Iterate_Task_Who_Collection.Type</leftValueReference>
+                <leftValueReference>Iterate_Meeting_Who_Collection.Type</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Contact</stringValue>
+                    <stringValue>contact</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -150,7 +143,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>Get_Account_Records</targetReference>
+            <targetReference>Update_Contact_Records</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -161,13 +154,6 @@
                 <operator>LessThan</operator>
                 <rightValue>
                     <elementReference>$Record.ActivityDate</elementReference>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Get_Contact_Records.Last_Completed_Activity_Date__c</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -195,13 +181,6 @@
                     <elementReference>$Record.ActivityDate</elementReference>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>Get_Account_Records.LastActivityDate</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
             <connector>
                 <targetReference>Assign_Values_to_Accounts</targetReference>
             </connector>
@@ -214,7 +193,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>Uncheck_Trigger_Flow_Checkbox</targetReference>
+            <targetReference>Get_Related_Meeting_Who_Records</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -222,16 +201,9 @@
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>Get_Task_Related_Record.Account.Last_Completed_Activity_Date__c</leftValueReference>
-                <operator>LessThanOrEqualTo</operator>
+                <operator>LessThan</operator>
                 <rightValue>
                     <elementReference>$Record.ActivityDate</elementReference>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Get_Task_Related_Record.AccountId</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue></stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -246,14 +218,14 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>Uncheck_Trigger_Flow_Checkbox</targetReference>
+            <targetReference>Get_Related_Meeting_Who_Records</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Related_to_Account</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_Task_Related_Record.AccountId</leftValueReference>
+                <leftValueReference>Get_Task_Related_Record.Account.Id</leftValueReference>
                 <operator>IsNull</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
@@ -266,28 +238,6 @@
         </rules>
     </decisions>
     <decisions>
-        <name>More_than_10_Contacts</name>
-        <label>More than 10 Contacts?</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>Iterate_Task_Who_Collection</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>More_than_10</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.WhoCount</leftValueReference>
-                <operator>GreaterThan</operator>
-                <rightValue>
-                    <elementReference>Ten</elementReference>
-                </rightValue>
-            </conditions>
-            <label>More than 10</label>
-        </rules>
-    </decisions>
-    <decisions>
         <name>No_Related_To_Record</name>
         <label>No Related To Record</label>
         <locationX>0</locationX>
@@ -297,7 +247,7 @@
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
-            <name>No_related_To</name>
+            <name>No_Related_To</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.WhatCount</leftValueReference>
@@ -307,25 +257,20 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Uncheck_Trigger_Flow_Checkbox</targetReference>
+                <targetReference>Get_Related_Meeting_Who_Records</targetReference>
             </connector>
-            <label>No related To</label>
+            <label>No Related To</label>
         </rules>
     </decisions>
     <environments>Default</environments>
-    <formulas>
-        <name>CompletedDate</name>
-        <dataType>Date</dataType>
-        <expression>IF(ISBLANK({!$Record.ActivityDate}), DATEVALUE({!$Record.CompletedDateTime}), {!$Record.ActivityDate})</expression>
-    </formulas>
-    <interviewLabel>Last Activity ID {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Last Activity ID</label>
+    <interviewLabel>Last Meeting Date {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Last Meeting Date</label>
     <loops>
-        <name>Iterate_Task_Who_Collection</name>
-        <label>Iterate Task Who Collection</label>
+        <name>Iterate_Meeting_Who_Collection</name>
+        <label>Iterate Meeting Who Collection</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <collectionReference>Get_Related_Task_Who_Records</collectionReference>
+        <collectionReference>Get_Related_Meeting_Who_Records</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Check_Type</targetReference>
@@ -385,7 +330,7 @@
             <field>Id</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>Iterate_Task_Who_Collection.RelationId</elementReference>
+                <elementReference>Iterate_Meeting_Who_Collection.RelationId</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -393,24 +338,24 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
-        <name>Get_Related_Task_Who_Records</name>
-        <label>Get Related Task Who Records</label>
+        <name>Get_Related_Meeting_Who_Records</name>
+        <label>Get Related Meeting Who Records</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>More_than_10_Contacts</targetReference>
+            <targetReference>Iterate_Meeting_Who_Collection</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>TaskId</field>
+            <field>EventId</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
-        <object>TaskWhoRelation</object>
+        <object>EventWhoRelation</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -424,39 +369,23 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>TaskId</field>
+            <field>EventId</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>TaskRelation</object>
+        <object>AcceptedEventRelation</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-    <recordUpdates>
-        <name>Uncheck_Trigger_Flow_Checkbox</name>
-        <label>Uncheck Trigger Flow Checkbox</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <connector>
-            <targetReference>Get_Related_Task_Who_Records</targetReference>
-        </connector>
-        <inputAssignments>
-            <field>Trigger_Flow__c</field>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
     <recordUpdates>
         <name>Update_Account_of_Related_Record</name>
         <label>Update Account of Related Record</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Uncheck_Trigger_Flow_Checkbox</targetReference>
+            <targetReference>Get_Related_Meeting_Who_Records</targetReference>
         </connector>
         <inputReference>AccountforRelatedRecord</inputReference>
     </recordUpdates>
@@ -466,7 +395,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Iterate_Task_Who_Collection</targetReference>
+            <targetReference>Iterate_Meeting_Who_Collection</targetReference>
         </connector>
         <inputReference>AccountCollection</inputReference>
     </recordUpdates>
@@ -488,20 +417,13 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>Status</field>
+            <field>Meeting_Status__c</field>
             <operator>EqualTo</operator>
             <value>
                 <stringValue>Completed</stringValue>
             </value>
         </filters>
-        <filters>
-            <field>Type</field>
-            <operator>NotEqualTo</operator>
-            <value>
-                <stringValue>Task</stringValue>
-            </value>
-        </filters>
-        <object>Task</object>
+        <object>Event</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
