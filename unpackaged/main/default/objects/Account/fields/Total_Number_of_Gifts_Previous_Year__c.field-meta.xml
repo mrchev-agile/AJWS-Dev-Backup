@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Number_of_Gifts_Previous_Year__c</fullName>
+    <externalId>false</externalId>
+    <formula>OppsClosedLastYear__c +  Number_of_SC_Gifts_Previous_FY__c  + Number_of_Partial_SC_Gifts_Previous_FY__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Number of (hard/soft/partial soft credit) gifts made by this Account in the previous FY. Based on NPSP Rollups.</inlineHelpText>
+    <label>Total Number of Gifts Previous Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

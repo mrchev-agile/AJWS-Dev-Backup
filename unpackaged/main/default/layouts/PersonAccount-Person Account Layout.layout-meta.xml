@@ -283,6 +283,10 @@
                 <behavior>Edit</behavior>
                 <field>Prefix__pc</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Total_Number_of_Gifts_this_Year__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Total Number of Gifts 3 FY ago --></label>
+        <name>Total_Number_of_Gifts_3_FY_ago__c</name>
+    </CustomFieldTranslation>

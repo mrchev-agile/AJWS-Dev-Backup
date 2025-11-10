@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>This_FY_Q4_Total_Combined__c</fullName>
+    <formula>( This_FY_Q4_HC__c  +  This_FY_Q4_PSC__c  +  This_FY_Q4_SC__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>this FY Q4 total combined credit based on NPSP roll-ups, for strategic plan metrics</inlineHelpText>
+    <label>This FY Q4 Total Combined</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

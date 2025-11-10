@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q4_Avg_Last_3_FY__c</fullName>
+    <formula>( Last_FY_Q4_HC__c  + Last_FY_Q4_SC__c + Last_FY_Q4_PSC__c +  X2_FY_Ago_Q4_HC__c  + X2_FY_Ago_Q4_SC__c  + X2_FY_Ago_Q4_PSC__c  + X3_FY_Ago_Q4_HC__c  + X3_FY_Ago_Q4_SC__c  + X3_FY_Ago_Q4_PSC__c ) / 3</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>average of Q4 total combined credits last 3 FYs based on NPSP roll-ups, for strategic plan metrics</inlineHelpText>
+    <label>Q4 Avg Last 3 FY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

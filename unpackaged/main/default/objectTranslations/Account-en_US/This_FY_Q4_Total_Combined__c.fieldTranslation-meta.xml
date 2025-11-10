@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- this FY Q4 total combined credit based on NPSP roll-ups, for strategic plan metrics --></help>
+        <label><!-- This FY Q4 Total Combined --></label>
+        <name>This_FY_Q4_Total_Combined__c</name>
+    </CustomFieldTranslation>

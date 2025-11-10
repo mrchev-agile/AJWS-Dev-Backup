@@ -52,7 +52,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <customErrorMessages>
-            <errorMessage>You have not been assinged the custom permission GM Team: Close Grants. Please check with your system admin to see if you should have the ability to Close Grants.</errorMessage>
+            <errorMessage>You have not been assigned the custom permission GM Team: Close Grants. Please check with your system admin to see if you should have the ability to Close Grants.</errorMessage>
             <isFieldError>false</isFieldError>
         </customErrorMessages>
     </customErrors>
