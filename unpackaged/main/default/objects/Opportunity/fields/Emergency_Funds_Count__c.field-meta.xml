@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emergency_Funds_Count__c</fullName>
+    <description>Used in the &quot;Emergency Donation&quot; formula field that identifies donations to emergency funds. Count of child GAU Allocations related to this donation that are associated with an Emergency Fund. Rolled-up nightly by DLRS action: &quot;Emergency Donations Rollup&quot;</description>
+    <externalId>false</externalId>
+    <label>Emergency Funds Count</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

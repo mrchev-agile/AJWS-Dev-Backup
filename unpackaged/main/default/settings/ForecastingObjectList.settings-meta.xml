@@ -10,6 +10,10 @@
             <label>Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
             <label>Close Date</label>
         </forecastingObjectListLabelMappings>
@@ -86,6 +90,10 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -150,6 +158,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -187,6 +203,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -207,6 +227,10 @@
             <label>Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
             <label>Close Date</label>
         </forecastingObjectListLabelMappings>
@@ -283,6 +307,10 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -347,6 +375,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -384,6 +420,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -404,6 +444,10 @@
             <label>Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
             <label>Close Date</label>
         </forecastingObjectListLabelMappings>
@@ -480,6 +524,10 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -544,6 +592,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -581,6 +637,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -601,6 +661,10 @@
             <label>Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
             <label>Close Date</label>
         </forecastingObjectListLabelMappings>
@@ -677,6 +741,10 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -745,6 +813,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -783,6 +859,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -803,6 +883,10 @@
             <label>Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
             <label>Close Date</label>
         </forecastingObjectListLabelMappings>
@@ -879,6 +963,10 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -943,6 +1031,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -980,6 +1076,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -1000,6 +1100,10 @@
             <label>Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
             <label>Close Date</label>
         </forecastingObjectListLabelMappings>
@@ -1076,6 +1180,10 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -1144,6 +1252,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -1182,6 +1298,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -1202,6 +1322,10 @@
             <label>Amount</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
             <label>Close Date</label>
         </forecastingObjectListLabelMappings>
@@ -1276,6 +1400,10 @@
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
@@ -1342,6 +1470,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -1379,6 +1515,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -1397,6 +1537,10 @@
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
@@ -1473,6 +1617,10 @@
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.NEXT_STEP</field>
             <label>Next Step</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
@@ -1543,6 +1691,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -1581,6 +1737,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -1599,6 +1759,10 @@
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.CLOSE_DATE</field>
@@ -1677,6 +1841,10 @@
             <label>Next Step</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>UPDATEDBY_USER.ALIAS</field>
             <label>Last Modified By Alias</label>
         </forecastingObjectListLabelMappings>
@@ -1741,6 +1909,14 @@
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
         <forecastingObjectListLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
             <field>OPPORTUNITY.SOURCE</field>
             <label>Source</label>
         </forecastingObjectListLabelMappings>
@@ -1778,6 +1954,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>

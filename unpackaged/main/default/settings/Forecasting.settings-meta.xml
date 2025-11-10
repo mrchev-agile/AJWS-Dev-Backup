@@ -236,6 +236,22 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <label>Important</label>
         </opportunityListFieldsLabelMappings>
@@ -297,6 +313,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -454,6 +474,22 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <label>Important</label>
         </opportunityListFieldsLabelMappings>
@@ -515,6 +551,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -676,6 +716,22 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <label>Important</label>
         </opportunityListFieldsLabelMappings>
@@ -738,6 +794,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -895,6 +955,22 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <label>Important</label>
         </opportunityListFieldsLabelMappings>
@@ -956,6 +1032,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -1117,6 +1197,22 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <label>Important</label>
         </opportunityListFieldsLabelMappings>
@@ -1179,6 +1275,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -1336,6 +1436,22 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <label>Important</label>
         </opportunityListFieldsLabelMappings>
@@ -1397,6 +1513,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -1558,6 +1678,22 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <label>Important</label>
         </opportunityListFieldsLabelMappings>
@@ -1620,6 +1756,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>
@@ -1777,6 +1917,22 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00NWF000003duOp</field>
+            <label>Allocated Funds</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003e1uv</field>
+            <label>Award Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003drig</field>
+            <label>Emergency Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NWF000003dqOQ</field>
+            <label>Emergency Funds Count</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <label>Important</label>
         </opportunityListFieldsLabelMappings>
@@ -1838,6 +1994,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00NWF000003duOp</field>
+            <field>00NWF000003e1uv</field>
+            <field>00NWF000003drig</field>
+            <field>00NWF000003dqOQ</field>
             <field>OPPORTUNITY.ISPRIORITYRECORD</field>
             <field>OPPORTUNITY.LAST_STG_CHG_DAYS</field>
             <field>OPPORTUNITY.LAST_ACTIVITY_DAYS</field>

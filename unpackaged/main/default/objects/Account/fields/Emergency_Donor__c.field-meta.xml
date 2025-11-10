@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emergency_Donor__c</fullName>
+    <formula>of_Emergency_Donations__c &gt; 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if Donor ever made a donation to and emergency campaign. Based on the &quot;Number of Emergency Donations&quot; roll-up field, which counts donations made by this Account to a Humanitarian Response fund (e.g. fund 57).</inlineHelpText>
+    <label>Emergency Donor</label>
+    <type>Checkbox</type>
+</CustomField>
