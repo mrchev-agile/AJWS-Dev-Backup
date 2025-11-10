@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Planned_Giving_Mailing_List__c</fullName>
+    <formula>of_Planned_Giving_Suspect_on_Account__c &gt; 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if HH has any Legacy Donors, PG Prospects, PG Suspects, or PG Candidates. Does not suppress people based on solicit codes or deceased status.</inlineHelpText>
+    <label>Planned Giving Mailing List</label>
+    <type>Checkbox</type>
+</CustomField>
