@@ -1415,6 +1415,56 @@
             <field>OppAmountThisYear__c</field>
             <table>Account</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Total_Combined_Credit_Current_FY__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Combined_Credit_Last_Year__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Total_Combined_Credit_Last_Year__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Total_Combined_Credit_Two_Years_Ago__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>High_Current_Last_2_FY__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Instructions__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Last_modified_Date_Time__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Leader_of_Network_or_Coaliation__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Member_of_Net_or_Coal__c</field>
+            <table>Account</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Membership_Organization_Definition__c</field>
+            <table>Account</table>
+        </columns>
         <masterLabel>Accounts</masterLabel>
     </sections>
     <sections>

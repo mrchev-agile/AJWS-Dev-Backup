@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Combined_Credit_Current_FY__c</fullName>
+    <formula>OppAmountThisYear__c  +  Soft_Credit_Current_FY__c + Partial_Soft_Credit_Current_FY__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Sum of all gifts (hard credit/soft credit/partial soft credit) made by this Account in the current FY. Based on NPSP Rollups.</inlineHelpText>
+    <label>Total Combined Credit Current FY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

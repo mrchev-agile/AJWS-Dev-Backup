@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Checked if the Grantee is a member of a coalition or a network (at any level). --></help>
+        <label><!-- Member of Net or Coal --></label>
+        <name>Member_of_Net_or_Coal__c</name>
+    </CustomFieldTranslation>

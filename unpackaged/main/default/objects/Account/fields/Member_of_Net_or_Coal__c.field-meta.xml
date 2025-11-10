@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Member_of_Net_or_Coal__c</fullName>
+    <formula>IF(
+OR(
+ISPICKVAL( Member_of_International_Network__c , &quot;Yes&quot;),
+ISPICKVAL( Member_of_National_Network__c , &quot;Yes&quot;),
+ISPICKVAL( Member_of_SubNational_Network__c , &quot;Yes&quot;),
+ISPICKVAL( Member_of_International_Coalition__c , &quot;Yes&quot;),
+ISPICKVAL( Member_of_National_Coalition__c , &quot;Yes&quot;),
+ISPICKVAL( Member_of_SubNational_Coalition__c , &quot;Yes&quot;)
+),
+TRUE,
+FALSE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checked if the Grantee is a member of a coalition or a network (at any level).</inlineHelpText>
+    <label>Member of Net or Coal</label>
+    <type>Checkbox</type>
+</CustomField>
