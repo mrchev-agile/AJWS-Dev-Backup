@@ -409,6 +409,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ContactPointPhone.Phone_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contributing_Fund__c.Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>
