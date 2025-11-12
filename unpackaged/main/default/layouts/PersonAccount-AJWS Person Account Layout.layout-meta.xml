@@ -318,6 +318,14 @@
                 <behavior>Readonly</behavior>
                 <field>Total_Number_of_Gifts_this_Year__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Jewish_Justice_Resources_for_Text_Study__pc</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Phone_2_Notes__pc</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

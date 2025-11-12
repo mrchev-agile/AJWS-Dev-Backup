@@ -666,6 +666,18 @@
                 <identifier>RecordPrefix__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Jewish_Justice_Resources_for_Text_Study__c</fieldItem>
+                <identifier>RecordJewish_Justice_Resources_for_Text_Study__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Phone_2_Notes__c</fieldItem>
+                <identifier>RecordPhone_2_Notes__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-55301d54-daf3-4fb9-9da1-c492c7347783</name>
         <type>Facet</type>
     </flexiPageRegions>

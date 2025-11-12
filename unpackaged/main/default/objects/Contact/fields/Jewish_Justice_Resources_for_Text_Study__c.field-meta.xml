@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jewish_Justice_Resources_for_Text_Study__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>One of the options on the Donor Subscription Center. Not checked by default. Only if the donor actively selects this option on the subscription center will they receive &quot;Jewish Justice Resources for Text Study&quot; emails from AJWS.</inlineHelpText>
+    <label>Jewish Justice Resources for Text Study</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

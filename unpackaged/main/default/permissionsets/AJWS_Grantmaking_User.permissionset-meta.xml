@@ -2094,6 +2094,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Jewish_Justice_Resources_for_Text_Study__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.Lapsed_Recurring_Donor__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2200,6 +2205,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Person_Account_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Phone_2_Notes__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
