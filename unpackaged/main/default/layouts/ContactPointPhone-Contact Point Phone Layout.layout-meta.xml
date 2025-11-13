@@ -58,6 +58,10 @@
                 <behavior>Edit</behavior>
                 <field>Phone_Type__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>X18_Char_ID_Phone__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
