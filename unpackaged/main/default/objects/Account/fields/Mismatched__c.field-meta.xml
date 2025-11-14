@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mismatched__c</fullName>
+    <formula>IF(
+      Verified_Mismatches__c = true ,
+    FALSE,
+    IF(
+        OR(
+             BillingStreet  &lt;&gt; Primary_Contact__r.BillingStreet,
+            BillingCity  &lt;&gt; Primary_Contact__r.BillingCity,
+            BillingState &lt;&gt; Primary_Contact__r.BillingState ,
+            BillingPostalCode &lt;&gt; Primary_Contact__r.BillingPostalCode,
+            BillingCountry &lt;&gt; Primary_Contact__r.BillingCountry
+        ),
+        TRUE,
+        FALSE
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Mismatched</label>
+    <type>Checkbox</type>
+</CustomField>

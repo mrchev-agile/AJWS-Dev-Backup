@@ -148,20 +148,52 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Soft_Credit_in_Last_14_Months__c</fieldItem>
                 <identifier>RecordSoft_Credit_in_Last_14_Months__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Hard_Credit_in_Last_14_Months__c</fieldItem>
                 <identifier>RecordHard_Credit_in_Last_14_Months__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.VIP_Family__c</fieldItem>
                 <identifier>RecordVIP_Family__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Verified_Mismatches__c</fieldItem>
+                <identifier>RecordVerified_Mismatches__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Mismatched__c</fieldItem>
+                <identifier>RecordMismatched__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-b8d333c0-ff63-4b9c-a7e6-016ecc88bdc1</name>
@@ -284,6 +316,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.AJWS_Alumni__pc</fieldItem>
                 <identifier>RecordAJWS_Alumni_pcField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Grasstop_Advocate__pc</fieldItem>
+                <identifier>RecordGrasstop_Advocate_pcField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-62a9368a-dbca-4411-a21e-cfa7556db2b9</name>
@@ -1024,6 +1066,177 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Clergy__pc</fieldItem>
+                <identifier>RecordClergy_pcField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Clergy_Override__pc</fieldItem>
+                <identifier>RecordClergy_Override_pcField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Core_Clergy__pc</fieldItem>
+                <identifier>RecordCore_Clergy_pcField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Prior_Core_Clergy__pc</fieldItem>
+                <identifier>RecordPrior_Core_Clergy_pcField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Clergy_Notes__pc</fieldItem>
+                <identifier>RecordClergy_Notes_pcField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-82752777-c5a6-4edb-9db8-3f1b0c473c0c</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Global_Justice_Chavurah__pc</fieldItem>
+                <identifier>RecordGlobal_Justice_Chavurah_pcField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.GJC_Start_Date__pc</fieldItem>
+                <identifier>RecordGJC_Start_Date_pcField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.GJC_Listing__pc</fieldItem>
+                <identifier>RecordGJC_Listing_pcField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Primary_IEJE_Contact__pc</fieldItem>
+                <identifier>RecordPrimary_IEJE_Contact_pcField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-beefadf3-a02d-4a25-b2d8-90c54571ee24</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-82752777-c5a6-4edb-9db8-3f1b0c473c0c</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column21</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-beefadf3-a02d-4a25-b2d8-90c54571ee24</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column22</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-2d0691d9-f5fa-414b-bf63-d3378d0fb967</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.CreatedById</fieldItem>
                 <identifier>RecordCreatedByIdField</identifier>
             </fieldInstance>
@@ -1168,6 +1381,24 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection12</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-2d0691d9-f5fa-414b-bf63-d3378d0fb967</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>horizontalAlignment</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>Clergy Information</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection13</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>

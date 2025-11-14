@@ -656,24 +656,40 @@
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Suffix__c</fieldItem>
                 <identifier>RecordSuffix__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Prefix__c</fieldItem>
                 <identifier>RecordPrefix__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Jewish_Justice_Resources_for_Text_Study__c</fieldItem>
                 <identifier>RecordJewish_Justice_Resources_for_Text_Study__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
             <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Phone_2_Notes__c</fieldItem>
                 <identifier>RecordPhone_2_Notes__cField</identifier>
             </fieldInstance>
@@ -850,6 +866,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.AssistantPhone</fieldItem>
                 <identifier>RecordAssistantPhoneField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Grasstop_Advocate__c</fieldItem>
+                <identifier>RecordGrasstop_Advocate_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-44da2664-0746-4a42-a940-68eb663d3ec3</name>

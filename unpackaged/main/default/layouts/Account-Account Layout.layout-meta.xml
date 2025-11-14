@@ -55,6 +55,14 @@
                 <behavior>Readonly</behavior>
                 <field>Total_Number_of_Gifts_this_Year__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Verified_Mismatches__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Mismatched__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

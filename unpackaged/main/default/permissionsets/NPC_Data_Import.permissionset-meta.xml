@@ -30,6 +30,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Mismatched__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Soft_Credit_in_Last_14_Months__c</field>
         <readable>true</readable>
@@ -42,6 +47,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.VIP_Family__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Verified_Mismatches__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
