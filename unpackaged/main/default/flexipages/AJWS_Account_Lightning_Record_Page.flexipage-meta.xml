@@ -1088,13 +1088,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Core_Clergy__pc</fieldItem>
                 <identifier>RecordCore_Clergy_pcField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1105,13 +1098,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Prior_Core_Clergy__pc</fieldItem>
                 <identifier>RecordPrior_Core_Clergy_pcField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1122,13 +1108,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Clergy_Notes__pc</fieldItem>
                 <identifier>RecordClergy_Notes_pcField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-82752777-c5a6-4edb-9db8-3f1b0c473c0c</name>
@@ -1143,13 +1122,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Global_Justice_Chavurah__pc</fieldItem>
                 <identifier>RecordGlobal_Justice_Chavurah_pcField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1160,13 +1132,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.GJC_Start_Date__pc</fieldItem>
                 <identifier>RecordGJC_Start_Date_pcField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1177,13 +1142,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.GJC_Listing__pc</fieldItem>
                 <identifier>RecordGJC_Listing_pcField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1194,13 +1152,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Primary_IEJE_Contact__pc</fieldItem>
                 <identifier>RecordPrimary_IEJE_Contact_pcField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-beefadf3-a02d-4a25-b2d8-90c54571ee24</name>
@@ -1399,6 +1350,13 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection13</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Clergy_Override__pc}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>

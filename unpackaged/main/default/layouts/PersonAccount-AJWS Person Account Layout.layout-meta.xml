@@ -638,6 +638,24 @@
         <fields>CONTACT.PHONE1</fields>
         <relatedList>Contact.Development_Contact__c</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Donor</fields>
+        <fields>Status</fields>
+        <fields>ExpectedTotalCmtAmount</fields>
+        <fields>TotalPaidTransactio846</fields>
+        <fields>ExpectedEndDate</fields>
+        <fields>ScheduleType</fields>
+        <relatedList>GiftCommitment.Matching_Gift_Account__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>Donor</fields>
+        <fields>TransactionDate</fields>
+        <fields>CurrentAmount</fields>
+        <fields>Status</fields>
+        <relatedList>GiftTransaction.Matching_Gift_Account__c</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
