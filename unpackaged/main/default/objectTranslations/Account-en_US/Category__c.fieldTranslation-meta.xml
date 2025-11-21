@@ -56,10 +56,6 @@
             <translation><!-- Individual-DAF --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Individual-Trust</masterLabel>
-            <translation><!-- Individual-Trust --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Jewish Organization</masterLabel>
             <translation><!-- Jewish Organization --></translation>
         </picklistValues>
@@ -82,6 +78,10 @@
         <picklistValues>
             <masterLabel>School</masterLabel>
             <translation><!-- School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation><!-- Trust --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Wellspring</masterLabel>

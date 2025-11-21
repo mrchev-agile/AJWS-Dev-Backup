@@ -78,7 +78,7 @@
             <value>
                 <fullName>Individual-Trust</fullName>
                 <default>false</default>
-                <label>Individual-Trust</label>
+                <label>Trust</label>
             </value>
             <value>
                 <fullName>Jewish Organization</fullName>

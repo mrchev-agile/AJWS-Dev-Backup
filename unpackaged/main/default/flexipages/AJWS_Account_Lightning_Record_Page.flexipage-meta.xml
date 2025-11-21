@@ -1351,10 +1351,46 @@
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection13</identifier>
                 <visibilityRule>
+                    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
                     <criteria>
                         <leftValue>{!Record.Clergy_Override__pc}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>true</rightValue>
+                        <rightValue>false</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Prefix__pc}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>Cantor</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Prefix__pc}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>Hazzan</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Prefix__pc}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>Rabbi</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Prefix__pc}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>Rabbi Dr.</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Prefix__pc}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>Rabbanit</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Prefix__pc}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>Rabba</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Prefix__pc}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>Maharat</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>

@@ -3,13 +3,13 @@
     <fullName>Clergy__c</fullName>
     <formula>IF(
 OR(
-ISPICKVAL(Salutation, &quot;Rabbanit&quot;),
-ISPICKVAL(Salutation , &quot;Rabba&quot;),
-ISPICKVAL(Salutation , &quot;Rabbi&quot;),
-ISPICKVAL(Salutation , &quot;Rabbi Dr.&quot;),
-ISPICKVAL(Salutation , &quot;Cantor&quot;),
-ISPICKVAL(Salutation , &quot;Hazzan&quot;),
-ISPICKVAL(Salutation , &quot;Maharat&quot;)
+ISPICKVAL(Prefix__c, &quot;Rabbanit&quot;),
+ISPICKVAL(Prefix__c , &quot;Rabba&quot;),
+ISPICKVAL(Prefix__c , &quot;Rabbi&quot;),
+ISPICKVAL(Prefix__c , &quot;Rabbi Dr.&quot;),
+ISPICKVAL(Prefix__c , &quot;Cantor&quot;),
+ISPICKVAL(Prefix__c , &quot;Hazzan&quot;),
+ISPICKVAL(Prefix__c , &quot;Maharat&quot;)
 ),
 TRUE,   
 if ( Clergy_Override__c = TRUE, TRUE, False)
