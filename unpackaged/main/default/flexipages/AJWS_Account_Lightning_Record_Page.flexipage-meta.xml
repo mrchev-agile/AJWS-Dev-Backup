@@ -250,6 +250,16 @@
                 <identifier>RecordConsolidated_Receipt_Preference_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Category__c</fieldItem>
+                <identifier>RecordCategory_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-ea8bf917-8c01-4656-ac5e-a6491af22470</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -712,6 +722,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Age__pc</fieldItem>
+                <identifier>RecordAge_pcField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Youth__pc</fieldItem>
                 <identifier>RecordYouth_pcField</identifier>
             </fieldInstance>
@@ -722,8 +742,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Flag_as_Anonymous__pc</fieldItem>
-                <identifier>RecordFlag_as_Anonymous_pcField2</identifier>
+                <fieldItem>Record.Youth_No_birthdate_available__pc</fieldItem>
+                <identifier>RecordYouth_No_birthdate_available_pcField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-62484003-c097-4dec-8284-016b8ef8a4ec</name>
@@ -826,8 +846,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Youth_No_birthdate_available__pc</fieldItem>
-                <identifier>RecordYouth_No_birthdate_available_pcField</identifier>
+                <fieldItem>Record.Flag_as_Anonymous__pc</fieldItem>
+                <identifier>RecordFlag_as_Anonymous_pcField2</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
