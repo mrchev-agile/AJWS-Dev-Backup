@@ -163,12 +163,6 @@
                 <field>WhoId</field>
             </layoutItem>
         </relatedContentItems>
-        <relatedContentItems>
-            <layoutItem>
-                <behavior>Readonly</behavior>
-                <field>WhatId</field>
-            </layoutItem>
-        </relatedContentItems>
     </relatedContent>
     <relatedLists>
         <fields>NAME</fields>
